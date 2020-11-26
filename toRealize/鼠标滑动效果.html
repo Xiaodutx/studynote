@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .lists{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    overflow:hidden;
+    background-color: #4f4f4f;
+}
+.box~.box{
+    margin-left: 15px;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.box:hover img{
+    opacity: 0.8;
+}
+</style>
+<body>
+    <div class="lists">
+        <a href="#" class="box">
+            <img src="images/1.png">
+        </a>
+        <a href="#" class="box">
+            <img src="images/1.png">
+        </a>
+    </div>
+   
+</body>
+</html>

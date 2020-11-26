@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	#container{
+		width: 100%; height: 200px; line-height: 200px; text-align: center; color: #fff; background-color: #444; font-size: 30px;
+	}
+    </style>
+</head>
+<body>
+	<div id="container"></div>
+</body>
+<script type="text/javascript">
+	var count = 1;
+	var container = document.getElementById('container');
+
+	function getUserAction(e) {
+		container.innerHTML = count++;
+		console.log(this);
+		console.log(e);
+	};
+
+	function throttle(fn,wait){
+		
+		var previous = 0;
+
+		return function(){
+			var now = +new Date();
+			var arg = arguments;
+			if(now-previous>wait){
+				fn.apply(this,arg);
+				previous = now;
+			}	
+		}		
+	}
+
+	function throttleOne(fn,wait){   //判断当前是否有定时器,如果有定时器,就说明当前定时器还没执行,便不再添加新的计时器,在计时器里面如果执行完毕就将running设为false,告诉当前没有定时器执行于是就添加新的计时器,这就可以保证某个时间段里面只有一个计时器,只有执行完了才有下一个计时器!
+		var timeout;
+		var running=false;
+		return function(){
+			var context = this; //让this指向container元素
+			var arg = arguments; //默认会传一个参数e,也就是event对象
+			if(timeout){
+				running = true;
+			}
+			if(!running){
+				timeout = setTimeout(function(){fn.apply(context,arg);running = false;timeout=null;},wait);
+			}
+			
+		}
+	}
+	//上面代码显得过于复杂可以更改为下面!
+	// function throttleOne(fn,wait){
+	// 	var timeout;
+	// 	return function(){
+	// 		var context = this;
+	// 		var arg = arguments;
+	// 		if(!timeout){
+	// 			timeout = setTimeout(()=>{fn.apply(context,arg);timeout=null;},wait);
+	// 		}
+	// 	}
+	// }
+	function throttleTwo(func, wait) {
+        var timeout, context, args, result;
+        var previous = 0;
+
+        var later = function() {
+            previous = +new Date();
+            timeout = null;
+            func.apply(context, args);       
+        };
+
+        var throttled = function() {
+            var now = +new Date();
+        
+            var remaining = wait - (now - previous);
+            context = this;
+            args = arguments; 
+            if (remaining <= 0 || remaining > wait) {
+                if (timeout) {
+                   clearTimeout(timeout);
+                   timeout = null;
+                }
+                previous = now;
+                func.apply(context, args);           
+            } else if (!timeout) {
+              timeout = setTimeout(later, remaining);            
+            }
+        };
+        return throttled;
+    }
+
+	container.onmousemove = throttleTwo(getUserAction,1000);
+</script>
+</html>

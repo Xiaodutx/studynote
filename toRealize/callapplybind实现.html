@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>call apply bind 实现</title>
+</head>
+
+<body>
+
+</body>
+<script type="text/javascript">
+	//call的实现, 此处this就是指的要调用的函数比如 test.mycall();那么this就是指的test;
+	Function.prototype.mycall = function (ctx) {
+		var context = window;
+		if (ctx) {
+			context = Object.assign({}, ctx);
+		} //注意思考这里为什么要重新定义一个变量进行接收?其实这里相当于复制了context对象,但也只是浅拷贝,如果刚好context里面有fn属性,delete的时候可能会被删掉
+		context.fn = this; //这里this就是那个想要使用的函数,给context增加一个fn属性并赋值为使用的函数
+		var args = [...arguments].slice(1); //将传进来的所有参数通过拓展运算符变为数组然后因为第一个参数是改变this的对象不需要,然后再删掉第一个
+		var result = context.fn(...args); //最后调用这个函数,因为此时fn是context调用的那么里面this自然就是context了
+		delete context.fn;
+		return result;
+	}
+
+	//总结一下,其实要想实现一个call()函数,其实本质可以理解为将你想传入的对象添加一个你需要调用的方法,这样该对象调用该方法的时候里面的this自然就是该对象本身了
+
+	//apply 要么存在第二个参数并且第二个参数是一个数组,要么就不传第二个参数,不存在第三个第四个参数!arguments[0]就是context
+	Function.prototype.myapply = function (context) {
+		var context = context || window;
+		context.fn = this;
+		var result;
+		if (arguments[1]) {
+			result = context.fn(...arguments[1]);
+		} else {
+			result = context.fn();
+		}
+	}
+
+	Function.prototype.mybind = function (context) {
+		var _this = this;
+		var args = [...arguments].slice(1);
+
+		return function F() {
+			//因为bind是生成一个函数所以可能会存在拿这个函数去new 一个实例出来; 当你调用new关键字的时候,函数里面的this会变成实例对象
+			if (this instanceof F) {
+				return new _this(...args, ...arguments);
+			}
+
+			return _this.apply(context, args.concat(...arguments));
+		}
+	}
+
+	function test() {
+		console.log(this.name + this.age);
+	}
+
+	function Student(name, age) {
+		this.name = name;
+		this.age = age;
+		this.fn = '123456';
+		console.log(this);
+	}
+
+	var stu = new Student('xiao', 20);
+	// var x = test.mybind(stu);
+	// // console.log(x);
+	// var t = new x();
+	// console.log(t)
+
+	// test();
+	// test.mycall(stu)
+	for (let index = 0; index < 10; index++) {
+		// 各种逻辑
+		console.log(index)
+	}
+</script>
+
+</html>

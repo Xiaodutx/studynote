@@ -1,0 +1,41 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    /* 清除默认样式 */
+    * { padding: 0; margin: 0; }
+
+    /* 令html和body全屏显示, 并有一个灰色背景 */
+    html, body { height: 100%; background: gray; }
+
+    /* 先在父元素上设置相对定位 */
+    body { position: relative } 
+
+    .center {
+      /* 绝对定位 */
+      position: absolute;
+
+      /* 上下左右全部为0 */
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+
+      /* 给定宽高 */
+      width: 70%;
+      height: 25%;
+
+      /* 令外边距自动填充 */
+      margin: auto;
+
+      /* 白色背景 */
+      background: white;
+    }
+  </style>
+</head>
+<body>
+  <div class="center"></div>
+</body>
+</html>

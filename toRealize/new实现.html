@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	
+</body>
+<script type="text/javascript">
+	function myNew(fn,...args){
+		// var obj = new Object();
+		// var constructor = Array.prototype.shift.call(arguments);
+		// obj.__proto__ = constructor.prototype;
+		// constructor.apply(obj,arguments);
+		// return obj;
+		var obj = Object.create(fn.prototype);
+		var res = fn.apply(obj,args);
+		return typeof res === 'object'? res : obj;
+		
+	}
+
+	function Student(name,age){
+		this.name  = name;
+		this.age = age;
+		this.sex = '男';
+	}
+
+	Student.prototype.weight = 60;
+
+	var stu = myNew(Student,'xiaoming',20);
+	console.log(stu.name,stu.age,stu.sex,stu.weight);
+</script>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <style>
+    .container {
+        display: flex;
+        height: 300px;
+        width: 300px;
+        border: 1px solid #ccc;
+        flex-flow: row nowrap;
+        align-items: flex-end;
+    }
+
+    .item {
+        border: 1px solid #ccc;
+        text-align: center;
+        width: 50px;
+    }
+
+    .g-nav {
+        display: flex;
+    }
+
+    .g-login {
+        margin-left: auto;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item" style="height: 60px;line-height: 60px;">2</div>
+        <div class="item" style="height: 50px; line-height: 50px;">3</div>
+        <div class="item" style="height: 80px; line-height: 80px;">4</div>
+        <div class="item">5</div>
+        <div class="item">6</div>
+    </div>   
+</body> -->
+
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right"></div>
+    </div>
+</body>
+
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    .container {
+        width: 600px;
+        height: 300px;
+        display: flex;
+    }
+
+    .left {
+        flex: 2 1 auto;  
+        background: red;
+    }
+/* auto表示如果你没有设置宽度,或者flex-basic值的话就会自动分配宽度,这个要根据其他元素来算,像上面,就会多余300px宽度,两个比例为2和1,所以left就是200px */
+    .right {
+        flex: 1 1 300px;
+        background: blue;
+    }
+</style>
+
+</html>
