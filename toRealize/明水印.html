@@ -8,10 +8,11 @@
 </head>
 
 <style>
-    *{
-        margin: 0;
-        padding: 0;
+
+    body {       
+        height: 2000px;
     }
+    
     #waterWrapper {
         display: flex;
         position: absolute;
@@ -19,13 +20,18 @@
         top: 0;
         pointer-events: none;
         flex-wrap: wrap;
+        overflow: hidden;
+        flex-wrap: wrap;
     }
+    /* #waterWrapper div{
+        float: left;
+    } */
 </style>
 
 <body>
     <div id="waterWrapper"></div>
     <div class="app">
-        <h1>秋风</h1>
+        <h1 onclick="alert('666')">秋风</h1>
         <p>hello</p>
     </div>
 </body>
@@ -57,22 +63,27 @@
         return item;
     }
     let waterWrapper = document.getElementById('waterWrapper');
+    const waterWidth = 180;
     const waterHeight = 100;
-    const waterWidth = 130;
-    const {
-        clientWidth,
-        clientHeight
-    } = document.documentElement || document.body;
-    const column = Math.ceil(clientWidth / waterWidth);
+    let clientHeight;
+    let clientWidth;
+    let h1 = document.documentElement.clientHeight;
+    let h2 = document.body.clientHeight;
+    let w1 = document.documentElement.clientWidth;
+    let w2 = document.body.clientHeight;
+
+    clientHeight = h1>h2? h1 : h2;
+    clientWidth = w1>w2? w1 : w2;
+    console.log(clientHeight,clientWidth)
     const rows = Math.ceil(clientHeight / waterHeight);
-    console.log(clientWidth,clientHeight,column,rows)
-    for (let i = 0; i < column * rows; i++) {
+    const columns = Math.ceil(clientWidth / waterWidth);
+    console.log(columns,rows);
+    for (let i = 0; i < columns * rows; i++) {
         const wrap = document.createElement('div');
         cssHelper(wrap, Object.create({
             position: 'relative',
             width: `${waterWidth}px`,
             height: `${waterHeight}px`,
-            flex: `0 0 ${waterWidth}px`,
             overflow: 'hidden',
         }));
         wrap.appendChild(createItem());
