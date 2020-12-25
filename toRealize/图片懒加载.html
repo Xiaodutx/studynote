@@ -52,7 +52,8 @@
             <img class="pic" alt="加载中" data-src="https://pic6.wed114.cn/20180829/2018082910075468043336.jpg" />
         </div>
         <div class="img">
-            <img class="pic" alt="加载中" data-src="https://tse2-mm.cn.bing.net/th/id/OIP.CRYz5Bv4vylsMh83G4CsLgHaFj?pid=Api&rs=1" />
+            <img class="pic" alt="加载中"
+                data-src="https://tse2-mm.cn.bing.net/th/id/OIP.CRYz5Bv4vylsMh83G4CsLgHaFj?pid=Api&rs=1" />
         </div>
     </div>
 
@@ -95,6 +96,24 @@
         window.onload = lazyload;
         // 监听Scroll事件，为了防止频繁调用，使用防抖函数优化一下
         window.addEventListener("scroll", debounce(lazyload, 600), false);
+        let stopTime
+
+        window.onpageshow = () => {
+            stopTime = new Date().getTime();
+        }
+
+        window.onpagehide = () => {
+            stopTime = new Date().getTime() - stopTime;
+            let record = localStorage.getItem('data');
+            let data = record && JSON.parse(record) || [];
+            console.log(data);
+            localStorage.setItem('data', JSON.stringify([...data, {
+                user: new Date().getTime(),
+                path: window.location.href,
+                stopTime
+            }]))
+        }
     </script>
 </body>
+
 </html>

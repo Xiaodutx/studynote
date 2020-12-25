@@ -1,0 +1,136 @@
+.fullscreen-layout {
+  position: relative;
+  width: 400px;
+  height: 400px;
+}
+
+.fullscreen-layout header,
+.fullscreen-layout footer,
+.fullscreen-layout main {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.fullscreen-layout header {
+  top: 0;
+  height: 50px;
+  background-color: #f66;
+}
+
+.fullscreen-layout footer {
+  bottom: 0;
+  height: 50px;
+  background-color: #66f;
+}
+
+.fullscreen-layout main {
+  top: 50px;
+  bottom: 50px;
+  background-color: #3c9;
+}
+
+.two-column-layout {
+  width: 400px;
+  height: 200px;
+}
+
+.two-column-layout .left {
+  float: left;
+  width: 100px;
+  height: 100%;
+  background-color: #f66;
+}
+
+.two-column-layout .right {
+  margin-left: 100px;
+  height: 100%;
+  background-color: #66f;
+}
+
+.triangle {
+  border: 50px solid;
+  border-left-color: #f66;
+  border-right-color: #66f;
+  border-top-color: #f90;
+  border-bottom-color: #09f;
+  width: 200px;
+  height: 200px;
+}
+
+.strip-loading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 200px;
+  height: 200px;
+}
+
+.strip-loading li {
+  border-radius: 3px;
+  width: 6px;
+  height: 30px;
+  background-color: #f66;
+  -webkit-animation: beat 1s ease-in-out infinite;
+          animation: beat 1s ease-in-out infinite;
+}
+
+.strip-loading li + li {
+  margin-left: 5px;
+}
+
+.strip-loading li:nth-child(2) {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+
+.strip-loading li:nth-child(3) {
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+
+.strip-loading li:nth-child(4) {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+
+.strip-loading li:nth-child(5) {
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+
+.strip-loading li:nth-child(6) {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+@-webkit-keyframes beat {
+  0%,
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+  }
+}
+
+@keyframes beat {
+  0%,
+  100% {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1);
+  }
+  50% {
+    -webkit-transform: scaleY(0.5);
+            transform: scaleY(0.5);
+  }
+}
+/*# sourceMappingURL=index.css.map */
