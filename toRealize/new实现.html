@@ -8,19 +8,19 @@
 	
 </body>
 <script type="text/javascript">
-	function myNew(fn,...args){
+	function myNew(fn, ...args){
 		// var obj = new Object();
 		// var constructor = Array.prototype.shift.call(arguments);
 		// obj.__proto__ = constructor.prototype;
 		// constructor.apply(obj,arguments);
 		// return obj;
-		var obj = Object.create(fn.prototype);
-		var res = fn.apply(obj,args);
-		return typeof res === 'object'? res : obj;
+		var obj = Object.create(fn.prototype);//创建一个对象并绑定原型
+		var res = fn.apply(obj,args);//绑定this并执行构造函数
+		return typeof res === 'object'? res : obj;//返回对象并确保返回值为对象
 		
 	}
 
-	function Student(name,age){
+	function Student(name, age){
 		this.name  = name;
 		this.age = age;
 		this.sex = '男';

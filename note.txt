@@ -627,6 +627,9 @@ demo.html   过滤该文件
 在Retina高ppi屏幕上，会有设备独立像素（逻辑像素），设备像素/设备独立像素 = 设备像素比
 比如ipone6上面，你css上面写的1px实际上会在屏幕上面占两个像素。比如UI设计稿说是两倍图，然后里面图片宽是24px，那么我们在css上面就写24/2 = 12px了
 
+为什么会产生模糊?现在我有一张200*300的照片,我的设备像素是400*600,你css像素还是写200*300,我手机设备像素比为2,那么实际占用的就是400*600像素,可是你的图片没有400*600个像素怎么办?此时就会就近取色,这样就产生模糊了,解决办法就是你给我一张400*600的图片,虽然我写的是200*300,但是实际上占用的是400*600,可以理解为css像素和图片像素此时1:1,就不会模糊了.
+
+为什么觉得1px在高分辨率上觉得变粗了,很简单,你在Retina屏幕上相当于2px,这样相对于其他显示正常元素这样的一个比例,自然会觉得变粗了
 padding绿色 margin黄色 内容 蓝色
 
 attachEvent(detachEvent) 和 addEventListener(removeEventListener)都可以对元素添加事件,但是两者兼容性不同attachEvent仅仅支持IE浏览器,并且事件里面需要写on,而后者则不需要,同时addEventListener对同一元素绑定多个事件的时候,会按照从上到下绑定的顺序执行,而前者则是从下到上,但是你如果第二个参数是一个命名函数并且是同一个的话,那么只会触发一次,当你移除事件的时候也必须是命名函数才能移除.
@@ -650,6 +653,35 @@ attachEvent(detachEvent) 和 addEventListener(removeEventListener)都可以对�
 对于高度百分比来说你直接给一个body下面的div设置100%高度没用,需要给body和html都设置高度为100%,但是如果给这个盒子定位为绝对定位(固定定位)脱离文档流,那么就会和宽度百分比一样了(不论你是否设置了body高度,就算给很高的高度也还是浏览器那个可见高度clientHeight)
 如果一个盒子有padding或者margin那么他的子盒子继承的宽度基准是基于内容的宽,高度默认不继承由内容决定,如果你写了百分比那么基准也是父盒子内容的高度.比如宽高都是500,给一个padding 100 设置box-sizeing: border-box,内容就只有300的宽高了,所以继承就是300宽高.
 
-h1+p h1和p必须挨着且父亲是同一个,h1~p p不需要挨着p 只要是h1后面并且父亲是一个就可以<div><h1/> <p/> <a/> <p/> <p><div>前者只会作用第一个p标签,后者则会作用h1后面的p不管是不是挨着h1
+h1+p h1和p必须挨着且父亲是同一个,p只能在h1后面不能在h1前面,h1~p p不需要挨着p 只要是h1后面(前面不行)并且父亲是一个就可以<div><h1/> <p/> <a/> <p/> <p><div>前者只会作用第一个p标签,后者则会作用h1后面的p不管是不是挨着h1
 
+对于渐变,默认是从左到右.对于旋转角度,如果是90度(则是从左到右)180度(上到下),270度(-90度右到左),360度(0度下到上)
 
+0-50%是红色 50%-50% 是红的渐变成蓝色，50%-100% 是蓝色，就是不用渐变了啊。
+
+写成：background: linear-gradient(top, red ,red 50%,blue 50%,blue);
+
+将一个定位的盒子进行旋转后(rotate),那么他的x轴和y轴也会跟着旋转,默认的旋转中心在元素的中心点(x50%,y50%),对于x轴可以设置为(left,center,right,百分比,具体px)对于Y轴可以设置为(top,center,bottom,百分比,具体px),而对于z轴则是(具体px)
+
+对于box-sizing有两个值,分别是content-box和border-box
+content-box
+默认值，标准盒子模型。 width 与 height 只包括内容的宽和高， 不包括边框（border），内边距（padding），外边距（margin）。注意: 内边
+距、边框和外边距都在这个盒子的外部。 比如说，.box {width: 350px; border: 10px solid black;} 在浏览器中的渲染的实际宽度将是370px。
+
+border-box
+width 和 height 属性包括内容，内边距和边框，但不包括外边距。注意，填充和边框将在盒子内 , 例如, .box {width: 350px; border: 10px solid black;padding: 10px} 导致在浏览器中呈现的宽度为350px的盒子。内容框不能为负，并且被分配到0，使得不可能使用border-box使元素消失。
+
+对于background-clip一般有三个值(还有一个text用的少不说),border-box,padding-box,content-box.
+
+border-box会把边框都包含进去,如果边框是solid那么可能看不到效果,设置dotted,就能看到背景会把断点的部分也进行填充
+padding-box不会包含边框,但会把padding的部分包含进去.
+content-box就只会填满内容了
+
+nth-child(n+1)这里面的n是从0开始,但是对于下面的li来说却是从1开始比如2n就表示选取第2个第4个li
+对于index($color-list, $color)返回的值是从1开始
+
+对于定位来说left和bottom的百分比是相对你基准定位的盒子来的,比如子绝父相,那么left:50%,就是把子盒子往右边移动一半的父盒子宽度然后再使用transform: translateX(-50%),就是往左移动自身的一半,这样就居中了.而margin是在你设置left和top之后的自身位置来进行移动的,margin的百分比是按照你对照的元素的宽度来的不管你高度多少你设置百分比margin-top,bottom都是按宽度来算的(不是自身)
+
+border-radius并不会改变他的left top基准,然后边框是不会算作top0的而是从padding位置开始
+
+reveal.js

@@ -18,7 +18,6 @@
         <li>4</li>
         <li>5</li>
     </ul>
-
 </body>
 <script>
     let ul = document.querySelector('#ul')
@@ -52,31 +51,31 @@
                 return val
             },
             set: function reactiveSetter(newVal) {
-                console.log('change value')
-                val = newVal
+                console.log('change value');
+                val = newVal;
                 // 执行 watcher 的 update 方法
-                dp.notify()
+                dp.notify();
             }
         })
     }
 
     class Dep {
         constructor() {
-            this.subs = []
+            this.subs = [];
         }
         // 添加依赖
         addSub(sub) {
-            this.subs.push(sub)
+            this.subs.push(sub);
         }
         // 更新
         notify() {
             this.subs.forEach(sub => {
-                sub.update()
+                sub.update();
             })
         }
     }
     // 全局属性，通过该属性配置 Watcher
-    Dep.target = null
+    Dep.target = null;
 
     class Watcher {
         constructor(obj, key, cb) {
@@ -92,9 +91,9 @@
         }
         update() {
             // 获得新值
-            this.value = this.obj[this.key]
+            this.value = this.obj[this.key];
             // 调用 update 方法更新 Dom
-            this.cb(this.value)
+            this.cb(this.value);
         }
     }
 
@@ -102,10 +101,10 @@
         name: 'yck'
     }
 
-    observe(data)
+    observe(data);
 
     function update(value) {
-        document.querySelector('div').innerText = value
+        document.querySelector('div').innerText = value;
     }
     // 模拟解析到 `{{name}}` 触发的操作 这一步会触发get操作就会将依赖添加
     new Watcher(data, 'name', update)
