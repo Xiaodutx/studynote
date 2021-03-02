@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+</body>
+<script>
+    class Vue {
+        constructor(options) {
+            this.$el = options.el;
+            this._data = options.data;
+            this.$data = this._data;
+            //对data进行响应式处理
+            new Observe(this._data);
+        }
+    }
+    //创建Vue对象
+   
+    class Observe {
+        constructor(data) {
+            //如果传入的数据是object
+            if (typeof data == 'object') {
+                this.walk(data);
+            }
+        }
+        //这个方法遍历对象中的属性，并依次对其进行响应式处理
+        walk(obj) {
+            //获取所有属性
+            const keys = Object.keys(obj);
+            for (let i = 0; i < keys.length; i++) {
+                this.defineReactive(obj, keys[i])
+            }
+        }
+        defineReactive(obj, key) {
+            if (typeof obj[key] == 'object') {
+                this.walk(obj[key]);
+            }
+            const dep = new Dep();
+            let val = obj[key];
+            Object.defineProperty(obj, key, {
+                enumerable: true,
+                configurable: true,
+                get() {
+                    if (Dep.target) {
+                        dep.addSubs(Dep.target);//为什么需要判断是否有target?防止重复添加相同的watcher(监听事件),一个watcher就是一个数据监听事件,只需要第一次添加依赖就行了
+                    }
+                    return val;
+                },
+                set(newVal) {
+                    val = newVal;
+                    dep.notify(newVal)//要执行所有跟这个数据相关的监听事件
+                }
+            })
+        }
+    }
+
+    class Dep {
+        static target = null
+        constructor() {
+            this.subs = [];//为什么subs是一个数组?很简单,一个数据可能会绑定多个事件,一旦数据变化,所有的事件里面的数据都要跟着变
+        }
+        addSubs(watcher) {
+            this.subs.push(watcher)
+        }
+        notify(newVal) {
+            console.log(this.subs);
+            for (let i = 0; i < this.subs.length; i++) {
+                this.subs[i].update(newVal);
+            }
+        }
+    }
+
+    let uid = 0
+    class Watcher {
+        //vm即一个Vue对象，key要观察的属性，cb是观测到数据变化后需要做的操作，通常是指DOM变更
+        constructor(vm, key, cb) {
+            this.vm = vm;
+            this.uid = uid++;
+            this.cb = cb;
+            //调用get触发依赖收集之前，把自身赋值给Dep.taget静态变量
+            Dep.target = this;
+            //触发对象上代理的get方法，执行get添加依赖
+            this.value = vm.$data[key];
+            //用完即清空
+            Dep.target = null;
+        }
+        //在调用set触发Dep的notify时要执行的update函数，用于响应数据变化执行run函数即dom变更
+        update(newValue) {
+            //值发生变化才变更
+            if (this.value !== newValue) {
+                this.value = newValue;
+                this.run();
+            }
+        }
+        //执行DOM更新等操作
+        run() {
+            this.cb(this.value);
+        }
+    }
+
+    //======测试=======
+    let data = {
+        message: 'hello',
+        num: 0
+    }
+    let app = new Vue({
+        data: data
+    });
+    //模拟数据监听
+    new Watcher(app, 'message', function (value) {
+        //模拟dom变更
+        console.log('message 引起的dom变更--->', value);
+    })
+    new Watcher(app, 'num', function (value) {
+        //模拟dom变更
+        console.log('num 引起的dom变更--->', value);
+    })
+    data.message = 'world';
+    data.num = 100;
+
+    for(let i=0;i<100;i++){ console.log(data.num); data.num=i; }
+    console.log(app);
+    
+</script>
+
+</html>

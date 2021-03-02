@@ -9,7 +9,7 @@
 
 <body>
     <div style="width: 100px;height: 100px;border: 1px solid #ccc">
-
+        
     </div>
     <ul id="ul">
         <li>1</li>
@@ -69,6 +69,7 @@
         }
         // 更新
         notify() {
+            console.log(this.subs)
             this.subs.forEach(sub => {
                 sub.update();
             })

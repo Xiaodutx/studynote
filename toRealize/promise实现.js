@@ -126,7 +126,7 @@ Promise.prototype.race = function(promises){
     })
 }
 
-Promise.prototype.all = function(promises){
+Promise.prototype.all = function (promises) {
     let arr = [];
     let i = 0;
 
@@ -138,7 +138,7 @@ Promise.prototype.all = function(promises){
         }
     }
 
-    return new Promise((resolve,reject)=>{
+    return new Promise((resolve, reject)=>{
         promises.forEach((promise,i)=>{
             Promise.resolve(promise).then(data=>{
                 processData(data,i)
