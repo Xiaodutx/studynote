@@ -684,4 +684,18 @@ nth-child(n+1)这里面的n是从0开始,但是对于下面的li来说却是从1
 
 border-radius并不会改变他的left top基准,然后边框是不会算作top0的而是从padding位置开始
 
+如何创建BFC
+
+1、float的值不是none。
+2、position的值不是static或者relative。
+3、display的值是inline-block、table-cell、flex、table-caption或者inline-flex
+4、overflow的值不是visible
+
+Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生重叠。
+每个盒子（块盒与行盒）的margin box的左边，与包含块border box的左边相接触(对于从左往右的格式化，否则相反)。即使存在浮动也是如此。
+BFC的区域不会与float box重叠。(可以左边一个float盒子右边再给一个盒子让其变为BFC这样会贴在float旁边,不会被float遮住)
+计算BFC的高度时，浮动元素也参与计算。(让父盒子变成BFC,会撑起盒子)
+
+浮动元素相当于新建了一个图层,脱离文档流,不占据文档的位置,但是对于浮动层来说占据了位置,设置多个浮动并不会发生重叠!
+
 reveal.js
