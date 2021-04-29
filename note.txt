@@ -210,7 +210,7 @@ function foo(){
 这次打印结果就是“1”；
 
 分解
-var foo; // 如果如果变量名称跟已经声明的形式参数或函数相同，则变量声明不会干扰已经存在的这类属性
+var foo; // 如果变量名称跟已经声明的形式参数或函数相同，则变量声明不会干扰已经存在的这类属性
 foo = 1;// 代码执行。PS: 如果没有这行，打印结果是 function foo(){console.log('foo')};
 console.log(foo); // 1
 function foo(){
@@ -218,6 +218,8 @@ function foo(){
 };
 
 函数声明优先级比变量声明高!
+
+.的优先级比等于要高 a.x = a = {n: 2}; 所以先左边再是右边
 
 function f(...test){
          let sum = 0;
@@ -252,43 +254,6 @@ e.stopImmediatePropagation()后面事件都不再触发
 然后background: url() no-repeat 25% 25%;其实就相当于
 background: url() no-repeat 50px 100px; 所以当偏移量为100%的时候其实就相当于往容器右对齐了!
 
-<div id="app">
-    <div id="counter-event-example">
-      <p>{{ total }}</p>
-      <button-counter v-on:increment="incrementTotal"></button-counter>
-      <button-counter v-on:increment="incrementTotal"></button-counter>
-    </div>
-</div>
- 
-<script>
-Vue.component('button-counter', {
-  template: '<button v-on:click="incrementHandler">{{ counter }}</button>',
-  data: function () {
-    return {
-      counter: 0
-    }
-  },
-  methods: {
-    incrementHandler: function () {
-      this.counter += 1
-      this.$emit('increment')
-    }
-  },
-})
-new Vue({
-  el: '#counter-event-example',
-  data: {
-    total: 0
-  },
-  methods: {
-    incrementTotal: function () {
-      this.total += 1
-    }
-  }
-})
-</script>
-//子组件通过$emit来触发事件,父组件在子组件里面通过写v-on:事件名="函数名"来监听事件$emit('increment')只要点击按钮,就会触发事件,外面监听到了就会去执行监听事件中的函数,要在一个Vue里面才行,所以这里是不能写在自定义组件的外面的!
-
 ./和不写是没有区别的都是相对路径
 images
    1.png
@@ -303,17 +268,6 @@ var timer1 = (cb,time)=>{(function loop(){setTimeout(loop,time);cb();})();}
 var timer2 = (cb,time)=>{(function loop(){cb();setTimeout(loop,time);})();}
 
 上面两个函数的区别在于,第一个定时器永远都会执行,进入循环事件,而第二个如果cb()报错了,那么后面的定时器就不会执行了
-
-    ctx.beginPath();
-    ctx.arc(75,75,50,0,Math.PI*2,true); // 绘制
-    ctx.moveTo(110,75);
-    ctx.arc(75,75,35,0,Math.PI,false);   // 口(顺时针)
-    ctx.moveTo(65,65);
-    ctx.arc(60,65,5,0,Math.PI*2,true);  // 左眼
-    ctx.moveTo(95,65);
-    ctx.arc(90,65,5,0,Math.PI*2,true);  // 右眼
-    ctx.stroke();
-    moveTo()表示从哪里开始画,如果你不设置的话那么就会出现一条画笔从上个终点到这个起点经过的痕迹
 
 function test(person) {
   person.age = 26
@@ -478,6 +432,13 @@ for...in遍历一个对象,遍历的是键(key),for...of遍历一个数组或者
 而vue里面的v-for 如果遍历数组是(item,index) in array ,
 遍历对象则是(value,key,index) in object
 
+Array.from方法用于将两类对象转为真正的数组：类似数组的对象（array-like object）和可遍历（iterable）的对象（包括 ES6 新增的数据结构 Set 和 Map）。Array.from({length: 5})会生成一个长度为5,元素都为空的数组
+
+new Array 构造函数传递一个参数时,就会产生一个长度为传进来的参数的空数组 new Array(10) [empty*10]
+但是如果传递多个参数的时候,则会把这些参数变成数组的元素 new Array(1,2,3) [1,2,3]
+
+Array.of你传递什么参数就直接把参数变为数组里面的元素 Array.of(10) [10] Array.of(1,2,3) [1,2,3]
+
 routes是new VueRouter传入一个对象里面的一个属性,routes是一个数组,数组的成员是对象,对象里面有path和component属性.
 $router是用来控制路由的,可以控制路由的跳转有go,push,replace方法
 $route则是可以获取传入路由的请求参数例如<router-link :to="'/news/sport/detail/' + sport.id">,那么我可以this.$route.params.id来获取,id怎么来的,这个是路由里面的path来设置的
@@ -545,6 +506,20 @@ JavaScript和CSS对DOM构建的影响
 如果是async脚本，DOMContentLoaded正常触发，CSS加载完就开始渲染，load事件会等待脚本执行完再触发
 总之CSS阻塞DOM树的构建与否取决于脚本执行的时机。
 
+初始化阶段的钩子函数：
+beforeCreate() 实例创建前： 数据和模板均未获取到
+created() 实例创建后: 最早可访问到 data 数据， 但模板未获取到
+beforeMount() 数据挂载前： 模板已获取到， 但是数据未挂载到模板上。相关的render函数首次被调用
+mounted() 数据挂载后： 数据已挂载到模板中,等视图全部更新完成调用vm.$nextTick();
+
+更新阶段的钩子函数：
+beforeUpdate() 模板更新前： data 改变后， 更新数据模板前调用
+updated() 模板更新后： 将 data 渲染到数据模板中
+
+销毁阶段的钩子函数：
+beforeDestroy() 实例销毁前
+destroyed() 实例销毁后
+
 加载渲染过程
 父beforeCreate->父created->父beforeMount->子beforeCreate->子created->子beforeMount->子mounted->父mounted
 子组件更新过程
@@ -553,6 +528,8 @@ JavaScript和CSS对DOM构建的影响
 父beforeUpdate->父updated
 销毁过程
 父beforeDestroy->子beforeDestroy->子destroyed->父destroyed
+
+组件会在什么时候下被销毁？没有使用keep-alive时的路由切换；v-if='false'；执行vm.$destroy()；
 
 rotateX向上转是正 rotateY向右转是正
 
@@ -694,11 +671,155 @@ border-radius并不会改变他的left top基准,然后边框是不会算作top0
 3、display的值是inline-block、table-cell、flex、table-caption或者inline-flex
 4、overflow的值不是visible
 
-Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生重叠。
-每个盒子（块盒与行盒）的margin box的左边，与包含块border box的左边相接触(对于从左往右的格式化，否则相反)。即使存在浮动也是如此。
+BFC 的特性：
+
+内部的 Box 会在垂直方向上一个接一个的放置。
+垂直方向上的距离由 margin 决定
+bfc 的区域不会与 float 的元素区域重叠。
+计算 bfc 的高度时，浮动元素也参与计算
+bfc 就是页面上的一个独立容器，容器里面的子元素不会影响外面元素。
+
+Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生重叠。具体表现为同正取最大的，同负取绝对值最大的，一正一负，相加.每个盒子（块盒与行盒）的margin box的左边，与包含块border box的左边相接触(对于从左往右的格式化，否则相反)。即使存在浮动也是如此。
 BFC的区域不会与float box重叠。(可以左边一个float盒子右边再给一个盒子让其变为BFC这样会贴在float旁边,不会被float遮住)
 计算BFC的高度时，浮动元素也参与计算。(让父盒子变成BFC,会撑起盒子)
 
 浮动元素相当于新建了一个图层,脱离文档流,不占据文档的位置,但是对于浮动层来说占据了位置,设置多个浮动并不会发生重叠!
 
+移动布局 font-size: 1vw ,然后再用rem
+
+我们经常会遇到，当按下回车键的时候 就让他进行查询数据
+
+一般在原生的时候 直接的命令就是 @keyup.enter
+
+<input v-model="name" @keyup.enter="searchs(name)" />
+但使用vue的时候 再使用这个命令就发现不生效，所以就需要使用 @keyup.enter.native
+
+<el-input v-model="name"  size="mini" @keyup.enter.native="searchs(name)"></el-input>
+native的作用是监听根元素的监听事件，其实就是 element 已经将input进行了封装，使用 native 进行转成原生的事件，本来是原生，加上 native 是不起任何作用的
+
+var b = 10;
+(function b(){
+    b = 20;
+    console.log(b); 
+})();
+非匿名自执行函数，函数名只读。所以打印结果为b函数
+
+let url = 'https://www.xx.cn/api?keyword=&level1=&local_batch_id=&elective=800,700&local_province_id=33'
+const searchParams = new URLSearchParams(url)
+const getElective = searchParams.get('elective')//返回elective等号到&之间的值,是一个字符串.
+getElective 就是'800,700'
+
+1.使用webpack-bundle-analyzer对项目进行模块分析生成report，查看report后看看哪些模块体积过大，然后针对性优化，比如我项目中引用了常用的UI库element-ui和v-charts等
+
+2.配置webpack的externals ，官方文档的解释：防止将某些import的包(package)打包到 bundle 中，而是在运行时(runtime)再去从外部获取这些扩展依赖。
+所以，可以将体积大的库分离出来：
+
+// ...
+externals: {
+    'element-ui': 'Element',
+    'v-charts': 'VCharts'
+}
+3.然后在main.js中移除相关库的import
+
+4.在index.html模板文件中，添加相关库的cdn引用，如：
+
+<script src="https://unpkg.com/element-ui@2.10.0/lib/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/v-charts/lib/index.min.js"></script>
+经过以上的处理，再尝试编译打包，会发现速度快了一些。
+
+5.happypack多进程进行
+
+6.处理 loader 时，配置 include，exclude，缩小 loader 检查范围
+
+7.使用gzip压缩
+
+事件循环:
+js有一个主线程和一个调用栈,同步任务会在调用栈中按照顺序依次执行,异步任务会在异步任务有了结果后将注册的回调函数放入任务队列等待调用栈清空的时候开始执行.通俗理解就是同步任务执行完后开始检查微任务队列是否为空,不为空的话就一次执行完所有微任务,否则执行宏任务,每次单个宏任务执行完后又会检查微任务队列是否为空,依次循环
+
+宏任务有 script全部代码 setTimeout setInterval 异步任务有promise async generator等
+
+父子组件通信: props/$emit; $parent / $children; provide / inject ; ref;  $attrs / $listeners
+兄弟组件通信: eventBus ;  vuex
+跨级通信:  eventBus；Vuex；provide / inject 、$attrs / $listeners
+
+state对象里面的属性值为对象的话,当里面的属性值改变并不会被computed监听到
+
+由此可知，模块内部的 state 是局部的，只属于模块本身所有，所以外部必须通过对应的模块名进行访问。(根访问子 state.moduleA.text)
+
+但是模块内部的 action、mutation 和 getter 默认可是注册在全局命名空间的，这样使得多个模块能够对同一 mutation 或 action 作出响应。
+
+模块中的getters参数及其可取到的值
+
+    ①state：获取modules中的state数据
+
+    ②getters：获取modules中的getters数据
+
+    ③rootState：获取根部state数据
+
+    ④rootGetters：获取根部getters数据
+
+
+模块中的mutations参数及其可取到的值(为什么这里不能获取根元素上的state,因为mutation本质就是操作自己的state,你要操作可以在action里面触发然后去获取根里面的state再传入就行了)
+
+    ①state：获取modules中的state数据
+
+    ②getters：获取modules中的getters数据
+
+    ③调用方法时传入的值
+
+模块中的actions参数及其可取到的值({commit, dispatch}, n);因为第一个其实传的是context对象,所以可以解构赋值
+
+    ①commit：获取根部mutations
+
+    ②dispatch：获取根部actions
+
+    ③rootState：获取根部state,rootState.数据名称
+
+    ④rootGetters：获取根部getters,rootGetters.数据名称
+
+    ⑤state：获取modules中的state
+
+    ⑥getters：获取modules中的getters
+
+computed: {
+    ...mapState('some/nested/module', {
+        a: state => state.a,
+        b: state => state.b
+    })
+},
+methods: {
+    ...mapActions('some/nested/module', [
+        'foo', // -> this.foo()
+        'bar' // -> this.bar()
+    ])
+}
+
+computed: mapState({
+    // 箭头函数可使代码更简练
+    count: state => state.count,
+
+    // 传字符串参数 'count' 等同于 `state => state.count`
+    countAlias: 'count',
+
+    // 为了能够使用 `this` 获取局部状态，必须使用常规函数
+    countPlusLocalState (state) {
+      return state.count + this.localCount
+    }
+})
+
+computed: mapState([
+  // 映射 this.count 为 store.state.count
+  'count'
+])
+
+
+全局守卫:
+router.beforeEach,router.beforeResolve,router.afterEach(不支持next)
+路由独享的守卫:
+beforeEnter,在routes里面配置
+组件守卫:
+beforeRouteEnter,beforeRouteUpdate,beforeRouteLeave
+
+ctrl+shift+t 恢复关掉标签页 ctrl+w 关掉当前标签页 ctrl+数字 跳到第n个标签页 ctrl+tab向右前进一个标签 Ctrl+shift+tab 后退一个标签
 reveal.js

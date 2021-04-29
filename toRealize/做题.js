@@ -252,12 +252,12 @@
 
 // // console.log(removeZero([0,1,2,2,0,1,0,0,5]))
 
-// // function add(...arg){
-// // 	var result = arg.reduce((prev,next)=>prev+next);
-// // 	const fn = (...args) => add(...args,result);
-// // 	fn.toString = ()=>result;
-// // 	return fn;
-// // }
+function add(...arg) {
+    var result = arg.reduce((prev, next) => prev + next);
+    const fn = (...args) => add(...args, result);
+    fn.toString = () => result;
+    return fn;
+}
 
 // // console.log(add(1))
 
@@ -362,7 +362,6 @@
 // //         let keyName= parentkey + key;
 // //         if(typeof obj[key] == 'object'){
 // //             fn(obj[key],keyName+'.',res)
-// //             console.log('111')
 // //         }else{
 // //             res[keyName] = obj[key]            
 // //         }
@@ -552,7 +551,7 @@
 //     let res = {};
 //     for (let key of keys) {
 //         let arr = key.split('.');
-        
+
 //         arr.reduce((pre, next, index, arr1) => {
 //             if (index == arr1.length - 1) {
 //                 pre[next] = obj[key];
@@ -626,9 +625,94 @@
 
 // console.log(origin([1,2,3,4,5,6,7,8,9,10,11,12,13]));
 
-function myInterval(fn, time){
-    let f = function(){
-        setTimeout(fn, time)
-    };    
-    return f();
+// function myInterval(fn, time){
+//     let f = function(){
+//         setTimeout(fn, time)
+//     };    
+//     return f();
+// }
+
+// class LazyManClass {
+//     constructor(name) {
+//         this.taskList = [];
+//         this.name = name;
+//         console.log(`Hi I am ${this.name}`);
+//         setTimeout(() => {
+//             this.next();
+//         }, 0);
+//     }
+//     eat(name) {
+//         var that = this;
+//         var fn = function () {
+//             console.log(`I am eating ${name}`)
+//             that.next();
+//         }
+//         this.taskList.push(fn);
+//         return this;
+//     }
+//     sleepFirst(time) {
+//         var that = this;
+//         var fn = function () {
+
+//             setTimeout(() => {
+//                 console.log(`等待了${time}秒...`)
+//                 that.next();
+//             }, time * 1000);
+
+//         };
+//         this.taskList.unshift(fn);
+//         return this;
+//     }
+//     sleep(time) {
+//         var that = this
+//         var fn = function () {
+
+//             setTimeout(() => {
+//                 console.log(`等待了${time}秒...`)
+//                 that.next();
+//             }, time * 1000);
+
+//         }
+//         this.taskList.push(fn);
+//         return this;
+//     }
+//     next() {
+//         var fn = this.taskList.shift();
+//         fn && fn();
+//     }
+// }
+
+// function LazyMan(name) {
+//     return new LazyManClass(name);
+// }
+// LazyMan('Tony').eat('lunch').eat('dinner').sleepFirst(5).sleep(4).eat('junk food');
+
+// function Foo() {
+//     Foo.a = function () {
+//         console.log(1)
+//     }
+//     this.a = function () {
+//         console.log(2)
+//     }
+// }
+// Foo.prototype.a = function () {
+//     console.log(3)
+// }
+// Foo.a = function () {
+//     console.log(4)
+// }
+// Foo.a(); //4
+// let obj = new Foo(); 
+// obj.a(); //2
+// Foo.a(); //1
+
+function print(n) {
+    setTimeout((() => {
+        console.log(n);
+        return () => {}
+    })(), Math.floor(Math.random() * 1000));
 }
+for (var i = 0; i < 100; i++) {
+    print(i);
+}
+

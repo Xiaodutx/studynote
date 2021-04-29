@@ -61,20 +61,23 @@
         }
     }
     let uid = 0;
+
     class Watcher {
         constructor(vm, key, cb) {
             this.vm = vm;
             this.key = key;
             this.uid = uid++;
-            this.cb = cb; //调用get，添加依赖 
+            this.cb = cb;
             Dep.target = this;
-            this.value = vm.$data[key];
+            this.value = vm.$data[key]; //调用get，添加依赖
             Dep.target = null;
         }
         update() {
             if (this.value !== this.vm.$data[this.key]) {
-                this.value = this.vm.$data[this.key];//每次数据更新,这里的value值都会变化,但是run函数不像之前每次都执行,而是只执行最后一次
-                if (!this.vm.waiting) { //控制变量，控制每次事件循环期间只添加一次flushUpdateQueue到callbacks,下面message第一次变的时候就会添加flushUpdateQueue,后面data改变也还是用的这个函数
+                this.value = this.vm.$data[this.key]; //每次数据更新,这里的value值都会变化,但是run函数不像之前每次都执行,而是只执行最后一次
+                if (!this.vm
+                    .waiting
+                ) { //控制变量，控制每次事件循环期间只添加一次flushUpdateQueue到callbacks,下面message第一次变的时候就会添加flushUpdateQueue,后面data改变也还是用的这个函数
                     this.vm.$nextTick(this.vm.flushUpdateQueue);
                     this.vm.waiting = true;
                 }
@@ -89,10 +92,12 @@
             this.cb(this.value);
         }
     }
+
     const updateQueue = []; //异步更新队列 
     let has = {}; //控制变更队列中不保存重复的Watcher
     const callbacks = [];
     let pending = false;
+
     class Vue {
         constructor(options) {
             this.waiting = false;
@@ -113,17 +118,17 @@
             }
         }
         //清空UpdateQueue队列，更新视图
-        flushUpdateQueue(that) {
+        flushUpdateQueue(vm) {
             while (updateQueue.length != 0) {
                 updateQueue.shift().run(); //执行watcher里面的run方法
             }
             has = {};
-            that.waiting = false;
+            vm.waiting = false;
         }
         //清空callbacks
         flushCallbacks() {
             while (callbacks.length != 0) {
-                callbacks.shift()(that);//按下面例子,callBacks数组里面有两个元素,一个是flushUpdateQueue还有一个就是app.$nextTick()里面的回调函数
+                callbacks.shift()(this); //按下面例子,callBacks数组里面有两个元素,一个是flushUpdateQueue还有一个就是app.$nextTick()里面的回调函数
             }
             pending = false;
         }
@@ -165,6 +170,8 @@
     // console.log(document.getElementById('content').textContent);
     // })
     // 那么我们怎么实现的呢? 常规是我们在dep里面直接执行添加的watcher的update方法从而执行run里面的回调函数,那么我们为了让这个函数晚点执行,我们就可以在update方法里面先把自己(watcher)添加到一个队列中去,然后再在合适的时机来执行,我们可以设计一个这样的函数让他来执行这个队列里面的watcher的run方法,那么问题来了,我们应该在什么时机去执行这个函数呢?我们可以利用事件的循环事件(setTimeout,Promise.then)当我们在执行nextTick函数的时候,就往callBacks数组添加flushUpdateQueue函数,然后判断当前是否有在执行的flushcallbacks,没有的话就放在setTimeout里面等待微任务执行完执行.
+
+    //updateQueue用于执行类似于这种代码for (let i = 0; i <= 100; i++) { data.num=i;},updateQueue存放的就是watcher,通过has[uid]可以让同一个watcher在次期间只被添加一次,如果还有其他的watcher当然也会添加到updateQueue里面去.通过vue实例的waiting属性来判断同一期间只允许nextTick添加一个updateQueue,如果你是直接通过nextTick调用那么也会加入callBacks数组里面,然后在nextTick里面通过pending来判断当前是否有其他的callBacks没有执行玩,只有都执行完了才执行这次的callBacks,callBacks是个数组里面存放的都是函数(要么是flushUpdateQueue,要么是通过nextTick直接添加的回调函数),只需要将其出栈调用就行了!
 </script>
 
 </html>

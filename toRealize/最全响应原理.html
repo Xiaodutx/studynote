@@ -12,6 +12,8 @@
     
 </body>
 <script>
+    // observe 循环遍历将data里面的属性通过defineProperty来进行定义,然后有一个观察者类Watcher还有一个收集依赖(watcher)的Dep类,观察者在构造函数被调用的时候,会触发defineproperty里面的get函数,get函数便会将此时的watcher来添加到Dep类里面去,后续如果data数据发生了变化,就会触发set函数,set函数会调用dep实例里面的notify方法让之前添加的依赖来执行update,在update里面判断是否数据发生了变化,如果发生了变化,那么就执行watcher的run方法来执行回调函数.
+    //每一个属性都有一个Dep实例,但是一个属性可能会绑定了多个事件,所以subs是一个数组,每增加一个watcher(绑定事件)就会在subs里面进行添加
     class Vue {
         constructor(options) {
             this.$el = options.el;
