@@ -706,13 +706,95 @@ function add(...arg) {
 // obj.a(); //2
 // Foo.a(); //1
 
-function print(n) {
-    setTimeout((() => {
-        console.log(n);
-        return () => {}
-    })(), Math.floor(Math.random() * 1000));
-}
-for (var i = 0; i < 100; i++) {
-    print(i);
+// function print(n) {
+//     setTimeout((() => {
+//         console.log(n);
+//         return () => {}
+//     })(), Math.floor(Math.random() * 1000));
+// }
+// for (var i = 0; i < 100; i++) {
+//     print(i);
+// }
+Function.prototype.myCall = function (context) {
+    let context = context || window
+    let fn = Symbol();
+    context[fn] = this;
+    let args = [...arguments].slice(1);
+    let result = context[fn](...args);
+    delete context[fn];
+    return result;
 }
 
+Function.prototype.myApply = function (context) {
+    let context = context || window;
+    let fn = Symbol();
+    context[fn] = this;
+    let result;
+    if (arguments[1]) {
+        result = context[fn](...arguments[1])
+    } else {
+        result = context[fn];
+    }
+    delete context[fn];
+    return result;
+}
+
+Function.prototype.myBind = function (context) {
+    let that = this;
+    let args = [...arguments].slice(1);
+
+    return function F() {
+        if (this instanceof F) {
+            return new that(...args, ...arguments);
+        } else {
+            return that.apply(context, args.concat(...arguments));
+        }
+    }
+
+}
+
+function debounce(fn, wait) {
+    let timeId = null;
+    return function () {
+        clearTimeout(timeId);
+        timeId = setInterval(() => fn.call(this, ...arguments), wait)
+    }
+}
+
+function throttle(fn, wait) {
+    let timeId = null;
+    return function () {
+        if (!timeId) {
+            timeId = setTimeout(() => {
+                fn.call(this, ...arguments);
+                timeId = null;
+            }, wait);
+        }
+    }
+}
+
+function Father(name, age) {
+    this.name = name;
+    this.age = age;
+}
+
+Father.prototype.say = function () {
+    console.log('我叫' + this.name)
+}
+
+function Children(name, age) {
+    Father.call(this, name, age);
+}
+
+Children.prototype = Object.create(Father.prototype, {
+    constructor: {
+        value: Children,
+        enumerable: false,
+        writable: true,
+        configurable: true
+    }
+})
+
+let c = new Children('tim', 25)
+
+c.say();

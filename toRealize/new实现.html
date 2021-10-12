@@ -16,8 +16,7 @@
 		// return obj;
 		var obj = Object.create(fn.prototype);//创建一个对象并绑定原型
 		var res = fn.apply(obj,args);//绑定this并执行构造函数
-		return typeof res === 'object'? res : obj;//返回对象并确保返回值为对象
-		
+		return typeof res === 'object'? res : obj;//返回对象并确保返回值为对象		
 	}
 
 	function Student(name, age){

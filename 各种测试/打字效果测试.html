@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /*光标动画*/
+    @keyframes caret {
+        80% {
+            border-color: transparent;
+        }
+    }
+
+    /*文本动画：从宽度为0开始*/
+    @keyframes text {
+        from {
+            width: 0;
+        }
+    }
+
+    .load-text {
+        width: 11ch;
+        margin: 0 auto;
+        overflow: hidden;
+        word-break: keep-all;
+        background: rgba(181, 219, 136, 0.2);
+        color: #b1f1f3;
+        border-right: 3px solid #000000;
+        font: bold 400% monospace;
+        animation: caret 0.5s step-end infinite, text 5s infinite steps(11);
+        /* 只需要保证0.5s结束的时候是有边框的,中间某个阶段没有边框就会出现闪烁效果了 step end表示会直接跳到关键帧省略中间的动画过程,这里50%设置的关键帧表示0.25s的时候会变透明,但没有渐变过程,直接变过去的,0.5s动画结束的时候也会突变为有边框. */
+    }
+</style>
+
+<body>
+    <p class="load-text">Loading...</p>
+</body>
+
+</html>

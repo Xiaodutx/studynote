@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .triangle {
+        width: 0px;
+        height: 0;
+        border: 200px solid transparent;
+        border-bottom: 200px solid #0ff;
+    }
+
+    .sector2 {
+        border: 100px solid transparent;
+        width: 0;
+        border-radius: 100px;
+        border-top-color: #f00;
+    }
+
+    .arrow {
+        width: 0;
+        height: 0;
+        border: 50px solid;
+        border-color: transparent #0f0 transparent transparent;
+        position: relative;
+    }
+
+    .arrow::after {
+        content: '';
+        position: absolute;
+        right: -55px;
+        top: -50px;
+        border: 50px solid;
+        border-color: transparent #fff transparent transparent;
+    }
+</style>
+
+<body>
+    <div class="triangle"></div>
+    <div class="sector2"></div>
+    <div class="arrow"></div>
+</body>
+
+</html>
