@@ -881,6 +881,7 @@ wrap(myExports)
 console.log(myExports)
 
 这里你传一个对象想修改myExports但是并不会起作用,因为myExports={name:'我不是外星人'}相当于重新开辟了一个地址来存储这个对象,和你之前的那个已经没有关系了.只有你传属性进去才行,那么就会变成myExports.name = '我不是外星人',这样就会去改变对象里面属性的值.
+
 而module.exports的本质上还是exports,相当于把里面的属性变成export.属性来操作了.
 
 那么问题来了？ 既然有了 exports，为何又出了 module.exports ?
