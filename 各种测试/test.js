@@ -178,7 +178,6 @@
 //     let result = [];
 //     let arrMap = {};
 
-
 //     for (let item of arr) {
 //         arrMap[item.id] = {
 //             ...item,
@@ -231,20 +230,20 @@
 function getUserMenu() {
     return new Promise((resolve, reject) => {
         resolve(3);
-    })
+    });
 }
 
 function getMenu() {
     return new Promise((resolve, reject) => {
-        getUserMenu().then(res => {
+        getUserMenu().then((res) => {
             resolve(res);
-        })
-    })
+        });
+    });
 }
 
 function getMenuTest() {
-    getUserMenu().then(res => {
-        return 3
+    getUserMenu().then((res) => {
+        return 3;
     });
 }
 

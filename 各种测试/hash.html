@@ -1,43 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<body>
+  <body>
     <a href="#/">home</a>
     <a href="#/about">about</a>
     <a href="#/404">404</a>
 
-
     <!-- 渲染路由对应的组件 -->
     <div id="routerView"></div>
-</body>
-<script>
-    let routerView = document.querySelector('#routerView')
+  </body>
+  <script>
+    let routerView = document.querySelector("#routerView");
 
     let router = {
-        '#/': 'homeComponent',
-        '#/about': 'aboutComponent',
-        '#/404': '404Component'
-    }
+      "#/": "homeComponent",
+      "#/about": "aboutComponent",
+      "#/404": "404Component",
+    };
 
     // 渲染对应的路由组件
     function render() {
-        let hash = location.hash;
-        routerView.innerHTML = router[hash]
+      let hash = location.hash;
+      routerView.innerHTML = router[hash];
     }
 
     // 页面锚点发送变化
-    window.addEventListener('hashchange', () => {
-        render()
-    })
+    window.addEventListener("hashchange", () => {
+      render();
+    });
 
     // 页面加载
-    window.addEventListener('DOMContentLoaded', () => {
-
-        // 当不存在'#'时重定向到首页#/
-        location.hash || (location.hash = "/")
-        // 渲染组件
-        render()
-    })
-</script>
-
+    window.addEventListener("DOMContentLoaded", () => {
+      // 当不存在'#'时重定向到首页#/
+      location.hash || (location.hash = "/");
+      // 渲染组件
+      render();
+    });
+  </script>
 </html>

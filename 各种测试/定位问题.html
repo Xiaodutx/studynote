@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        *{
-            margin: 0;
-            padding: 0;
-        }
-        .a {
-            background-color: aqua;
-            width: 100px;
-            height: 100px;
-        }
-        .b {
-            background-color: blanchedalmond;
-            width: 100px;
-            height: 100px;
-            position: absolute;
-            top: 0;
-            left: 0;
-            /* z-index: -1; */
-        }
-        .c {
-            background-color: cadetblue;
-            width: 100px;
-            height: 100px;
-        }
-        .d h1+p{
-            background-color: aqua;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .a {
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+      }
+      .b {
+        background-color: blanchedalmond;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        /* z-index: -1; */
+      }
+      .c {
+        background-color: cadetblue;
+        width: 100px;
+        height: 100px;
+      }
+      .d h1 + p {
+        background-color: aqua;
+      }
     </style>
-</head>
-<body>    
+  </head>
+  <body>
     <div class="b"></div>
     <div class="a"></div>
     <div class="c"></div>
     <div class="d">
-        <p>123</p>
-        <h1>456</h1>
-        <p>789</p>
+      <p>123</p>
+      <h1>456</h1>
+      <p>789</p>
     </div>
-</body>
+  </body>
 </html>

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
-        /* * {
+      /* * {
             margin: 0;
             padding: 0;
         }
@@ -44,7 +43,7 @@
             align-items: center;
         } */
 
-        /* * {
+      /* * {
             margin: 0;
             padding: 0;
         }
@@ -69,26 +68,26 @@
             background-color: hotpink;
         } */
 
-        * {
-            margin: 0;
-            padding: 0;
-        }
+      * {
+        margin: 0;
+        padding: 0;
+      }
 
-        .one,
-        .two {
-            background-color: green;
-            width: 200px;
-            height: 200px;
-            margin: 100px;
-        }
+      .one,
+      .two {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+        margin: 100px;
+      }
 
-        .two {
-            background-color: hotpink;
-        }
+      .two {
+        background-color: hotpink;
+      }
     </style>
-</head>
+  </head>
 
-<!-- <body>
+  <!-- <body>
     <div class="outer">
         <div class="inner">
             <div class="box">hello</div>
@@ -96,13 +95,11 @@
     </div>
 </body> -->
 
-<body>
-    <div style="overflow: hidden;">
-        <!-- 这里为什么要外面包一个div?要不然两个div还是在一个bfc下面(html)虽然你让自己创建了bfc,但是还是和two在同一个bfc下面所以还是会重叠,外面来了一个之后,是外面和two在同一个bfc,one和two并不是,所以不会margin重叠! -->
-        <div class="one"></div>
+  <body>
+    <div style="overflow: hidden">
+      <!-- 这里为什么要外面包一个div?要不然两个div还是在一个bfc下面(html)虽然你让自己创建了bfc,但是还是和two在同一个bfc下面所以还是会重叠,外面来了一个之后,是外面和two在同一个bfc,one和two并不是,所以不会margin重叠! -->
+      <div class="one"></div>
     </div>
     <div class="two"></div>
-</body>
-
-
+  </body>
 </html>
