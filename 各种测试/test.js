@@ -235,7 +235,7 @@ function getUserMenu() {
 }
 
 function getMenu() {
-    return new Promise((resolve,reject) => {
+    return new Promise((resolve, reject) => {
         getUserMenu().then(res => {
             resolve(res);
         })
@@ -243,7 +243,9 @@ function getMenu() {
 }
 
 function getMenuTest() {
-    getUserMenu().then(res => { return 3 });
+    getUserMenu().then(res => {
+        return 3
+    });
 }
 
 let d = getMenuTest();

@@ -38,17 +38,14 @@
     <div class="reference"></div>
 
     <nav>我可以吸顶</nav>
-
 </body>
 <script>
     let nav = document.querySelector('nav');
     let reference = document.querySelector(".reference");
 
     new IntersectionObserver(entries => {
-
         let item = entries[0];
         let top = item.boundingClientRect.top;
-
         // 当参照元素的的top值小于0，也就是在视窗的顶部的时候，开始吸顶，否则移除吸顶
         top < 0 ? nav.classList.add("fixed") : nav.classList.remove("fixed");
     }).observe(reference);
