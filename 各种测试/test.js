@@ -228,23 +228,23 @@
 // // console.log(arrayToTree2(arr), arr)
 
 function getUserMenu() {
-    return new Promise((resolve, reject) => {
-        resolve(3);
-    });
+  return new Promise((resolve, reject) => {
+    resolve(3);
+  });
 }
 
 function getMenu() {
-    return new Promise((resolve, reject) => {
-        getUserMenu().then((res) => {
-            resolve(res);
-        });
+  return new Promise((resolve, reject) => {
+    getUserMenu().then((res) => {
+      resolve(res);
     });
+  });
 }
 
 function getMenuTest() {
-    getUserMenu().then((res) => {
-        return 3;
-    });
+  getUserMenu().then((res) => {
+    return 3;
+  });
 }
 
 let d = getMenuTest();
