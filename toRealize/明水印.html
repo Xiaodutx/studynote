@@ -1,68 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<style>
-
-    body {       
-        height: 2000px;
+  <style>
+    body {
+      height: 2000px;
     }
-    
+
     #waterWrapper {
-        display: flex;
-        position: absolute;
-        left: 0;
-        top: 0;
-        pointer-events: none;
-        flex-wrap: wrap;
-        overflow: hidden;
-        flex-wrap: wrap;
+      display: flex;
+      position: absolute;
+      left: 0;
+      top: 0;
+      pointer-events: none;
+      flex-wrap: wrap;
+      overflow: hidden;
+      flex-wrap: wrap;
     }
     /* #waterWrapper div{
         float: left;
     } */
-</style>
+  </style>
 
-<body>
+  <body>
     <div id="waterWrapper"></div>
     <div class="app">
-        <h1 onclick="alert('666')">秋风</h1>
-        <p>hello</p>
+      <h1 onclick="alert('666')">秋风</h1>
+      <p>hello</p>
     </div>
-</body>
+  </body>
 
-<script>
+  <script>
     function cssHelper(el, prototype) {
-        for (let i in prototype) {
-            el.style[i] = prototype[i];
-        }
+      for (let i in prototype) {
+        el.style[i] = prototype[i];
+      }
     }
 
     function createItem() {
-        const item = document.createElement('div');
-        item.innerHTML = '小杜的笔记';
+      const item = document.createElement("div");
+      item.innerHTML = "小杜的笔记";
 
-        cssHelper(item, {
-            position: 'absolute',
-            top: `50px`,
-            left: `50px`,
-            fontSize: `16px`,
-            color: '#000',
-            lineHeight: 1.5,
-            opacity: 0.1,
-            transform: `rotate(-15deg)`,
-            transformOrigin: '0 0',
-            userSelect: 'none',
-        });
+      cssHelper(item, {
+        position: "absolute",
+        top: `50px`,
+        left: `50px`,
+        fontSize: `16px`,
+        color: "#000",
+        lineHeight: 1.5,
+        opacity: 0.1,
+        transform: `rotate(-15deg)`,
+        transformOrigin: "0 0",
+        userSelect: "none",
+      });
 
-        return item;
+      return item;
     }
-    let waterWrapper = document.getElementById('waterWrapper');
+    let waterWrapper = document.getElementById("waterWrapper");
     const waterWidth = 180;
     const waterHeight = 100;
     let clientHeight;
@@ -72,25 +70,27 @@
     let w1 = document.documentElement.clientWidth;
     let w2 = document.body.clientHeight;
 
-    clientHeight = h1>h2? h1 : h2;
-    clientWidth = w1>w2? w1 : w2;
-    console.log(clientHeight,clientWidth)
+    clientHeight = h1 > h2 ? h1 : h2;
+    clientWidth = w1 > w2 ? w1 : w2;
+    console.log(clientHeight, clientWidth);
     const rows = Math.ceil(clientHeight / waterHeight);
     const columns = Math.ceil(clientWidth / waterWidth);
-    console.log(columns,rows);
+    console.log(columns, rows);
     for (let i = 0; i < columns * rows; i++) {
-        const wrap = document.createElement('div');
-        cssHelper(wrap, Object.create({
-            position: 'relative',
-            width: `${waterWidth}px`,
-            height: `${waterHeight}px`,
-            overflow: 'hidden',
-        }));
-        wrap.appendChild(createItem());
-        waterWrapper.appendChild(wrap);
+      const wrap = document.createElement("div");
+      cssHelper(
+        wrap,
+        Object.create({
+          position: "relative",
+          width: `${waterWidth}px`,
+          height: `${waterHeight}px`,
+          overflow: "hidden",
+        })
+      );
+      wrap.appendChild(createItem());
+      waterWrapper.appendChild(wrap);
     }
     document.body.appendChild(waterWrapper);
     cosnole.log(test);
-</script>
-
+  </script>
 </html>

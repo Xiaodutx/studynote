@@ -1,167 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
-
-</body>
-<script>
+  <body></body>
+  <script>
     class Dep {
-        static target = null
-        constructor() {
-            this.subs = [];
+      static target = null;
+      constructor() {
+        this.subs = [];
+      }
+      addSubs(watcher) {
+        this.subs.push(watcher);
+      }
+      notify() {
+        for (let i = 0; i < this.subs.length; i++) {
+          this.subs[i].update();
         }
-        addSubs(watcher) {
-            this.subs.push(watcher)
-        }
-        notify() {
-            for (let i = 0; i < this.subs.length; i++) {
-                this.subs[i].update();
-            }
-        }
+      }
     }
     class Observer {
-        constructor(data) {
-            if (typeof data == 'object') {
-                this.walk(data);
-            }
+      constructor(data) {
+        if (typeof data == "object") {
+          this.walk(data);
         }
-        walk(obj) {
-            const keys = Object.keys(obj);
-            for (let i = 0; i < keys.length; i++) {
-                this.defineReactive(obj, keys[i])
-            }
+      }
+      walk(obj) {
+        const keys = Object.keys(obj);
+        for (let i = 0; i < keys.length; i++) {
+          this.defineReactive(obj, keys[i]);
         }
-        defineReactive(obj, key) {
-            if (typeof obj[key] == 'object') {
-                this.walk(obj[key]);
-            }
-            const dep = new Dep();
-            let val = obj[key];
-            Object.defineProperty(obj, key, {
-                enumerable: true,
-                configurable: true, //get代理将Dep.target即Watcher对象添加到依赖集合中 
-                get: function reactiveGetter() {
-                    if (Dep.target) {
-                        dep.addSubs(Dep.target);
-                    }
-                    return val;
-                },
-                set: function reactiveSetter(newVal) {
-                    val = newVal;
-                    dep.notify()
-                }
-            })
+      }
+      defineReactive(obj, key) {
+        if (typeof obj[key] == "object") {
+          this.walk(obj[key]);
         }
+        const dep = new Dep();
+        let val = obj[key];
+        Object.defineProperty(obj, key, {
+          enumerable: true,
+          configurable: true, //get代理将Dep.target即Watcher对象添加到依赖集合中
+          get: function reactiveGetter() {
+            if (Dep.target) {
+              dep.addSubs(Dep.target);
+            }
+            return val;
+          },
+          set: function reactiveSetter(newVal) {
+            val = newVal;
+            dep.notify();
+          },
+        });
+      }
     }
     let uid = 0;
 
     class Watcher {
-        constructor(vm, key, cb) {
-            this.vm = vm;
-            this.key = key;
-            this.uid = uid++;
-            this.cb = cb;
-            Dep.target = this;
-            this.value = vm.$data[key]; //调用get，添加依赖
-            Dep.target = null;
+      constructor(vm, key, cb) {
+        this.vm = vm;
+        this.key = key;
+        this.uid = uid++;
+        this.cb = cb;
+        Dep.target = this;
+        this.value = vm.$data[key]; //调用get，添加依赖
+        Dep.target = null;
+      }
+      update() {
+        if (this.value !== this.vm.$data[this.key]) {
+          this.value = this.vm.$data[this.key]; //每次数据更新,这里的value值都会变化,但是run函数不像之前每次都执行,而是只执行最后一次
+          if (!this.vm.waiting) {
+            //控制变量，控制每次事件循环期间只添加一次flushUpdateQueue到callbacks,下面message第一次变的时候就会添加flushUpdateQueue,后面data改变也还是用的这个函数
+            this.vm.$nextTick(this.vm.flushUpdateQueue);
+            this.vm.waiting = true;
+          }
+          //不是立即执行run方法，而是放入updateQueue队列中,对于同一个watcher我们只需要添加一次就行了,下面message第一次添加之后,不再添加,data也是第一次添加之后不再添加
+          if (!has[this.uid]) {
+            has[this.uid] = true;
+            updateQueue.push(this);
+          }
         }
-        update() {
-            if (this.value !== this.vm.$data[this.key]) {
-                this.value = this.vm.$data[this.key]; //每次数据更新,这里的value值都会变化,但是run函数不像之前每次都执行,而是只执行最后一次
-                if (!this.vm
-                    .waiting
-                ) { //控制变量，控制每次事件循环期间只添加一次flushUpdateQueue到callbacks,下面message第一次变的时候就会添加flushUpdateQueue,后面data改变也还是用的这个函数
-                    this.vm.$nextTick(this.vm.flushUpdateQueue);
-                    this.vm.waiting = true;
-                }
-                //不是立即执行run方法，而是放入updateQueue队列中,对于同一个watcher我们只需要添加一次就行了,下面message第一次添加之后,不再添加,data也是第一次添加之后不再添加
-                if (!has[this.uid]) {
-                    has[this.uid] = true;
-                    updateQueue.push(this);
-                }
-            }
-        }
-        run() {
-            this.cb(this.value);
-        }
+      }
+      run() {
+        this.cb(this.value);
+      }
     }
 
-    const updateQueue = []; //异步更新队列 
+    const updateQueue = []; //异步更新队列
     let has = {}; //控制变更队列中不保存重复的Watcher
     const callbacks = [];
     let pending = false;
 
     class Vue {
-        constructor(options) {
-            this.waiting = false;
-            this.$el = options.el;
-            this._data = options.data;
-            this.$data = this._data;
-            this.$nextTick = this.nextTick;
-            new Observer(this._data);
-        } //简易版nextTick 
-        nextTick(cb) {
-            callbacks.push(cb);
-            if (!pending) { //控制变量，控制每次事件循环期间只执行一次flushCallbacks 
-                pending = true;
-                setTimeout(() => {
-                    //会在同步代码（上一次宏任务）执行完成后执行
-                    this.flushCallbacks();
-                })
-            }
+      constructor(options) {
+        this.waiting = false;
+        this.$el = options.el;
+        this._data = options.data;
+        this.$data = this._data;
+        this.$nextTick = this.nextTick;
+        new Observer(this._data);
+      } //简易版nextTick
+      nextTick(cb) {
+        callbacks.push(cb);
+        if (!pending) {
+          //控制变量，控制每次事件循环期间只执行一次flushCallbacks
+          pending = true;
+          setTimeout(() => {
+            //会在同步代码（上一次宏任务）执行完成后执行
+            this.flushCallbacks();
+          });
         }
-        //清空UpdateQueue队列，更新视图
-        flushUpdateQueue(vm) {
-            while (updateQueue.length != 0) {
-                updateQueue.shift().run(); //执行watcher里面的run方法
-            }
-            has = {};
-            vm.waiting = false;
+      }
+      //清空UpdateQueue队列，更新视图
+      flushUpdateQueue(vm) {
+        while (updateQueue.length != 0) {
+          updateQueue.shift().run(); //执行watcher里面的run方法
         }
-        //清空callbacks
-        flushCallbacks() {
-            while (callbacks.length != 0) {
-                callbacks.shift()(this); //按下面例子,callBacks数组里面有两个元素,一个是flushUpdateQueue还有一个就是app.$nextTick()里面的回调函数
-            }
-            pending = false;
+        has = {};
+        vm.waiting = false;
+      }
+      //清空callbacks
+      flushCallbacks() {
+        while (callbacks.length != 0) {
+          callbacks.shift()(this); //按下面例子,callBacks数组里面有两个元素,一个是flushUpdateQueue还有一个就是app.$nextTick()里面的回调函数
         }
+        pending = false;
+      }
     }
 
     //======测试=======
     let data = {
-        message: 'hello',
-        num: 0
-    }
+      message: "hello",
+      num: 0,
+    };
     let app = new Vue({
-        data: data
+      data: data,
     });
     //模拟数据监听
-    let w1 = new Watcher(app, 'message', function (value) {
-        //模拟dom变更
-        console.log('message 引起的dom变更--->', value);
-    })
+    let w1 = new Watcher(app, "message", function (value) {
+      //模拟dom变更
+      console.log("message 引起的dom变更--->", value);
+    });
     //模拟数据监听
-    let w2 = new Watcher(app, 'num', function (value) {
-        //模拟dom变更
-        console.log('num 引起的dom变更--->', value);
-    })
-    data.message = 'world' //数据一旦更新，会为nextTick的事件队列callbacks中加入一个flushUpdateQueue回调函数
-    data.message = 'world1'
-    data.message = 'world2' //message的变更push到updateQueue中，只保存最后一次赋值的结果
+    let w2 = new Watcher(app, "num", function (value) {
+      //模拟dom变更
+      console.log("num 引起的dom变更--->", value);
+    });
+    data.message = "world"; //数据一旦更新，会为nextTick的事件队列callbacks中加入一个flushUpdateQueue回调函数
+    data.message = "world1";
+    data.message = "world2"; //message的变更push到updateQueue中，只保存最后一次赋值的结果
     for (let i = 0; i <= 100; i++) {
-        data.num = i; //num的变更push到updateQueue中，只保存最后一次赋值的结果 } //开发者为callbacks添加的异步回调事件
+      data.num = i; //num的变更push到updateQueue中，只保存最后一次赋值的结果 } //开发者为callbacks添加的异步回调事件
     }
 
     app.$nextTick(function () {
-        console.log('这是dom更新完成后的操作');
-    })
+      console.log("这是dom更新完成后的操作");
+    });
 
     //nextTick是在dom更新结束后执行延迟回调,在修改数据之后使用这个方法可以获取正确的dom,比如你直接修改data.key=6,你直接获取dom里面的值还是原来的值.下面例子先输出之前的内容,因为DOM还没有更新,通过nextTick方法才会正确获取DOM
     // this.message='Hello World'
@@ -172,6 +169,5 @@
     // 那么我们怎么实现的呢? 常规是我们在dep里面直接执行添加的watcher的update方法从而执行run里面的回调函数,那么我们为了让这个函数晚点执行,我们就可以在update方法里面先把自己(watcher)添加到一个队列中去,然后再在合适的时机来执行,我们可以设计一个这样的函数让他来执行这个队列里面的watcher的run方法,那么问题来了,我们应该在什么时机去执行这个函数呢?我们可以利用事件的循环事件(setTimeout,Promise.then)当我们在执行nextTick函数的时候,就往callBacks数组添加flushUpdateQueue函数,然后判断当前是否有在执行的flushcallbacks,没有的话就放在setTimeout里面等待微任务执行完执行.
 
     //updateQueue用于执行类似于这种代码for (let i = 0; i <= 100; i++) { data.num=i;},updateQueue存放的就是watcher,通过has[uid]可以让同一个watcher在次期间只被添加一次,如果还有其他的watcher当然也会添加到updateQueue里面去.通过vue实例的waiting属性来判断同一期间只允许nextTick添加一个updateQueue,如果你是直接通过nextTick调用那么也会加入callBacks数组里面,然后在nextTick里面通过pending来判断当前是否有其他的callBacks没有执行玩,只有都执行完了才执行这次的callBacks,callBacks是个数组里面存放的都是函数(要么是flushUpdateQueue,要么是通过nextTick直接添加的回调函数),只需要将其出栈调用就行了!
-</script>
-
+  </script>
 </html>

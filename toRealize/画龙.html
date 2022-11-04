@@ -1,81 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
+  </head>
+  <style>
     #container {
-        position: absolute;
-        left: 0;
-        top: 0;
+      position: absolute;
+      left: 0;
+      top: 0;
     }
 
     .bubble {
-        position: absolute;
+      position: absolute;
     }
-</style>
+  </style>
 
-<body>
-
-    <canvas id="canvas">
-    </canvas>
+  <body>
+    <canvas id="canvas"> </canvas>
     <div id="container"></div>
-
-</body>
-<script>
+  </body>
+  <script>
     var canvas = document.getElementById("canvas");
     var ctx = canvas.getContext("2d");
 
     var image = new Image();
     image.src = "images/dragon.jpg";
     image.onload = function () {
-        canvas.width = image.width;
-        canvas.height = image.height;
-        ctx.drawImage(image, 0, 0);
-        var imageData = ctx.getImageData(0, 0, image.width, image.height).data;
-        ctx.fillStyle = "#ffffff";
-        ctx.fillRect(0, 0, image.width, image.height);
+      canvas.width = image.width;
+      canvas.height = image.height;
+      ctx.drawImage(image, 0, 0);
+      var imageData = ctx.getImageData(0, 0, image.width, image.height).data;
+      ctx.fillStyle = "#ffffff";
+      ctx.fillRect(0, 0, image.width, image.height);
 
-        var gap = 8;
-        // for (var h = 0; h < image.height; h += gap) {
-        //     for (var w = 0; w < image.width; w += gap) {
-        //         var position = (image.width * h + w) * 4;
-        //         var r = imageData[position],
-        //             g = imageData[position + 1],
-        //             b = imageData[position + 2];
-        //         if (r != 246 && g != 246 && b != 246) {
-        //             ctx.fillStyle = "#000";
-        //             ctx.fillRect(w, h, 4, 4);
-        //         }
-        //     }
-        // }
-        var dragonContainer = document.getElementById("container");
-        var dragonScale = 1; //缩放比例
+      var gap = 8;
+      // for (var h = 0; h < image.height; h += gap) {
+      //     for (var w = 0; w < image.width; w += gap) {
+      //         var position = (image.width * h + w) * 4;
+      //         var r = imageData[position],
+      //             g = imageData[position + 1],
+      //             b = imageData[position + 2];
+      //         if (r != 246 && g != 246 && b != 246) {
+      //             ctx.fillStyle = "#000";
+      //             ctx.fillRect(w, h, 4, 4);
+      //         }
+      //     }
+      // }
+      var dragonContainer = document.getElementById("container");
+      var dragonScale = 1; //缩放比例
 
-        for (var h = 0; h < image.height; h += gap) {
-            for (var w = 0; w < image.width; w += gap) {
-                var position = (image.width * h + w) * 4;
-                var r = imageData[position],
-                    g = imageData[position + 1],
-                    b = imageData[position + 2];
-                if (r != 255 && g != 255 && b != 255) {
-                    var bubble = document.createElement("img");
-                    bubble.src = "images/true.png";
-                    bubble.setAttribute("class", "bubble");
-                    var bubbleSize = 5 + Math.random() * 15; //控制图片大小
-                    bubble.style.left = (w * dragonScale) + "px";
-                    bubble.style.top = (h * dragonScale) + "px";
-                    bubble.style.width = bubble.style.height = bubbleSize + "px";
-                    bubble.style.animationDuration = Math.random() * 6 + 4 + "s";
-                    dragonContainer.appendChild(bubble);
-                }
-            }
+      for (var h = 0; h < image.height; h += gap) {
+        for (var w = 0; w < image.width; w += gap) {
+          var position = (image.width * h + w) * 4;
+          var r = imageData[position],
+            g = imageData[position + 1],
+            b = imageData[position + 2];
+          if (r != 255 && g != 255 && b != 255) {
+            var bubble = document.createElement("img");
+            bubble.src = "images/true.png";
+            bubble.setAttribute("class", "bubble");
+            var bubbleSize = 5 + Math.random() * 15; //控制图片大小
+            bubble.style.left = w * dragonScale + "px";
+            bubble.style.top = h * dragonScale + "px";
+            bubble.style.width = bubble.style.height = bubbleSize + "px";
+            bubble.style.animationDuration = Math.random() * 6 + 4 + "s";
+            dragonContainer.appendChild(bubble);
+          }
         }
-    }
-</script>
-
+      }
+    };
+  </script>
 </html>

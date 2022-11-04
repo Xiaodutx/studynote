@@ -41,7 +41,6 @@
 // // var i = gen();
 // // var result = i.next();
 
-
 // // function run(gen){
 // //     var i = gen();
 
@@ -76,8 +75,6 @@
 // //     console.log([r1.data, r2.data].join('\n'));
 // // }
 
-
-
 // // r1.value(function(data) {
 // //     var r2 = g.next(data);
 // //     r2.value(function(data) {
@@ -96,8 +93,6 @@
 
 // // function run(gen) {
 // //     var g = gen();
-
-
 
 // //     function go(data){
 // //         var result = g.next(data);
@@ -131,7 +126,7 @@
 
 // // console.log(a3)
 
-// // for (var i = 0; i< 10; i++){    
+// // for (var i = 0; i< 10; i++){
 // // 	setTimeout((i) => {
 // // 		console.log(i);
 // //     }, 1000,i)
@@ -164,7 +159,6 @@
 // // Number.prototype.minus = function(n){
 // // 	return this.valueOf() - n;
 // // };
-
 
 // // console.log((5).add(3).minus(2))
 
@@ -235,14 +229,13 @@
 
 // // console.log(arr);
 
-
 // // function removeZero(array) {
 // // 	let len = array.length;
 // // 	let j = 0;
 // // 	for(let i=0;i<len-j;i++){
 // // 		if(array[i]===0){
 // // 			array.splice(i,1);//移除掉为0的元素
-// // 			array.push(0); //在末尾添加0			
+// // 			array.push(0); //在末尾添加0
 // // 			i --; //此时后面的元素都往前移了一位,所以下次判断哪个元素需要i--
 // // 			j ++;//后面j个元素全部都是为0,如果不选择j++,后面为0的元素会一直循环下去,后面为0的元素不需要比较!
 // // 		}
@@ -253,10 +246,10 @@
 // // console.log(removeZero([0,1,2,2,0,1,0,0,5]))
 
 function add(...arg) {
-    var result = arg.reduce((prev, next) => prev + next);
-    const fn = (...args) => add(...args, result);
-    fn.toString = () => result;
-    return fn;
+  var result = arg.reduce((prev, next) => prev + next);
+  const fn = (...args) => add(...args, result);
+  fn.toString = () => result;
+  return fn;
 }
 
 // // console.log(add(1))
@@ -363,7 +356,7 @@ function add(...arg) {
 // //         if(typeof obj[key] == 'object'){
 // //             fn(obj[key],keyName+'.',res)
 // //         }else{
-// //             res[keyName] = obj[key]            
+// //             res[keyName] = obj[key]
 // //         }
 // //     }
 // //     return res;
@@ -431,13 +424,12 @@ function add(...arg) {
 // //     let resArr = [];
 // //     let obj = {};
 // //     fruits.forEach((item,i)=>{
-// //         if(!obj[item]){           
+// //         if(!obj[item]){
 // //             obj[item]  = qualityInBox[i];
 // //         }else{
 // //             obj[item] = obj[item] + qualityInBox[i];
 // //         }
 // //     })
-
 
 // //     for(let [key, value] of Object.entries(obj)){
 // //         resArr.push({[key]: value});
@@ -453,7 +445,7 @@ function add(...arg) {
 //         if(nums[i] === 0){
 //             nums.splice(i,1);
 //             nums.push(0);
-//             console.log(nums,i);       
+//             console.log(nums,i);
 //         }
 //     }
 //     return nums;
@@ -475,7 +467,6 @@ function add(...arg) {
 // }
 
 // console.log(moveZeroes1([0,0,1,2,0,0,6,0,0]))
-
 
 // function findIndex(arr, target){
 //     let map = new Map();
@@ -519,7 +510,6 @@ function add(...arg) {
 // }
 
 // console.log(lianxu('1,2,3,5,7,8,9,6,7,10,12,13'))
-
 
 // function trans(obj, parentKey = '', res = {}) {
 //     for (var key in obj) {
@@ -628,7 +618,7 @@ function add(...arg) {
 // function myInterval(fn, time){
 //     let f = function(){
 //         setTimeout(fn, time)
-//     };    
+//     };
 //     return f();
 // }
 
@@ -702,7 +692,7 @@ function add(...arg) {
 //     console.log(4)
 // }
 // Foo.a(); //4
-// let obj = new Foo(); 
+// let obj = new Foo();
 // obj.a(); //2
 // Foo.a(); //1
 
@@ -716,85 +706,84 @@ function add(...arg) {
 //     print(i);
 // }
 Function.prototype.myCall = function (context) {
-    let context = context || window
-    let fn = Symbol();
-    context[fn] = this;
-    let args = [...arguments].slice(1);
-    let result = context[fn](...args);
-    delete context[fn];
-    return result;
-}
+  let context = context || window;
+  let fn = Symbol();
+  context[fn] = this;
+  let args = [...arguments].slice(1);
+  let result = context[fn](...args);
+  delete context[fn];
+  return result;
+};
 
 Function.prototype.myApply = function (context) {
-    let context = context || window;
-    let fn = Symbol();
-    context[fn] = this;
-    let result;
-    if (arguments[1]) {
-        result = context[fn](...arguments[1])
-    } else {
-        result = context[fn];
-    }
-    delete context[fn];
-    return result;
-}
+  let context = context || window;
+  let fn = Symbol();
+  context[fn] = this;
+  let result;
+  if (arguments[1]) {
+    result = context[fn](...arguments[1]);
+  } else {
+    result = context[fn];
+  }
+  delete context[fn];
+  return result;
+};
 
 Function.prototype.myBind = function (context) {
-    let that = this;
-    let args = [...arguments].slice(1);
+  let that = this;
+  let args = [...arguments].slice(1);
 
-    return function F() {
-        if (this instanceof F) {
-            return new that(...args, ...arguments);
-        } else {
-            return that.apply(context, args.concat(...arguments));
-        }
+  return function F() {
+    if (this instanceof F) {
+      return new that(...args, ...arguments);
+    } else {
+      return that.apply(context, args.concat(...arguments));
     }
-
-}
+  };
+};
 
 function debounce(fn, wait) {
-    let timeId = null;
-    return function () {
-        clearTimeout(timeId);
-        timeId = setInterval(() => fn.call(this, ...arguments), wait)
-    }
+  let timeId = null;
+  return function () {
+    clearTimeout(timeId);
+    timeId = setInterval(() => fn.call(this, ...arguments), wait);
+  };
 }
 
 function throttle(fn, wait) {
-    let timeId = null;
-    return function () {
-        if (!timeId) {
-            timeId = setTimeout(() => {
-                fn.call(this, ...arguments);
-                timeId = null;
-            }, wait);
-        }
+  let timeId = null;
+  return function () {
+    if (!timeId) {
+      timeId = setTimeout(() => {
+        fn.call(this, ...arguments);
+        timeId = null;
+      }, wait);
     }
+  };
 }
 
 function Father(name, age) {
-    this.name = name;
-    this.age = age;
+  this.name = name;
+  this.age = age;
 }
 
 Father.prototype.say = function () {
-    console.log('我叫' + this.name)
-}
+  console.log("我叫" + this.name);
+};
 
 function Children(name, age) {
-    Father.call(this, name, age);
+  Father.call(this, name, age);
 }
 
 Children.prototype = Object.create(Father.prototype, {
-    constructor: {
-        value: Children,
-        enumerable: false,
-        writable: true,
-        configurable: true
-    }
-})
+  constructor: {
+    value: Children,
+    enumerable: false,
+    writable: true,
+    configurable: true,
+  },
+});
 
-let c = new Children('tim', 25)
+let c = new Children("tim", 25);
 
 c.say();

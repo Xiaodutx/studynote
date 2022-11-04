@@ -188,7 +188,7 @@
 // // //     if (i < j) {
 // // //         let pivot = arr[i];
 // // //         let left = i;
-// // //         let right = j;       
+// // //         let right = j;
 // // //         while (i < j) {
 // // //             while (arr[j] >= pivot && j > i) {
 // // //                 j--
@@ -416,35 +416,35 @@
 
 // console.log(kuaisu([1,2,2,5,3,3,6,8],0,7))
 
-function throttle(fn, delay){
-    let flag = true;
-    let timer;
+function throttle(fn, delay) {
+  let flag = true;
+  let timer;
 
-    return function(...args){
-        let context = this
-        if(!flag){
-            return 
-        }
-
-        flag = false;
-        timer = setTimeout(function(){
-            fn.apply(context, args)
-        },delay)
+  return function (...args) {
+    let context = this;
+    if (!flag) {
+      return;
     }
+
+    flag = false;
+    timer = setTimeout(function () {
+      fn.apply(context, args);
+    }, delay);
+  };
 }
 
-function debounce(fn, delay){
-    let timer = null;
+function debounce(fn, delay) {
+  let timer = null;
 
-    return function(...args){
-        let context = this;
-        if(timer){
-            clearTimeout(timer)
-        }
-        timer = setTimeout(function(){
-            fn.apply(context,args)
-        },delay)
+  return function (...args) {
+    let context = this;
+    if (timer) {
+      clearTimeout(timer);
     }
+    timer = setTimeout(function () {
+      fn.apply(context, args);
+    }, delay);
+  };
 }
 
 // function add(...args){
@@ -460,13 +460,12 @@ function debounce(fn, delay){
 // console.log(add(1,2)(3))
 
 function foo() {
-    console.log("first");
-    setTimeout(( function(){
-        console.log( 'second' );
-    }), 5);
-}
- 
-for (var i = 0; i < 1000000; i++) {
-    foo();
+  console.log("first");
+  setTimeout(function () {
+    console.log("second");
+  }, 5);
 }
 
+for (var i = 0; i < 1000000; i++) {
+  foo();
+}

@@ -1,98 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <canvas id="canvas" width="256" height="256"></canvas>
-</body>
-<script>
+  </body>
+  <script>
     //已知解密的时候我们只需要红色为奇数的信息
     // 所以在加密的时候, 我们获取文字的像素信息,然后在图片里面判断,此处位置有没有文字信息,如果没有的话意味着在解密的时候我们不需要渲染这块,那么我们就把他全部调整为偶数.而如果这里有文字像素信息即第四个值不为0,那么我们就把为偶数的红色值也设置为奇数,那么我们解密的时候就来进行判断,如果此时这里的红色像素值为奇数我们就设置为255,并且把绿色和蓝色变为0如果为偶数的话就将其设置为0,也就不显示了
     var originalData;
     var textData;
-    var ctx = document.getElementById('canvas').getContext('2d');
+    var ctx = document.getElementById("canvas").getContext("2d");
     var img = new Image();
-    img.src = 'images/appLogoIcon.png';
+    img.src = "images/appLogoIcon.png";
     // 这些canvas API，好久没用，需要查API文档了T_T
-    ctx.font = '15px Microsoft Yahei';
-    ctx.fillText('广告位招租', 0, 48);
+    ctx.font = "15px Microsoft Yahei";
+    ctx.fillText("广告位招租", 0, 48);
     textData = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height).data; //这里是文字的data
     console.log(textData);
     img.onload = function () {
-        ctx.drawImage(img, 0, 0);
-        // 获取指定区域的canvas像素信息
-        originalData = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height); //这里是图片的data
-        console.log(originalData.data);
-        mergeData(textData, 'R')      
+      ctx.drawImage(img, 0, 0);
+      // 获取指定区域的canvas像素信息
+      originalData = ctx.getImageData(0, 0, ctx.canvas.width, ctx.canvas.height); //这里是图片的data
+      console.log(originalData.data);
+      mergeData(textData, "R");
     };
 
-    
-
     var mergeData = function (newData, color) {
-        var oData = originalData.data;
-        var bit, offset; // offset的作用是找到alpha通道值，这里需要大家自己动动脑筋
+      var oData = originalData.data;
+      var bit, offset; // offset的作用是找到alpha通道值，这里需要大家自己动动脑筋
 
-        switch (color) {
-            case 'R':
-                bit = 0;
-                offset = 3;
-                break;
-            case 'G':
-                bit = 1;
-                offset = 2;
-                break;
-            case 'B':
-                bit = 2;
-                offset = 1;
-                break;
-        }
+      switch (color) {
+        case "R":
+          bit = 0;
+          offset = 3;
+          break;
+        case "G":
+          bit = 1;
+          offset = 2;
+          break;
+        case "B":
+          bit = 2;
+          offset = 1;
+          break;
+      }
 
-        for (var i = 0; i < oData.length; i++) {
-            //文字那边没有信息的像素就把他转为偶数(本来是偶数就不用处理啦),有信息像素的地方奇数不管,偶数就把他转为奇数
-            if (i % 4 == bit) {//只处理红色通道
-                if (newData[i + offset] === 0 && (oData[i] % 2 === 1)) {
-                    // 没有信息的像素，该通道最低位置0，但不要越界
-                    if (oData[i] === 255) { //如果此时像素为255那么就-1
-                        oData[i]--;
-                    } else {
-                        oData[i]++; //其他的统统+1
-                    }
-                } else if (newData[i + offset] !== 0 && (oData[i] % 2 === 0)) {
-                    // 有信息的像素(透明度不为0并且像素红为偶数)，该通道最低位置1，可以想想上面的斑点效果是怎么实现的    
-                    oData[i]++;     
-                }
+      for (var i = 0; i < oData.length; i++) {
+        //文字那边没有信息的像素就把他转为偶数(本来是偶数就不用处理啦),有信息像素的地方奇数不管,偶数就把他转为奇数
+        if (i % 4 == bit) {
+          //只处理红色通道
+          if (newData[i + offset] === 0 && oData[i] % 2 === 1) {
+            // 没有信息的像素，该通道最低位置0，但不要越界
+            if (oData[i] === 255) {
+              //如果此时像素为255那么就-1
+              oData[i]--;
+            } else {
+              oData[i]++; //其他的统统+1
             }
+          } else if (newData[i + offset] !== 0 && oData[i] % 2 === 0) {
+            // 有信息的像素(透明度不为0并且像素红为偶数)，该通道最低位置1，可以想想上面的斑点效果是怎么实现的
+            oData[i]++;
+          }
         }
-        ctx.putImageData(originalData, 0, 0);
-    }
+      }
+      ctx.putImageData(originalData, 0, 0);
+    };
 
     var processData = function (originalData) {
-        var data = originalData.data;
-        for (var i = 0; i < data.length; i++) {
-            if (i % 4 == 0) {
-                // 红色分量 如果像素为偶数那么就不显示(设置为0),如果为奇数则让其设置为255
-                if (data[i] % 2 == 0) {
-                    // console.log(data[i]);
-                    data[i] = 0;
-                } else {
-                    data[i] = 255;
-                }
-            } else if (i % 4 == 3) {
-                // alpha通道不做处理
-                continue;
-            } else {
-                // 将绿蓝都设置为0
-                data[i] = 0;
-            }
+      var data = originalData.data;
+      for (var i = 0; i < data.length; i++) {
+        if (i % 4 == 0) {
+          // 红色分量 如果像素为偶数那么就不显示(设置为0),如果为奇数则让其设置为255
+          if (data[i] % 2 == 0) {
+            // console.log(data[i]);
+            data[i] = 0;
+          } else {
+            data[i] = 255;
+          }
+        } else if (i % 4 == 3) {
+          // alpha通道不做处理
+          continue;
+        } else {
+          // 将绿蓝都设置为0
+          data[i] = 0;
         }
-        // 将结果绘制到画布
-        ctx.putImageData(originalData, 0, 0);
-    }
-</script>
-
+      }
+      // 将结果绘制到画布
+      ctx.putImageData(originalData, 0, 0);
+    };
+  </script>
 </html>

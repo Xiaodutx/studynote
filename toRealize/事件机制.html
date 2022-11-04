@@ -1,79 +1,85 @@
 <html lang="zh-cn">
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>js事件机制</title>
     <style>
-        #parent{
-            width: 200px;
-            height:200px;
-            text-align: center;
-            line-height: 3;
-            background: green;
-            position: absolute;
-            bottom: 0;
-            left:50px;
-        }
-        #child{
-            width: 100px;
-            height: 100px;
-            margin: 0 auto;
-            background: orange;
-        }
+      #parent {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+        line-height: 3;
+        background: green;
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+      }
+      #child {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        background: orange;
+      }
     </style>
-    </head>
-<body>
+  </head>
+  <body>
     <div id="parent">
-        <!-- 父元素 -->
-        <div id="child">
-            <!-- 子元素 -->
-        </div>
+      <!-- 父元素 -->
+      <div id="child">
+        <!-- 子元素 -->
+      </div>
     </div>
 
     <ul id="ul">
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-    <li>5</li>
-</ul>
+      <li>1</li>
+      <li>2</li>
+      <li>3</li>
+      <li>4</li>
+      <li>5</li>
+    </ul>
 
     <script type="text/javascript">
-        var parent = document.getElementById("parent");
-        var child = document.getElementById("child");
-    
-        // document.body.addEventListener("click",function(e){
-        //     console.log("click-body");
-        // },true);
+      var parent = document.getElementById("parent");
+      var child = document.getElementById("child");
 
-        parent.addEventListener("click",function(e){
-            console.log("click-parent---事件传播");
-        },false);
+      // document.body.addEventListener("click",function(e){
+      //     console.log("click-body");
+      // },true);
 
-        parent.addEventListener("click",function(e){
-            console.log("click-parent--事件捕获");
-        },true);
+      parent.addEventListener(
+        "click",
+        function (e) {
+          console.log("click-parent---事件传播");
+        },
+        false
+      );
 
-        
+      parent.addEventListener(
+        "click",
+        function (e) {
+          console.log("click-parent--事件捕获");
+        },
+        true
+      );
 
-        
+      child.addEventListener(
+        "click",
+        function (e) {
+          console.log("click-child");
+        },
+        true
+      );
 
-        
-
-
-        child.addEventListener("click",function(e){
-            console.log("click-child");
-        },true);
-
-        child.addEventListener("click",function(e){
-            console.log("click-child---冒泡");
-            
-        },false);        
-　　　　 
-        let ul = document.querySelector('#ul')
-        ul.addEventListener('click', (event) => {
+      child.addEventListener(
+        "click",
+        function (e) {
+          console.log("click-child---冒泡");
+        },
+        false
+      );
+      let ul = document.querySelector("#ul");
+      ul.addEventListener("click", (event) => {
         console.log(event.target);
-    })
-        
+      });
     </script>
-</body>
+  </body>
 </html>

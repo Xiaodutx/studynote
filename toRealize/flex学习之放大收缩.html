@@ -1,68 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<style>
+  </head>
+  <style>
     .container {
-   	margin:10px;
-   	display: flex;
-   	width: 500px;
-   	height: 200px;
-   	background-color: #eee;
-   	color: #666;   	
-}
-.item {
-        height: 100px;
-        text-align:center;
-}
-.item p {
-		margin: 0;
-}
-.a{
-    /* 缩小22.5px */
-   	width: 300px;
-   	flex-grow: 1;
-   	flex-shrink: 1;
-   	background-color:#ff4466; 
-}
-.b{
-    /* 缩小22.5px */
-   	width: 150px;
-   	flex-shrink: 2;
-   	background-color:#42b983;
-}
-.c{
-    /* 缩小45px */
-   	width: 200px;
-   	flex-shrink: 3;
-   	background-color:#61dafb;
-}
-/* 总共为500px,三个盒子加起来有650px,要缩小150px,但是三个加起来小于1,所以150*(0.1+0.2+0.3)就是缩小90px,意味着最后为650-90=560 */
-/* 接下来算比例 300*0.1+150*0.2+200*0.3 = 120 所以a比例为30/120=0.25 b比例为0.25 c比例为0.5 * a,b就缩小22.5 c缩小45/
+      margin: 10px;
+      display: flex;
+      width: 500px;
+      height: 200px;
+      background-color: #eee;
+      color: #666;
+    }
+    .item {
+      height: 100px;
+      text-align: center;
+    }
+    .item p {
+      margin: 0;
+    }
+    .a {
+      /* 缩小22.5px */
+      width: 300px;
+      flex-grow: 1;
+      flex-shrink: 1;
+      background-color: #ff4466;
+    }
+    .b {
+      /* 缩小22.5px */
+      width: 150px;
+      flex-shrink: 2;
+      background-color: #42b983;
+    }
+    .c {
+      /* 缩小45px */
+      width: 200px;
+      flex-shrink: 3;
+      background-color: #61dafb;
+    }
+    /* 总共为500px,三个盒子加起来有650px,要缩小150px,但是三个加起来小于1,所以150*(0.1+0.2+0.3)就是缩小90px,意味着最后为650-90=560 */
+    /* 接下来算比例 300*0.1+150*0.2+200*0.3 = 120 所以a比例为30/120=0.25 b比例为0.25 c比例为0.5 * a,b就缩小22.5 c缩小45/
 /* 那假如三个盒子shrink的值加起来大于1 比如分别为1,2,3 那么总共需要缩小的px就是300+150+200-500 = 150px; */
-/* 算比例 300*1+150*2+200*3 = 1200 比例则分别为0.25,0.25,0.5  0.25*150那么就是37.5 300-37.5 = 262.5就是最终宽度*/
-/* flex: none = flex: 0 0 auto  flex: auto = flex: 1 1 auto  第一个表示放大 第二个表示缩小 默认是0 1 auto 不放大可以缩小 */
-</style>
-<body>
+    /* 算比例 300*1+150*2+200*3 = 1200 比例则分别为0.25,0.25,0.5  0.25*150那么就是37.5 300-37.5 = 262.5就是最终宽度*/
+    /* flex: none = flex: 0 0 auto  flex: auto = flex: 1 1 auto  第一个表示放大 第二个表示缩小 默认是0 1 auto 不放大可以缩小 */
+  </style>
+  <body>
     <div class="container">
-        <div class="item a">
-          <p>A</p>
-          <p> width:300</p>
-          <p>flex-shrink: 1</p>
-        </div>
-        <div class="item b">
-          <p>B</p>
-          <p> width:150</p>
-          <p>flex-shrink: 2</p>
-        </div>
-        <div class="item c">
-          <p>C</p>
-          <p> width:200</p>
-          <p>flex-shrink: 3</p>
-        </div>
-     </div>
-</body>
+      <div class="item a">
+        <p>A</p>
+        <p>width:300</p>
+        <p>flex-shrink: 1</p>
+      </div>
+      <div class="item b">
+        <p>B</p>
+        <p>width:150</p>
+        <p>flex-shrink: 2</p>
+      </div>
+      <div class="item c">
+        <p>C</p>
+        <p>width:200</p>
+        <p>flex-shrink: 3</p>
+      </div>
+    </div>
+  </body>
 </html>

@@ -1,42 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     hello,world
-    <input type="text" id="model">
+    <input type="text" id="model" />
     <p id="word"></p>
-</body>
-<script>
-    const model = document.getElementById("model")
-    const word = document.getElementById("word")
+  </body>
+  <script>
+    const model = document.getElementById("model");
+    const word = document.getElementById("word");
     var obj = {};
 
     const newObj = new Proxy(obj, {
-        get: function (target, key, receiver) {
-            console.log(`getting ${key}!`);
-            return Reflect.get(target, key, receiver);
-        },
-        set: function (target, key, value, receiver) {
-            console.log('setting', target, key, value, receiver);
-            if (key === "text") {
-                model.value = value;  //假如我直接写newObj.text = '111',你不写这一行,那么input里面的值就没有绑定,当然你直接输入的时候,model里面的值本来就是value
-                word.innerHTML = value;
-            }
-            return Reflect.set(target, key, value, receiver);
+      get: function (target, key, receiver) {
+        console.log(`getting ${key}!`);
+        return Reflect.get(target, key, receiver);
+      },
+      set: function (target, key, value, receiver) {
+        console.log("setting", target, key, value, receiver);
+        if (key === "text") {
+          model.value = value; //假如我直接写newObj.text = '111',你不写这一行,那么input里面的值就没有绑定,当然你直接输入的时候,model里面的值本来就是value
+          word.innerHTML = value;
         }
+        return Reflect.set(target, key, value, receiver);
+      },
     });
 
     model.addEventListener("keyup", function (e) {
-        newObj.text = e.target.value
-    })
+      newObj.text = e.target.value;
+    });
 
-    newObj.text = '6666'
-</script>
-
+    newObj.text = "6666";
+  </script>
 </html>
