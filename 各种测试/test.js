@@ -193,19 +193,19 @@
 //     return result;
 // }
 
-// function arrayToTree2(items) {
-//     let result = [];
-//     for (let item of items) {
-//         let parent = items.find(v => v.id == item.pid);
-//         if (parent) {
-//             parent.children ? parent.children.push(item) : parent.children = [item];
-//         } else {
-//             result.push(item);
-//         }
+function arrayToTree2(items) {
+    let result = [];
+    for (let item of items) {
+        let parent = items.find(v => v.id == item.pid);
+        if (parent) {
+            parent.children ? parent.children.push(item) : parent.children = [item];
+        } else {
+            result.push(item);
+        }
 
-//     }
-//     return result;
-// }
+    }
+    return result;
+}
 
 // function arrayToTree(items) {
 //     let result = [];
