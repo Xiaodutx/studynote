@@ -243,7 +243,7 @@ function getMenu() {
 
 function getMenuTest() {
   getUserMenu().then((res) => {
-    return 3;
+    return 3 ;
   });
 }
 
